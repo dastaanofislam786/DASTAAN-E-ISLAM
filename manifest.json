@@ -1,0 +1,58 @@
+{
+  "id": "/",
+  "name": "DASTAAN-E-ISLAM",
+  "short_name": "DASTAAN",
+
+  "description": "DASTAAN-E-ISLAM is an Islamic educational application developed with love and respect according to the teachings, adab, and Sunni (Barelvi) understanding associated with Ala Hazrat Imam Ahmad Raza Khan رحمہ اللہ. It presents Seerat-e-Mustafa ﷺ through authentic educational lessons in Hindi, Urdu, and English.",
+
+  "lang": "en",
+
+  "prefer_related_applications": false,
+
+  "dir": "ltr",
+
+  "start_url": "./",
+
+  "scope": "./",
+
+  "display": "standalone",
+
+  
+  "display_override": [
+  "window-controls-overlay",
+  "standalone"
+],
+
+  "orientation": "portrait",
+
+  "theme_color": "#0B6E4F",
+
+  "background_color": "#F8F8F8",
+
+  "categories": [
+    "education",
+    "books",
+    "reference"
+  ],
+
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+    ,{
+  "src": "assets/icons/maskable-icon.png",
+  "sizes": "512x512",
+  "type": "image/png",
+  "purpose": "maskable"
+    }
+  ]
+}

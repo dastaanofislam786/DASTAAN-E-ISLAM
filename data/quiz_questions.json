@@ -1,0 +1,4379 @@
+{
+ "chapter1": [
+    {
+      "question": {
+        "en": "What are the blessed names of the respected father and beloved grandfather of the Holy Prophet ﷺ?",
+        "hi": "नबी-ए-करीम ﷺ के वालिद-ए-माजिद और दादा जान के मुक़द्दस नाम क्या हैं?",
+        "ur": "نبی کریم ﷺ کے والد ماجد اور دادا جان کے مقدس نام کیا ہیں؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Abdullah & Hazrat Abdul Muttalib",
+          "Hazrat Abu Talib & Hazrat Hashim",
+          "Hazrat Hamza & Hazrat Abbas",
+          "Hazrat Haris & Hazrat Zubair"
+        ],
+        "hi": [
+          "हज़रत अब्दुल्लाह और हज़रत अब्दुल मुत्तलिब",
+          "हज़रत अबू तालिब और हज़रत हाशिम",
+          "हज़रत हमज़ा और हज़रत अब्बास",
+          "हज़रत हारिस और हज़रत ज़ुबैर"
+        ],
+        "ur": [
+          "حضرت عبداللہ اور حضرت عبد المطلب",
+          "حضرت ابو طالب اور حضرت ہاشم",
+          "حضرت حمزہ اور حضرت عباس",
+          "حضرت حارث اور حضرت زبیر"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "Up to which blessed personalities does the luminous family lineage of the Holy Prophet ﷺ reach?",
+        "hi": "हुज़ूर पुरनूर ﷺ का यह नूरानी ख़ानदानी सिलसिला किन बुज़ुर्गों तक पहुँचता है?",
+        "ur": "حضور پرنور ﷺ کا یہ نورانی خاندانی سلسلہ کن بزرگوں تک پہنچتا ہے؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Umar & Hazrat Usman",
+          "Hazrat Hashim & Hazrat Abd Manaf",
+          "Hazrat Abu Bakr & Hazrat Ali",
+          "Hazrat Zaid & Hazrat Bilal"
+        ],
+        "hi": [
+          "हज़रत उमर और हज़रत उस्मान",
+          "हज़रत हाशिम और हज़रत अब्द मनाफ",
+          "हज़रत अबू बक्र और हज़रत अली",
+          "हज़रत ज़ैद और हज़रत बिलाल"
+        ],
+        "ur": [
+          "حضرت عمر اور حضرت عثمان",
+          "حضرت ہاشم اور حضرت عبد مناف",
+          "حضرت ابو بکر اور حضرت علی",
+          "حضرت زید اور حضرت بلال"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "What rank has Allah Almighty bestowed upon the blessed family lineage of the Holy Prophet ﷺ in the entire world?",
+        "hi": "अल्लाह तआला ने पूरी दुनिया में हुज़ूर ﷺ के सिलसिला-ए-नसब को कैसा मुक़ाम अता फ़रमाया है?",
+        "ur": "اللہ تعالیٰ نے پوری دنیا میں حضور ﷺ کے سلسلہ نسب کو کیسا مقام عطا فرمایا ہے؟"
+      },
+      "options": {
+        "en": [
+          "An ordinary rank",
+          "Only famous in Arabia",
+          "The most superior, exalted, and purest rank",
+          "A rank based on wealth"
+        ],
+        "hi": [
+          "एक आम मुक़ाम",
+          "सिर्फ़ अरब में मशहूर मुक़ाम",
+          "सबसे अफ़ज़ल, आला और पाकीज़ा मुक़ाम",
+          "दौलत पर मब्नी मुक़ाम"
+        ],
+        "ur": [
+          "ایک عام مقام",
+          "صرف عرب میں مشہور مقام",
+          "سب سے افضل، اعلیٰ اور پاکیزہ مقام",
+          "دولت پر مبنی مقام"
+        ]
+      },
+      "correctIndex": 2
+    },
+    {
+      "question": {
+        "en": "In the sacred family tree of the Holy Prophet ﷺ, Hazrat Adnan is from the blessed progeny of which Prophet?",
+        "hi": "हुज़ूर ﷺ के मुक़द्दस शजरे में आने वाले हज़रत अदनान किस नबी की पाकीज़ा औलाद में से हैं?",
+        "ur": "حضور ﷺ کے مقدس شجرے میں آنے والے حضرت عدنان کس نبی کی پاکیزہ اولاد میں سے ہیں؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Ismail Zabeehullah (A.S)",
+          "Hazrat Ishaq (A.S)",
+          "Hazrat Musa (A.S)",
+          "Hazrat Nuh (A.S)"
+        ],
+        "hi": [
+          "हज़रत इस्माइल ज़बीहुल्लाह (अलैहिस्सलाम)",
+          "हज़रत इस्हाक़ (अलैहिस्सलाम)",
+          "हज़रत मूसा (अलैहिस्सलाम)",
+          "हज़रत नूह (अलैहिस्सलाम)"
+        ],
+        "ur": [
+          "حضرت اسماعیل ذبیح اللہ (علیہ السلام)",
+          "حضرت اسحاق (علیہ السلام)",
+          "حضرت موسیٰ (علیہ السلام)",
+          "حضرت نوح (علیہ السلام)"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "What is the pure belief regarding all the ancestors of the Holy Prophet ﷺ from His parents to Hazrat Adam (A.S)?",
+        "hi": "हुज़ूर ﷺ के वालिदैन से लेकर हज़रत आदम (अलैहिस्सलाम) तक तमाम आबा-ओ-अजदाद के बारे में क्या अक़ीदा है?",
+        "ur": "حضور ﷺ کے والدین سے لے کر حضرت آدم (علیہ السلام) تک تمام آباؤ اجداد کے بارے میں کیا عقیدہ ہے؟"
+      },
+      "options": {
+        "en": [
+          "Some were believers and some were not",
+          "All were true believers (Momin) and free from Shirk",
+          "They practiced the customs of ignorance",
+          "They were only wealthy leaders"
+        ],
+        "hi": [
+          "कुछ मोमिन थे और कुछ नहीं",
+          "तमाम आबा-ओ-अजदाद मोमिन थे और शिर्क से मुकम्मल पाक थे",
+          "उन्होंने ज़माना-ए-जाहिलियत की रस्में निभाईं",
+          "वो सिर्फ़ मालदार सरदार थे"
+        ],
+        "ur": [
+          "کچھ مومن تھے اور کچھ نہیں",
+          "تمام آباؤ اجداد مومن تھے اور شرک سے مکمل پاک تھے",
+          "انہوں نے زمانہ جاہلیت کی رسمیں نبھائیں",
+          "وہ صرف مالدار سردار تھے"
+        ]
+      },
+      "correctIndex": 1
+    }
+  ]
+  
+,
+
+ "chapter2": [
+    {
+      "question": {
+        "en": "Who is the respected mother of the Holy Prophet ﷺ and whose blessed daughter is she?",
+        "hi": "नबी-ए-करीम ﷺ की वालिदा माजिदा कौन हैं और वह किनकी लख़्त-ए-जिगर थीं?",
+        "ur": "نبی کریم ﷺ کی والدہ ماجدہ کون ہیں اور وہ کن کی لخت جگر تھیں؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Khadija, daughter of Hazrat Khuwailid",
+          "Hazrat Sayyidah Aminah, daughter of Hazrat Wahb bin Abd Manaf",
+          "Hazrat Halima, daughter of Hazrat Abi Zuaib",
+          "Hazrat Fatima, daughter of Hazrat Asad"
+        ],
+        "hi": [
+          "हज़़्रत ख़दीजा, हज़रत खुवैलिद की साहबज़ादी",
+          "हज़रत सय्यिदा आमिना, हज़रत वहब बिन अब्द मनाफ़ की लख़्त-ए-जिगर",
+          "हज़रत हलीमा, हज़रत अबी ज़ुऐब की साहबज़ादी",
+          "हज़रत फ़ातिमा, हज़रत असद की साहबज़ादी"
+        ],
+        "ur": [
+          "حضرت خدیجہ، حضرت خویلد کی صاحبزادی",
+          "حضرت سیدہ آمنہ، حضرت وہب بن عبد مناف کی لخت جگر",
+          "حضرت حلیمہ، حضرت ابی ذویب کی صاحبزادی",
+          "حضرت فاطمہ، حضرت اسد کی صاحبزادی"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "To which highly honored and noble tribe of the Quraysh did the respected mother of the Holy Prophet ﷺ belong?",
+        "hi": "हुज़ूर ﷺ की वालिदा माजिदा का तअल्लुक़ कुरैश के किस मोअज़्ज़ज़ (सम्मानित) क़बीले से था?",
+        "ur": "حضور ﷺ کی والدہ ماجدہ کا تعلق قریش کے کس معزز قبیلے سے تھا؟"
+      },
+      "options": {
+        "en": [
+          "Banu Hashim",
+          "Banu Zuhra",
+          "Banu Asad",
+          "Banu Makhzum"
+        ],
+        "hi": [
+          "बनू हाशिम",
+          "बनू ज़ुहरा",
+          "बनू असद",
+          "बनू मख़ज़ूम"
+        ],
+        "ur": [
+          "بنو ہاشم",
+          "بنو زہرہ",
+          "بنو اسد",
+          "بنو مخزوم"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "At which common ancestor do the blessed lineages of both the respected father and mother of the Holy Prophet ﷺ unite?",
+        "hi": "हुज़ूर ﷺ के वालिद-ए-माजिद और वालिदा माजिदा दोनों का मुक़द्दस खानदानी सिलसिला किन बुज़ुर्ग पर जाकर एक हो जाता है?",
+        "ur": "حضور ﷺ کے والد ماجد اور والدہ ماجدہ دونوں کا مقدس خاندانی سلسلہ کن بزرگ پر جا کر ایک ہو جاتا ہے؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Kilab bin Murrah",
+          "Hazrat Qusai bin Kilab",
+          "Hazrat Abd Manaf",
+          "Hazrat Hashim"
+        ],
+        "hi": [
+          "हज़रत किलाब बिन मुर्रह",
+          "हज़रत क़ुसाई बिन किलाब",
+          "हज़रत अब्द मनाफ",
+          "हज़रत हाशिम"
+        ],
+        "ur": [
+          "حضرت کلاب بن مرہ",
+          "حضرت قصی بن کلاب",
+          "حضرت عبد مناف",
+          "حضرت ہاشم"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "What is the meaning of the Holy Prophet ﷺ being 'Najeeb-ut-Tarfain'?",
+        "hi": "हुज़ूर पुरनूर ﷺ के 'नजीब-उत-तरफ़ैन' होने का क्या मतलब है?",
+        "ur": "حضور پرنور ﷺ کے 'نجیب الطرفین' ہونے کا کیا مطلب ہے؟"
+      },
+      "options": {
+        "en": [
+          "Having a very large family",
+          "Being famous only from the father's side",
+          "Being of the most noble, exalted, and pure lineage from both father's and mother's sides",
+          "Having immense wealth from both sides"
+        ],
+        "hi": [
+          "बड़े ख़ानदान वाला होना",
+          "सिर्फ़ वालिद की तरफ़ से मशहूर होना",
+          "वालिद और वालिदा दोनों की जानिब से निहायत आला, शरीफ़ और पाकीज़ा नसब वाला होना",
+          "दोनों तरफ से बेहद दौलतमंद होना"
+        ],
+        "ur": [
+          "بڑے خاندان والا ہونا",
+          "صرف والد کی طرف سے مشہور ہونا",
+          "والد اور والدہ دونوں کی جانب سے نہایت اعلیٰ، شریف اور پاکیزہ نسب والا ہونا",
+          "دونوں طرف سے بے حد دولتمند ہونا"
+        ]
+      },
+      "correctIndex": 2
+    },
+    {
+      "question": {
+        "en": "How was this sacred family of the Holy Prophet ﷺ considered in all of Arabia?",
+        "hi": "पूरे अरब में हुज़ूर ﷺ के इस मुक़द्दस खानदान को किस नज़र से देखा जाता था?",
+        "ur": "پورے عرب میں حضور ﷺ کے اس مقدس خاندان کو کس نظر سے دیکھا جاتا تھا؟"
+      },
+      "options": {
+        "en": [
+          "An ordinary tribe of traders",
+          "The highest and most superior in terms of nobility, honor, and rank",
+          "Famous for their wealth",
+          "Known only for wars"
+        ],
+        "hi": [
+          "व्यापारियों का एक आम क़बीला",
+          "शराफ़त, इज़्ज़त और मर्तबे के लिहाज़ से सबसे ऊंचा और अफ़ज़ल",
+          "अपनी दौलत के लिए मशहूर",
+          "सिर्फ़ जंगों के लिए जाना जाने वाला"
+        ],
+        "ur": [
+          "تاجروں کا ایک عام قبیلہ",
+          "شرافت، عزت اور مرتبے کے لحاظ سے سب سے اونچا اور افضل",
+          "اپنی دولت کے لیے مشہور",
+          "صرف جنگوں کے لیے جانا جانے والا"
+        ]
+      },
+      "correctIndex": 1
+    }
+  ]
+  
+,
+
+
+"chapter3": [
+    {
+      "question": {
+        "en": "Among the sacred ancestors of the Holy Prophet ﷺ, whose title was 'Quraish'?",
+        "hi": "हुज़ूर ﷺ के मुक़द्दस आबा-ओ-अजदाद में से किनका लक़ब 'कुरैश' था?",
+        "ur": "حضور ﷺ کے مقدس آباؤ اجداد میں سے کن کا لقب 'قریش' تھا؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Fihr bin Malik",
+          "Hazrat Hashim",
+          "Hazrat Qusai",
+          "Hazrat Abd Manaf"
+        ],
+        "hi": [
+          "हज़रत फ़िह्र बिन मालिक",
+          "हज़रत हाशिम",
+          "हज़रत क़ुसाई",
+          "हज़रत अब्द मनाफ"
+        ],
+        "ur": [
+          "حضرت فہر بن مالک",
+          "حضرت ہاشم",
+          "حضرت قصی",
+          "حضرت عبد مناف"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "What is the literal meaning of the word 'Quraish' from which this sacred tribe gets its name?",
+        "hi": "लफ़्ज़ 'कुरैश' दरअस्ल किस चीज़ का नाम है, जिससे इस मुक़द्दस ख़ानदान का नाम पड़ा?",
+        "ur": "لفظ 'قریش' دراصل کس چیز کا نام ہے، جس سے اس مقدس خاندان کا نام پڑا؟"
+      },
+      "options": {
+        "en": [
+          "A shining star in the sky",
+          "A highly powerful sea creature that dominates others",
+          "A high and beautiful mountain",
+          "A very fast and brave horse"
+        ],
+        "hi": [
+          "आसमान के एक चमकते सितारे का",
+          "एक निहायत ताक़तवर समुद्री जानवर का जो दूसरों पर ग़ालिब रहता है",
+          "एक ऊंचे और खूबसूरत पहाड़ का",
+          "एक बहुत तेज़ और बहादुर घोड़े का"
+        ],
+        "ur": [
+          "آسمان کے ایک چمکتے ستارے کا",
+          "ایک نہایت طاقتور سمندری جانور کا جو دوسروں پر غالب رہتا ہے",
+          "ایک اونچے اور خوبصورت پہاڑ کا",
+          "ایک بہت تیز اور بہادر گھوڑے کا"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "Why was the sacred family of Hazrat Fihr bin Malik named 'Quraish'?",
+        "hi": "हज़रत फ़िह्र बिन मालिक और उनके मुक़द्दस ख़ानदान का नाम 'कुरैश' क्यों पड़ गया?",
+        "ur": "حضرت فہر بن مالک اور ان کے مقدس خاندان کا نام 'قریش' کیوں پڑ گیا؟"
+      },
+      "options": {
+        "en": [
+          "Due to their vast wealth and gold",
+          "Because they always traveled by sea",
+          "Due to their immense bravery, strength, and dominance over others",
+          "Because they were famous traders"
+        ],
+        "hi": [
+          "उनकी बेहिसाब दौलत और सोने की वजह से",
+          "क्योंकि वो हमेशा समंदरी सफ़र करते थे",
+          "उनकी अज़ीम बहादुरी, ताक़त और दूसरों पर ग़लबे की वजह से",
+          "क्योंकि वो मशहूर ताजिर (व्यापारी) थे"
+        ],
+        "ur": [
+          "ان کی بے حساب دولت اور سونے کی وجہ سے",
+          "کیونکہ وہ ہمیشہ سمندری سفر کرتے تھے",
+          "ان کی عظیم بہادری، طاقت اور دوسروں پر غلبے کی وجہ سے",
+          "کیونکہ وہ مشہور تاجر تھے"
+        ]
+      },
+      "correctIndex": 2
+    },
+    {
+      "question": {
+        "en": "Due to what blessing did the Quraish tribe hold the highest honor and prestige throughout Arabia?",
+        "hi": "क़बीला-ए-कुरैश को पूरे अरब में सबसे ज़्यादा इज़्ज़त और अज़मत किस बरकत से हासिल थी?",
+        "ur": "قبیلہِ قریش کو پورے عرب میں سب سے زیادہ عزت اور عظمت کس برکت سے حاصل تھی؟"
+      },
+      "options": {
+        "en": [
+          "Because they had the biggest army",
+          "Blessed by being the ancestral family of the Holy Prophet ﷺ and their unmatched nobility",
+          "Because they owned the most land",
+          "Because they were very strict rulers"
+        ],
+        "hi": [
+          "क्योंकि उनके पास सबसे बड़ी फ़ौज थी",
+          "हुज़ूर ﷺ का ख़ानदान होने की बरकत और अपनी बेमिसाल शराफ़त से",
+          "क्योंकि उनके पास सबसे ज़्यादा ज़मीन थी",
+          "क्योंकि वो बहुत सख़्त हुक्मरान थे"
+        ],
+        "ur": [
+          "کیونکہ ان کے پاس سب سے بڑی فوج تھی",
+          "حضور ﷺ کا خاندان ہونے کی برکت اور اپنی بے مثال شرافت سے",
+          "کیونکہ ان کے پاس سب سے زیادہ زمین تھی",
+          "کیونکہ وہ بہت سخت حکمران تھے"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "What great honor was entrusted to this sacred Quraish tribe?",
+        "hi": "इस मुक़द्दस ख़ानदान-ए-कुरैश के सुपुर्द कौन सा अज़ीम शरफ़ (सम्मान) था?",
+        "ur": "اس مقدس خاندانِ قریش کے سپرد کون سا عظیم شرف تھا؟"
+      },
+      "options": {
+        "en": [
+          "Serving the sacred House of Allah (Khana-e-Kaaba) and taking care of pilgrims",
+          "Collecting taxes from all over Arabia",
+          "Only participating in major wars",
+          "Building large palaces in Makkah"
+        ],
+        "hi": [
+          "अल्लाह के मुक़द्दस घर 'ख़ाना-ए-काबा' की ख़िदमत और हाजियों की देखभाल का",
+          "पूरे अरब से टैक्स वसूल करने का",
+          "सिर्फ़ बड़ी जंगों में हिस्सा लेने का",
+          "मक्का में बड़े महल तामीर करने का"
+        ],
+        "ur": [
+          "اللہ کے مقدس گھر 'خانہ کعبہ' کی خدمت اور حاجیوں کی دیکھ بھال کا",
+          "پورے عرب سے ٹیکس وصول کرنے کا",
+          "صرف بڑی جنگوں میں حصہ لینے کا",
+          "مکہ میں بڑے محل تعمیر کرنے کا"
+        ]
+      },
+      "correctIndex": 0
+    }
+  ]
+
+,
+
+  
+"chapter4": [
+    {
+      "question": {
+        "en": "What was the original and blessed name of the Holy Prophet's ﷺ respected great-grandfather, Hazrat Hashim?",
+        "hi": "हुज़ूर अकरम ﷺ के परदादा जान, हज़रत हाशिम का असली और मुक़द्दस नाम क्या था?",
+        "ur": "حضورِ اکرم ﷺ کے پردادا جان، حضرت ہاشم کا اصلی اور مقدس نام کیا تھا؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Amr",
+          "Hazrat Abdul Muttalib",
+          "Hazrat Abd Manaf",
+          "Hazrat Qusai"
+        ],
+        "hi": [
+          "हज़रत अम्र",
+          "हज़रत अब्दुल मुत्तलिब",
+          "हज़रत अब्द मनाफ़",
+          "हज़रत क़ुसाई"
+        ],
+        "ur": [
+          "حضرت عمرو",
+          "حضرت عبد المطلب",
+          "حضرت عبد مناف",
+          "حضرت قصی"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "What is the literal meaning of the word 'Hashim' in the Arabic language?",
+        "hi": "अरबी ज़बान में मुक़द्दस लफ़्ज़ 'हाशिम' का क्या मतलब होता है?",
+        "ur": "عربی زبان میں مقدس لفظ 'ہاشم' کا کیا مطلب ہوتا ہے؟"
+      },
+      "options": {
+        "en": [
+          "The brave warrior",
+          "The one who breaks bread (to feed others)",
+          "The high and shining star",
+          "The keeper of the key"
+        ],
+        "hi": [
+          "बहादुर जंगजू",
+          "रोटियां तोड़ने वाला (यानी तोड़कर शोरबे में खिलाने वाला)",
+          "ऊंचा और चमकता हुआ सितारा",
+          "चाबी की हिफ़ाज़त करने वाला"
+        ],
+        "ur": [
+          "بہادر جنگجو",
+          "روٹیاں توڑنے والا (یعنی توڑ کر شوربے میں کھلانے والا)",
+          "اونچا اور چمکتا ہوا ستارہ",
+          "چابی کی حفاظت کرنے والا"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "How did Hazrat Hashim feed the pilgrims during the severe famine in Makkah?",
+        "hi": "जब मक्का शरीफ़ में सख़्त क़हत (अकाल) पड़ा, तो हज़रत हाशिम ने हाजियों को किस तरह पेट भर खाना खिलाया?",
+        "ur": "جب مکہ شریف میں سخت قحط پڑا، تو حضرت ہاشم نے حاجیوں کو کس طرح پیٹ بھر کھانا کھلایا؟"
+      },
+      "options": {
+        "en": [
+          "By distributing dry dates",
+          "By preparing 'Tharid' (breaking bread into broth) from his own wealth",
+          "By building temporary camps",
+          "By advising them to travel to another city"
+        ],
+        "hi": [
+          "सूखी खजूरें तक़सीम करके",
+          "अपने पास से रोटियां तोड़कर शोरबे में मिलाकर (सरीद बनाकर)",
+          "अस्थायी टेंट और खेमे लगाकर",
+          "उन्हें दूसरे शहर सफ़र करने की सलाह देकर"
+        ],
+        "ur": [
+          "سوکھی کھجوریں تقسیم کر کے",
+          "اپنے پاس سے روٹیاں توڑ کر شوربے میں ملا کر (ثرید بنا کر)",
+          "عارضی ٹینٹ اور خیمے لگا کر",
+          "انہیں دوسرے شہر سفر کرنے کا مشورہ دے کر"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "Due to what unparalleled service did Hazrat 'Amr' earn the blessed title of 'Hashim'?",
+        "hi": "हज़रत 'अम्र' को किस बेमिसाल खिदमत की वजह से 'हाशिम' का मुक़द्दस लक़ब मिला?",
+        "ur": "حضرت 'عمرو' کو کس بے مثال خدمت کی وجہ سے 'ہاشم' کا مقدس لقب ملا؟"
+      },
+      "options": {
+        "en": [
+          "Serving and feeding the guests of Allah (pilgrims) during the famine",
+          "His long trade journeys to Syria",
+          "His leadership in the tribal peace treaties",
+          "His role in rebuilding the city walls"
+        ],
+        "hi": [
+          "क़हत के दौरान अल्लाह के मेहमानों (हाजियों) की सख़ावत से खिदमत व दावत करने पर",
+          "शाम देश की तरफ़ लम्बे व्यापारिक सफ़र करने पर",
+          "कबीलों के बीच सुलह के समझौते कराने पर",
+          "शहर की दीवारों की दोबारा तामीर कराने पर"
+        ],
+        "ur": [
+          "قحط کے دوران اللہ کے مہمانوں (حاجیوں) کی سخاوت سے خدمت و دعوت کرنے پر",
+          "شام ملک کی طرف لمبے تجارتی سفر کرنے پر",
+          "قبیلوں کے درمیان صلح کے معاہدے کرانے پر",
+          "شہر کی دیواروں کی دوبارہ تعمیر کرانے پر"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "Which world-renowned and noble family of the Holy Prophet ﷺ is named after Hazrat Hashim?",
+        "hi": "हुज़ूर पुरनूर ﷺ का कौन सा अज़ीम और मुक़द्दस ख़ानदान हज़रत हाशिम के नाम की निस्बत से पूरी दुनिया में मशहूर हुआ?",
+        "ur": "حضور پرنور ﷺ کا کون سا عظیم اور مقدس خاندان حضرت ہاشم کے نام کی نسبت سے پوری دنیا میں مشہور ہوا؟"
+      },
+      "options": {
+        "en": [
+          "Banu Umayya",
+          "Banu Zuhra",
+          "Banu Hashim",
+          "Banu Makhzum"
+        ],
+        "hi": [
+          "बनू उमय्या",
+          "बनू ज़ुहरा",
+          "बनू हाशिम",
+          "बनू मख़ज़ूम"
+        ],
+        "ur": [
+          "بنو امیہ",
+          "بنو زہرہ",
+          "بنو ہاشم",
+          "بنو مخزوم"
+        ]
+      },
+      "correctIndex": 2
+    }
+  ]
+
+,
+
+
+"chapter5": [
+    {
+      "question": {
+        "en": "What was the original and blessed name of the Holy Prophet's ﷺ respected grandfather, Hazrat Abdul Muttalib?",
+        "hi": "हुज़ूर पुरनूर ﷺ के दादा जान का असल और मुक़द्दस नाम क्या था, जिससे वह 'अब्दुल मुत्तलिब' के अलावा जाने जाते थे?",
+        "ur": "حضور پرنور ﷺ کے دادا جان کا اصل اور مقدس نام کیا تھا، جس سے وہ 'عبد المطلب' کے علاوہ جانے جاتے تھے؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Shaiba bin Hashim",
+          "Hazrat Amr bin Hashim",
+          "Hazrat Kilab bin Murrah",
+          "Hazrat Wahb bin Abd Manaf"
+        ],
+        "hi": [
+          "हज़रत शैबा बिन हाशिम",
+          "हज़रत अम्र बिन हाशिम",
+          "हज़रत किलाब बिन मुर्रह",
+          "हज़रत वहब बिन अब्द मनाफ़"
+        ],
+        "ur": [
+          "حضرت شیبہ بن ہاشم",
+          "حضرت عمرو بن ہاشم",
+          "حضرت کلاب بن مرہ",
+          "حضرت وہب بن عبد مناف"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "How did Hazrat Abdul Muttalib find the exact location of the well of Zamzam to restore it?",
+        "hi": "हज़रत अब्दुल मुत्तलिब को आब-ए-ज़मज़म के कुएं की सही जगह किस तरह मालूम हुई जिससे उन्होंने इसे दोबारा खुदवाया?",
+        "ur": "حضرت عبد المطلب کو آبِ زمزم کے کنویں کی صحیح جگہ کس طرح معلوم ہوئی جس سے انہوں نے اسے دوبارہ کھدوایا؟"
+      },
+      "options": {
+        "en": [
+          "Through a blessed dream revealed by Allah Almighty",
+          "By searching old maps of Makkah",
+          "Through the advice of foreign traders",
+          "By a sudden chance while walking"
+        ],
+        "hi": [
+          "अल्लाह तआला की तरफ़ से एक मुबारक ख़्वाब के ज़रिए",
+          "मक्का शरीफ़ के पुराने नक्शों को तलाश करके",
+          "बाहर से आए हुए व्यापारियों की सलाह से",
+          "चलते-चलते अचानक इत्तिफ़ाक़िया तौर पर"
+        ],
+        "ur": [
+          "اللہ تعالیٰ کی طرف سے ایک مبارک خواب کے ذریعے",
+          "مکہ شریف کے پرانے نقشوں کو تلاش کر کے",
+          "باہر سے آئے ہوئے تاجروں کے مشورے سے",
+          "چلتے چلتے اچانک اتفاقیہ طور پر"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "What is the pure belief regarding the character and faith of Hazrat Abdul Muttalib?",
+        "hi": "मक्का के सरदार हज़रत अब्दुल मुत्तलिब के मर्तबे और ईमान के बारे में क्या अक़ीदा है?",
+        "ur": "مکہ کے سردار حضرت عبد المطلب کے مرتبے اور ایمان کے بارے میں کیا عقیدہ ہے؟"
+      },
+      "options": {
+        "en": [
+          "He was an ordinary tribal leader",
+          "He was an extremely pious, righteous, and perfect believer (Momin)",
+          "He followed the worldly customs of ignorance",
+          "He was only focused on political power"
+        ],
+        "hi": [
+          "वह एक आम कबीलाई सरदार थे",
+          "वह निहायत ही मुत्तक़ी (परहेज़गार) और एक कामिल मोमिन इंसान थे",
+          "वह ज़माना-ए-जाहिलियत की दुनियावी रस्मों पर चलते थे",
+          "उनका मक़सद सिर्फ़ सियासी ताक़त हासिल करना था"
+        ],
+        "ur": [
+          "وہ ایک عام قبیلے کے سردار تھے",
+          "وہ نہایت ہی متقی (پرہیزگار) اور ایک کامل مومن انسان تھے",
+          "وہ زمانہ جاہلیت کی دنیاوی رسموں پر چلتے تھے",
+          "ان کا مقصد صرف سیاسی طاقت حاصل کرنا تھا"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "What radiant specialty always shone brightly on the blessed forehead of Hazrat Abdul Muttalib?",
+        "hi": "हज़रत अब्दुल मुत्तलिब की मुक़द्दस पेशानी पर हमेशा सूरज की तरह क्या चमकता रहता था?",
+        "ur": "حضرت عبد المطلب کی مقدس پیشانی پر ہمیشہ سورج کی طرح کیا چمکتا رہتا تھا؟"
+      },
+      "options": {
+        "en": [
+          "A worldly crown of leadership",
+          "The radiant 'Noor-e-Muhammadi' (the Prophet's ﷺ light)",
+          "A mark of physical strength",
+          "A sign of victory in battles"
+        ],
+        "hi": [
+          "सरदारी का एक दुनियावी ताज",
+          "नूर-ए-मुहम्मदी (हुज़ूर ﷺ का मुक़द्दस नूर)",
+          "शारीरिक ताक़त का एक निशान",
+          "जंगों में जीत का एक सिम्बल"
+        ],
+        "ur": [
+          "سرداری کا ایک دنیاوی تاج",
+          "نورِ محمدی (حضور ﷺ کا مقدس نور)",
+          "جسمانی طاقت کا ایک نشان",
+          "جنگوں میں جیت کا ایک سمبل"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "How did the people of Makkah seek rain during severe droughts using the presence of Hazrat Abdul Muttalib?",
+        "hi": "सख़्त क़हत (अकाल) के वक़्त मक्का के लोग किस तरह अल्लाह से बारिश की दुआ मांगते और करम पाते थे?",
+        "ur": "سخت قحط کے وقت مکہ کے لوگ کس طرح اللہ سے بارش کی دعا مانگتے اور کرم پاتے تھے؟"
+      },
+      "options": {
+        "en": [
+          "By performing long travels to other green lands",
+          "By taking the medium (Waseela) and blessing of the Noor-e-Muhammadi on his forehead",
+          "By offering immense wealth as charity to idols",
+          "By shifting their homes outside Makkah"
+        ],
+        "hi": [
+          "दूसरे हरे-भरे इलाक़ों की तरफ़ लम्बा सफ़र करके",
+          "उनकी पेशानी के नूर-ए-मुहम्मदी की बरकत और आपका वसीला (तवस्सुल) लेकर",
+          "बुतों के आगे बहुत सी दौलत सदक़ा करके",
+          "मक्का शरीफ़ से बाहर अपने घर तब्दील करके"
+        ],
+        "ur": [
+          "دوسرے ہرے بھرے علاقوں کی طرف لمبا سفر کر کے",
+          "ان کی پیشانی کے نورِ محمدی کی برکت اور آپ کا وسیلہ (توسل) لے کر",
+          "بتوں کے آگے بہت سی دولت صدقہ کر کے",
+          "مکہ شریف سے باہر اپنے گھر تبدیل کر کے"
+        ]
+      },
+      "correctIndex": 1
+    }
+  ]
+
+,
+
+
+"chapter6": [
+    {
+      "question": {
+        "en": "With what impure intention did the cruel King of Yemen, 'Abraha', attack the holy city of Makkah?",
+        "hi": "यमन के ज़ालिम बादशाह 'अबरहा' ने हाथियों की फ़ौज के साथ मक्का शरीफ़ पर किस नापाक इरादे से हमला किया था?",
+        "ur": "یمن کے ظالم بادشاہ 'ابرہہ' نے ہاتھیوں کی فوج کے ساتھ مکہ شریف پر کس ناپاک ارادے سے حملہ کیا تھا؟"
+      },
+      "options": {
+        "en": [
+          "To capture the wealth of Makkah",
+          "To destroy the sacred House of Allah, the 'Khana-e-Kaaba'",
+          "To establish a new trade market",
+          "To build his own palace there"
+        ],
+        "hi": [
+          "मक्का की दौलत पर क़ब्ज़ा करने के लिए",
+          "अल्लाह तआला के मुक़द्दस घर 'ख़ाना-ए-काबा' को शहीद (गिराने) करने के लिए",
+          "एक नया व्यापारिक बाज़ार बनाने के लिए",
+          "वहाँ अपना ख़ुद का महल बनाने के लिए"
+        ],
+        "ur": [
+          "مکہ کی دولت پر قبضہ کرنے کے لیے",
+          "اللہ تعالیٰ کے مقدس گھر 'خانہ کعبہ' کو شہید (گرانے) کرنے کے لیے",
+          "ایک نیا تجارتی بازار بنانے کے لیے",
+          "وہاں اپنا خود کا محل بنانے کے لیے"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "At the time of Abraha's attack, who was the greatest chief of Makkah and the custodian of the Kaaba?",
+        "hi": "अबरहा के हमले के वक़्त मक्का मुअज़्ज़मा के सबसे अज़ीम सरदार और काबा शरीफ़ के मुतवल्ली कौन थे?",
+        "ur": "ابرہہ کے حملے کے وقت مکہ معظمہ کے سب سے عظیم سردار اور کعبہ شریف کے متولی کون تھے؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Abu Talib",
+          "Hazrat Abdul Muttalib",
+          "Hazrat Hashim",
+          "Hazrat Abd Manaf"
+        ],
+        "hi": [
+          "हज़रत अबू तालिब",
+          "हज़रत अब्दुल मुत्तलिब",
+          "हज़रत हाशिम",
+          "हज़रत अब्द मनाफ़"
+        ],
+        "ur": [
+          "حضرت ابو طالب",
+          "حضرت عبد المطلب",
+          "حضرت ہاشم",
+          "حضرت عبد مناف"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "Under the wisdom and order of Hazrat Abdul Muttalib, what did the people of Makkah do?",
+        "hi": "हज़रत अब्दुल मुत्तलिब की हिकमत और हुक्म पर मक्का वालों ने अबरहा की फ़ौज से बचने के लिए क्या किया?",
+        "ur": "حضرت عبد المطلب کی حکمت اور حکم پر مکہ والوں نے ابرہہ کی فوج سے بچنے کے لیے کیا کیا؟"
+      },
+      "options": {
+        "en": [
+          "They evacuated Makkah and took refuge in the mountains",
+          "They fought Abraha's army without any weapons",
+          "They joined Abraha's army",
+          "They locked themselves inside the Kaaba"
+        ],
+        "hi": [
+          "उन्होंने मक्का ख़ाली कर दिया और पहाड़ों पर पनाह गज़ीं हो गए",
+          "उन्होंने बिना हथियारों के अबरहा की फ़ौज से जंग की",
+          "वह अबरहा की फ़ौज में शामिल हो गए",
+          "उन्होंने ख़ुद को काबा शरीफ़ के अंदर बंद कर लिया"
+        ],
+        "ur": [
+          "انہوں نے مکہ خالی کر دیا اور پہاڑوں پر پناہ گزیں ہو گئے",
+          "انہوں نے بغیر ہتھیاروں کے ابرہہ کی فوج سے جنگ کی",
+          "وہ ابرہہ کی فوج میں شامل ہو گئے",
+          "انہوں نے خود کو کعبہ شریف کے اندر بند کر لیا"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "With perfect reliance on Allah, what historic words did Hazrat Abdul Muttalib declare to Abraha?",
+        "hi": "हज़रत अब्दुल मुत्तलिब ने अल्लाह तआला पर कामिल यक़ीन रखते हुए अबरहा से क्या तारीख़ी जुमले फ़रमाए?",
+        "ur": "حضرت عبد المطلب نے اللہ تعالیٰ پر کامل یقین رکھتے ہوئے ابرہہ سے کیا تاریخی جملے فرمائے؟"
+      },
+      "options": {
+        "en": [
+          "I am only the owner of my camels, and this sacred House (Kaaba) has a Supreme Master, who Himself will protect it",
+          "Take our camels but leave the Kaaba alone",
+          "We will fight your elephants till our last breath",
+          "You can take over Makkah without any resistance"
+        ],
+        "hi": [
+          "मैं तो सिर्फ़ अपने ऊंटों का मालिक हूँ, और इस मुक़द्दस घर (काबा) का एक अज़ीम मालिक है, जो ख़ुद इसकी हिफ़ाज़त फ़रमाएगा",
+          "हमारे ऊंट ले लो लेकिन काबे को छोड़ दो",
+          "हम आख़िरी सांस तक तुम्हारे हाथियों से लड़ेंगे",
+          "तुम बिना किसी रोक-टोक के मक्का पर क़ब्ज़ा कर सकते हो"
+        ],
+        "ur": [
+          "میں تو صرف اپنے اونٹوں کا مالک ہوں، اور اس مقدس گھر (کعبہ) کا ایک عظیم مالک ہے، جو خود اس کی حفاظت فرمائے گا",
+          "ہمارے اونٹ لے لو لیکن کعبے کو چھوڑ دو",
+          "ہم آخری سانس تک تمہارے ہاتھیوں سے لڑیں گے",
+          "تم بغیر کسی روک ٹوک کے مکہ پر قبضہ کر سکتے ہو"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "By the divine power of Allah, what happened to the lead elephant named 'Mahmood'?",
+        "hi": "अल्लाह की कुदरत से, अबरहा की फ़ौज के सबसे बड़े हाथी 'महमूद' के साथ क्या वाक़िआ पेश आया?",
+        "ur": "اللہ کی قدرت سے، ابرہہ کی فوج کے سب سے بڑے ہاتھی 'محمود' کے ساتھ کیا واقعہ پیش آیا؟"
+      },
+      "options": {
+        "en": [
+          "It ran back towards Yemen in fear",
+          "It attacked Abraha's own soldiers",
+          "It sat down and refused to take a single step forward towards the Kaaba",
+          "It easily broke the walls of Makkah"
+        ],
+        "hi": [
+          "वह डर कर वापस यमन की तरफ़ भाग गया",
+          "उसने अबरहा के अपने ही सिपाहियों पर हमला कर दिया",
+          "काबे की अज़मत से वह वहीं बैठ गया और काबे की तरफ़ एक क़दम भी आगे न बढ़ा",
+          "उसने आसानी से मक्का की दीवारें तोड़ दीं"
+        ],
+        "ur": [
+          "وہ ڈر کر واپس یمن کی طرف بھاگ گیا",
+          "اس نے ابرہہ کے اپنے ہی سپاہیوں پر حملہ کر دیا",
+          "کعبے کی عظمت سے وہ وہیں بیٹھ گیا اور کعبے کی طرف ایک قدم بھی آگے نہ بڑھا",
+          "اس نے آسانی سے مکہ کی دیواریں توڑ دیں"
+        ]
+      },
+      "correctIndex": 2
+    }
+  ]
+
+,
+
+ 
+"chapter7": [
+    {
+      "question": {
+        "en": "What were the small birds called that Allah Almighty sent in swarms to protect the Holy Kaaba?",
+        "hi": "अल्लाह तआला ने ख़ाना-ए-काबा की हिफ़ाज़त के लिए जो परिंदे झंड के झंड भेजे, उन्हें क्या कहा जाता है?",
+        "ur": "اللہ تعالیٰ نے خانہ کعبہ کی حفاظت کے لیے جو پرندے جھنڈ کے جھنڈ بھیجے، انہیں کیا کہا جاتا ہے؟"
+      },
+      "options": {
+        "en": [
+          "Hudhud",
+          "Ababeel",
+          "Buraq",
+          "Shaheen"
+        ],
+        "hi": [
+          "हुदहुद",
+          "अबाबील",
+          "बुराक़",
+          "शाहीन"
+        ],
+        "ur": [
+          "ہدہد",
+          "ابابیل",
+          "براق",
+          "شاہین"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "By the divine power of Allah, how many pebbles did each Ababeel bird carry in total?",
+        "hi": "अल्लाह की कुदरत से, हर अबाबील परिंदे के पास कुल कितनी कंकड़ियाँ (पत्थर के टुकड़े) मौजूद थीं?",
+        "ur": "اللہ کی قدرت سے، ہر ابابیل پرندے کے پاس کل کتنی کنکریاں (پتھر کے ٹکڑے) موجود تھیں؟"
+      },
+      "options": {
+        "en": [
+          "One pebble",
+          "Three pebbles (one in beak, two in claws)",
+          "Five pebbles",
+          "Seven pebbles"
+        ],
+        "hi": [
+          "एक कंकड़ी",
+          "तीन कंकड़ियाँ (एक चोंच और दो पंजों में)",
+          "पांच कंकड़ियाँ",
+          "सात कंकड़ियाँ"
+        ],
+        "ur": [
+          "ایک کنکری",
+          "تین کنکریاں (ایک چونچ اور دو پنجوں میں)",
+          "پانچ کنکریاں",
+          "سات کنکریاں"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "What was the effect of the pebbles of punishment when they fell upon the cruel soldiers and elephants?",
+        "hi": "वह अज़ाब वाली कंकड़ियाँ जब किसी ज़ालिम सिपाही या हाथी पर गिरतीं, तो उनका क्या असर होता था?",
+        "ur": "وہ عذاب والی کنکریاں جب کسی ظالم سپاہی یا ہاتھی پر گرتیں، تو ان کا کیا اثر ہوتا تھا؟"
+      },
+      "options": {
+        "en": [
+          "They only caused minor injuries",
+          "They pierced straight through them like a bullet, destroying them instantly",
+          "They turned into fire",
+          "They blinded the soldiers"
+        ],
+        "hi": [
+          "उनसे सिर्फ़ मामूली चोटें आईं",
+          "वे गोली की तरह आर-पार होकर उन्हें छलनी कर देतीं और वे फौरन हलाक हो जाते",
+          "वे आग में बदल गईं",
+          "उन्होंने सिपाहियों को अंधा कर दिया"
+        ],
+        "ur": [
+          "ان سے صرف معمولی چوٹیں آئیں",
+          "وہ گولی کی طرح آر پار ہو کر انہیں چھلنی کر دیتیں اور وہ فوراً ہلاک ہو جاتے",
+          "وہ آگ میں بدل گئیں",
+          "انہوں نے سپاہیوں کو اندھا کر دیا"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "According to Surah Al-Feel, what did Abraha's entire massive army become like after being struck by the pebbles?",
+        "hi": "सूरह फ़ील के मुताबिक़, उन कंकड़ियों की मार से अबरहा की पूरी अज़ीम फ़ौज किस तरह तबाह हो गई?",
+        "ur": "سورہ فیل کے مطابق، ان کنکریوں کی مار سے ابرہہ کی پوری عظیم فوج کس طرح تباہ ہو گئی؟"
+      },
+      "options": {
+        "en": [
+          "Like scattered dust",
+          "Like chewed-up straw",
+          "Like melted iron",
+          "Like dry leaves"
+        ],
+        "hi": [
+          "उड़ती हुई धूल की तरह",
+          "खाए हुए भूसे की तरह",
+          "पिघले हुए लोहे की तरह",
+          "सूखे पत्तों की तरह"
+        ],
+        "ur": [
+          "اڑتی ہوئی دھول کی طرح",
+          "کھائے ہوئے بھوسے کی طرح",
+          "پگھلے ہوئے لوہے کی طرح",
+          "سوکھے پتوں کی طرح"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "Because of this monumental event, what did the Arabs begin calling this historic year?",
+        "hi": "अल्लाह तआला की कुदरत के इस अज़ीम वाक़िए की वजह से, अरब के लोग इस साल को क्या कहने लगे?",
+        "ur": "اللہ تعالیٰ کی قدرت کے اس عظیم واقعے کی وجہ سے، عرب کے لوگ اس سال کو کیا کہنے لگے؟"
+      },
+      "options": {
+        "en": [
+          "Aam-ul-Huzn (Year of Sorrow)",
+          "Aam-ul-Feel (The Year of the Elephant)",
+          "Aam-ul-Fatah (Year of Victory)",
+          "Aam-ul-Noor (Year of Light)"
+        ],
+        "hi": [
+          "आम-उल-हुज़्न (ग़म का साल)",
+          "आम-उल-फ़ील (हाथियों वाला साल)",
+          "आम-उल-फ़तह (फ़तह का साल)",
+          "आम-उल-नूर (नूर का साल)"
+        ],
+        "ur": [
+          "عام الحزن (غم کا سال)",
+          "عام الفیل (ہاتھیوں والا سال)",
+          "عام الفتح (فتح کا سال)",
+          "عام النور (نور کا سال)"
+        ]
+      },
+      "correctIndex": 1
+    }
+  ]
+
+,
+
+
+"chapter8": [
+{
+"question": {
+"en": "What is the blessed and sacred name of the respected father of the Holy Prophet ﷺ?",
+"hi": "नबी-ए-करीम, हुज़ूर पुरनूर ﷺ के वालिद-ए-माजिद का मुक़द्दस और बा-बरकत नाम क्या है?",
+"ur": "نبی کریم، حضور پرنور ﷺ کے والد ماجد کا مقدس اور بابرکت نام کیا ہے؟"
+},
+"options": {
+"en": [
+"Hazrat Abdullah (Radi Allahu Ta'ala Anhu)",
+"Hazrat Abu Talib (Radi Allahu Ta'ala Anhu)",
+"Hazrat Hamza (Radi Allahu Ta'ala Anhu)",
+"Hazrat Abbas (Radi Allahu Ta'ala Anhu)"
+],
+"hi": [
+"हज़रत अब्दुल्लाह (रज़ियल्लाहु तआला अन्हु)",
+"हज़रत अबू तालिब (रज़ियल्लाहु तआला अन्हु)",
+"हज़रत हमज़ा (रज़ियल्लाहु तआला अन्हु)",
+"हज़रत अब्बास (रज़ियल्लाहु तआला अन्हु)"
+],
+"ur": [
+"حضرت عبداللہ (رضی اللہ تعالیٰ عنہ)",
+"حضرت ابو طالب (رضی اللہ تعالیٰ عنہ)",
+"حضرت حمزہ (رضی اللہ تعالیٰ عنہ)",
+"حضرت عباس (رضی اللہ تعالیٰ عنہ)"
+]
+},
+"correctIndex": 0
+},
+{
+"question": {
+"en": "What was the special relationship of Hazrat Abdullah with his respected father, Hazrat Abdul Muttalib?",
+"hi": "हज़रत अब्दुल्लाह का अपने वालिद-ए-मोहतरम हज़रत अब्दुल मुत्तलिब के साथ कैसा रिश्ता था?",
+"ur": "حضرت عبداللہ کا اپنے والد محترم حضرت عبد المطلب کے ساتھ کیسا رشتہ تھا؟"
+},
+"options": {
+"en": [
+"He was the eldest son",
+"He was the most beloved, dearest, and cherished son",
+"He lived far away in another city",
+"He was mostly traveling for trade"
+],
+"hi": [
+"वह सबसे बड़े साहबज़ादे थे",
+"वह उनके सबसे लाडले, अज़ीज़ और प्यारे साहबज़ादे थे",
+"वह किसी दूसरे शहर में दूर रहते थे",
+"वह ज़्यादातर व्यापार के सफ़र पर रहते थे"
+],
+"ur": [
+"وہ سب سے بڑے صاحبزادے تھے",
+"وہ ان کے سب سے لاڈلے، عزیز اور پیارے صاحبزادے تھے",
+"وہ کسی دوسرے شہر میں دور رہتے تھے",
+"وہ زیادہ تر تجارت کے سفر پر رہتے تھے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "What shone with full brilliance on the blessed forehead of Hazrat Abdullah, making his face immensely radiant?",
+"hi": "हज़रत अब्दुल्लाह की मुक़द्दस पेशानी पर पूरी आब-ओ-ताब के साथ क्या चमकता था, जिससे उनका चेहरा पुरनूर था?",
+"ur": "حضرت عبداللہ کی مقدس پیشانی پر پوری آب و تاب کے ساتھ کیا چمکتا تھا، جس سے ان کا چہرہ پرنور تھا؟"
+},
+"options": {
+"en": [
+"A worldly crown of royalty",
+"The 'Noor-e-Muhammadi' (Noor of the Prophet ﷺ)",
+"A mark of tribal leadership",
+"A sign of physical strength"
+],
+"hi": [
+"बादशाही का एक दुनियावी ताज",
+"नूर-ए-मुहम्मदी (हुज़ूर ﷺ का नूर)",
+"कबीले की सरदारी का निशान",
+"शारीरिक ताक़त की अलामत"
+],
+"ur": [
+"بادشاہی کا ایک دنیاوی تاج",
+"نورِ محمدی (حضور ﷺ کا نور)",
+"قبیلے کی سرداری کا نشان",
+"جسمانی طاقت کی علامت"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Why was there no one equal to Hazrat Abdullah in the entire Quraish tribe?",
+"hi": "पूरे ख़ानदान-ए-क़ुरैश में हज़रत अब्दुल्लाह का कोई सानी (मुक़ाबला करने वाला) क्यों नहीं था?",
+"ur": "پورے خاندانِ قریش میں حضرت عبداللہ کا کوئی ثانی (مقابلہ کرنے والا) کیوں نہیں تھا؟"
+},
+"options": {
+"en": [
+"Due to his unmatched purity, nobility, and kind-heartedness",
+"Because he was the wealthiest person in Makkah",
+"Because he owned the largest army",
+"Due to his strict rules for the tribe"
+],
+"hi": [
+"उनकी बेमिसाल पाकीज़गी, शराफ़त और नेक-दिली की वजह से",
+"क्योंकि वह मक्का के सबसे मालदार इंसान थे",
+"क्योंकि उनके पास सबसे बड़ी फ़ौज थी",
+"कबीले के लिए उनके सख़्त क़ानून की वजह से"
+],
+"ur": [
+"ان کی بے مثال پاکیزگی، شرافت اور نیک دلی کی وجہ سے",
+"کیونکہ وہ مکہ کے سب سے مالدار انسان تھے",
+"کیونکہ ان کے پاس سب سے بڑی فوج تھی",
+"قبیلے کے لیے ان کے سخت قانون کی وجہ سے"
+]
+},
+"correctIndex": 0
+},
+{
+"question": {
+"en": "By the will of Allah Almighty, with which most pure and honored lady was the blessed marriage of Hazrat Abdullah arranged?",
+"hi": "अल्लाह तआला की मर्जी से, हज़रत अब्दुल्लाह का मुक़द्दस निकाह किस पाकीज़ा और मोअज़्ज़ज़ ख़ातून से तय हुआ?",
+"ur": "اللہ تعالیٰ کی مرضی سے، حضرت عبداللہ کا مقدس نکاح کس پاکیزہ اور معزز خاتون سے طے ہوا؟"
+},
+"options": {
+"en": [
+"Hazrat Khadija (Radi Allahu Ta'ala Anha)",
+"Hazrat Halima (Radi Allahu Ta'ala Anha)",
+"Hazrat Sayyidah Aminah (Radi Allahu Ta'ala Anha)",
+"Hazrat Fatima (Radi Allahu Ta'ala Anha)"
+],
+"hi": [
+"हज़़्रत ख़दीजा (रज़ियल्लाहु तआला अन्हा)",
+"हज़रत हलीमा (रज़ियल्लाहु तआला अन्हा)",
+"हज़रत सय्यिदा आमिना (रज़ियल्लाहु तआला अन्हा)",
+"हज़रत फ़ातिमा (रज़ियल्लाहु तआला अन्हा)"
+],
+"ur": [
+"حضرت خدیجہ (رضی اللہ تعالیٰ عنہا)",
+"حضرت حلیمہ (رضی اللہ تعالیٰ عنہا)",
+"حضرت سیدہ آمنہ (رضی اللہ تعالیٰ عنہا)",
+"حضرت فاطمہ (رضی اللہ تعالیٰ عنہا)"
+]
+},
+"correctIndex": 2
+}
+]
+
+,
+
+  
+"chapter9": [
+{
+"question": {
+"en": "What vow did the blessed grandfather of the Holy Prophet ﷺ, Hazrat Abdul Muttalib, make to Allah Almighty?",
+"hi": "हुज़ूर ﷺ के मुक़द्दस दादा जान, हज़रत अब्दुल मुत्तलिब ने अल्लाह तआला की बारगाह में क्या मन्नत मानी थी?",
+"ur": "حضور ﷺ کے مقدس دادا جان، حضرت عبد المطلب نے اللہ تعالیٰ کی بارگاہ میں کیا منت مانی تھی؟"
+},
+"options": {
+"en": [
+"To give all his wealth in charity",
+"To sacrifice one of his sons in the path of Allah if he had 10 sons",
+"To build a new city",
+"To perform Hajj every year"
+],
+"hi": [
+"अपनी सारी दौलत खैरात करने की",
+"अगर उनके 10 बेटे हुए तो एक बेटे को राह-ए-ख़ुदा में क़ुर्बान करने की",
+"एक नया शहर बसाने की",
+"हर साल हज करने की"
+],
+"ur": [
+"اپنی ساری دولت خیرات کرنے کی",
+"اگر ان کے 10 بیٹے ہوئے تو ایک بیٹے کو راہِ خدا میں قربان کرنے کی",
+"ایک نیا شہر بسانے کی",
+"ہر سال حج کرنے کی"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Whose blessed name was drawn when lots were drawn (Qur'ah) to fulfill the vow of sacrifice?",
+"hi": "मन्नत पूरी करने के लिए जब क़ुरआ-अंदाज़ी (पर्ची) निकाली गई, तो किसका मुक़द्दस नाम निकला?",
+"ur": "منت پوری کرنے کے لیے جب قرعہ اندازی (پرچی) نکالی گئی، تو کس کا مقدس نام نکلا؟"
+},
+"options": {
+"en": [
+"Hazrat Abu Talib",
+"Hazrat Hamza",
+"Hazrat Abbas",
+"Hazrat Abdullah"
+],
+"hi": [
+"हज़रत अबू तालिब",
+"हज़रत हमज़ा",
+"हज़रत अब्बास",
+"हज़रत अब्दुल्लाह"
+],
+"ur": [
+"حضرت ابو طالب",
+"حضرت حمزہ",
+"حضرت عباس",
+"حضرت عبداللہ"
+]
+},
+"correctIndex": 3
+},
+{
+"question": {
+"en": "Why did the entire Quraish tribe tearfully plead to stop the sacrifice of Hazrat Abdullah?",
+"hi": "पूरे ख़ानदान-ए-क़ुरैश ने रो-रो कर हज़रत अब्दुल्लाह की क़ुर्बानी से क्यों रोक दिया?",
+"ur": "پورے خاندانِ قریش نے رو رو کر حضرت عبداللہ کی قربانی سے کیوں روک دیا؟"
+},
+"options": {
+"en": [
+"Because the 'Noor-e-Muhammadi' shone on his forehead and he was immensely beloved",
+"Because he was their only leader",
+"Because they needed him for a war",
+"Because he was going for a trade journey"
+],
+"hi": [
+"क्योंकि उनकी पेशानी पर 'नूर-ए-मुहम्मदी' चमकता था और वह मक्का वालों के बेहद लाडले थे",
+"क्योंकि वह उनके इकलौते सरदार थे",
+"क्योंकि उन्हें एक जंग के लिए उनकी ज़रूरत थी",
+"क्योंकि वह व्यापार के सफ़र पर जा रहे थे"
+],
+"ur": [
+"کیونکہ ان کی پیشانی پر 'نورِ محمدی' چمکتا تھا اور وہ مکہ والوں کے بے حد لاڈلے تھے",
+"کیونکہ وہ ان کے اکلوتے سردار تھے",
+"کیونکہ انہیں ایک جنگ کے لیے ان کی ضرورت تھی",
+"کیونکہ وہ تجارت کے سفر پر جا رہے تھے"
+]
+},
+"correctIndex": 0
+},
+{
+"question": {
+"en": "By the will of Allah Almighty, what was offered as an expiation (Fidyah) in place of the sacrifice of Hazrat Abdullah?",
+"hi": "अल्लाह तआला की मर्जी से, हज़रत अब्दुल्लाह की क़ुर्बानी के फ़िद्या (बदले) के तौर पर क्या क़ुर्बान किया गया?",
+"ur": "اللہ تعالیٰ کی مرضی سے، حضرت عبداللہ کی قربانی کے فدیہ (بدلے) کے طور پر کیا قربان کیا گیا؟"
+},
+"options": {
+"en": [
+"100 sheep",
+"A great sacrifice of 100 camels",
+"50 horses",
+"1000 gold coins"
+],
+"hi": [
+"100 भेड़ें",
+"100 ऊंटों की अज़ीम क़ुर्बानी",
+"50 घोड़े",
+"1000 सोने के सिक्के"
+],
+"ur": [
+"100 بھیڑیں",
+"100 اونٹوں کی عظیم قربانی",
+"50 گھوڑے",
+"1000 سونے کے سکے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "In reference to the sacrifices of Hazrat Ismail (A.S) and Hazrat Abdullah, what great title is given to the Holy Prophet ﷺ?",
+"hi": "हज़रत इस्माईल (अलैहिस्सलाम) और हज़रत अब्दुल्लाह के अज़ीम वाक़िए की निस्बत से, हुज़ूर ﷺ को क्या कहा जाता है?",
+"ur": "حضرت اسماعیل (علیہ السلام) اور حضرت عبداللہ کے عظیم واقعے کی نسبت سے، حضور ﷺ کو کیا کہا جاتا ہے؟"
+},
+"options": {
+"en": [
+"Ibn-ul-Ameen",
+"Ibn-uz-Zabihain (The great son of the two sacrificed ones)",
+"Khatam-un-Nabiyyin",
+"Siraj-um-Muneer"
+],
+"hi": [
+"इब्न-उल-अमीन",
+"इब्न-उज़-ज़बीहैन (दो क़ुर्बान होने वालों का अज़ीम बेटा)",
+"खातम-उन-नबिय्यीन",
+"सिराज-उम-मुनीर"
+],
+"ur": [
+"ابن الامین",
+"ابن الذبیحین (دو قربان ہونے والوں کا عظیم بیٹا)",
+"خاتم النبیین",
+"سراج منیر"
+]
+},
+"correctIndex": 1
+}
+]
+  
+,
+
+
+"chapter10": [
+    {
+      "question": {
+        "en": "When did Hazrat Abdullah (Radi Allahu Ta'ala Anhu) pass away relative to the blessed birth of the Holy Prophet ﷺ?",
+        "hi": "हुज़ूर पुरनूर ﷺ की विलादत-ए-बा-सआदत (पैदाइश) से कितने वक़्त पहले उनके वालिद-ए-माजिद हज़रत अब्दुल्लाह का विसाल-ए-मुबारक हुआ था?",
+        "ur": "حضور پرنور ﷺ کی ولادتِ با سعادت (پیدائش) سے کتنے وقت پہلے ان کے والد ماجد حضرت عبداللہ کا وصالِ مبارک ہوا تھا؟"
+      },
+      "options": {
+        "en": [
+          "A few years prior",
+          "Just a few months prior",
+          "A few days after His birth",
+          "Many years after His birth"
+        ],
+        "hi": [
+          "कुछ साल पहले",
+          "महज़ चंद माह क़ब्ल (कुछ महीने पहले)",
+          "विलादत के कुछ दिन बाद",
+          "विलादत के कई साल बाद"
+        ],
+        "ur": [
+          "کچھ سال پہلے",
+          "محض چند ماہ قبل",
+          "ولادت کے کچھ دن بعد",
+          "ولادت کے کئی سال بعد"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "To which land had Hazrat Abdullah (Radi Allahu Ta'ala Anhu) traveled for trade and business before his passing?",
+        "hi": "विसाल से पहले हुज़ूर ﷺ के वालिद-ए-माजिद हज़रत अब्दुल्लाह तिज़ारत (कारोबार) के सिलसिले में किस मुल्क के सफ़र पर गए थे?",
+        "ur": "وصال سے پہلے حضور ﷺ کے والد ماجد حضرت عبداللہ تجارت (کاروبار) کے سلسلے میں کس ملک کے سفر پر گئے تھے؟"
+      },
+      "options": {
+        "en": [
+          "Land of Yemen",
+          "Land of Shaam (Syria)",
+          "Land of Egypt",
+          "Land of Iraq"
+        ],
+        "hi": [
+          "मुल्क-ए-यमन",
+          "मुल्क-ए-शाम (सीरिया)",
+          "मुल्क-ए-मिस्र",
+          "मुल्क-ए-इराक़"
+        ],
+        "ur": [
+          "ملکِ یمن",
+          "ملکِ شام (سیریا)",
+          "ملکِ مصر",
+          "ملکِ عراق"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "On the return journey from his trade trip, in which city did Hazrat Abdullah fall ill and pass away?",
+        "hi": "तिज़ारती सफ़र से वापसी पर हज़रत अब्दुल्लाह किस मुक़द्दस शहर में बीमार हुए और वहीं आपका विसाल हुआ?",
+        "ur": "تجارتی سفر سے واپسی پر حضرت عبداللہ کس مقدس شہر میں بیمار ہوئے اور وہیں آپ کا وصال ہوا؟"
+      },
+      "options": {
+        "en": [
+          "Makkah Mukarramah",
+          "Madinah Munawwarah (Yasrib)",
+          "Taif",
+          "Najran"
+        ],
+        "hi": [
+          "मक्का मुकर्रमा",
+          "मदीना मुनव्वरा (यसरिब)",
+          "ताइफ़",
+          "नजरान"
+        ],
+        "ur": [
+          "مکہ مکرمہ",
+          "مدینہ منورہ (یثرب)",
+          "طائف",
+          "نجران"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "Which blessed maidservant did Hazrat Abdullah leave behind as part of his worldly inheritance?",
+        "hi": "हज़रत अब्दुल्लाह ने अपनी दुनियावी विरासत (तरके) में जो ख़ादिमा छोड़ी थीं, उनका मुक़द्दस नाम क्या था?",
+        "ur": "حضرت عبداللہ نے اپنی دنیاوی وراثت (ترکے) میں جو خادمہ چھوڑی تھیں، ان کا مقدس نام کیا تھا؟"
+      },
+      "options": {
+        "en": [
+          "Hazrat Halimah (Radi Allahu Ta'ala Anha)",
+          "Hazrat Shima (Radi Allahu Ta'ala Anha)",
+          "Hazrat Umm-e-Aiman (Radi Allahu Ta'ala Anha)",
+          "Hazrat Sobia (Radi Allahu Ta'ala Anha)"
+        ],
+        "hi": [
+          "हज़रत हलीमा (रज़ियल्लाहु तआला अन्हा)",
+          "हज़रत शीमा (रज़ियल्लाहु तआला अन्हा)",
+          "हज़रत उम्मे ऐमन (रज़ियल्लाहु तआला अन्हा)",
+          "हज़रत सोबिया (रज़ियल्लाहु तआला अन्हा)"
+        ],
+        "ur": [
+          "حضرت حلیمہ (رضی اللہ تعالیٰ عنہا)",
+          "حضرت شیما (رضی اللہ تعالیٰ عنہا)",
+          "حضرت امِ ایمن (رضی اللہ تعالیٰ عنہا)",
+          "حضرت ثوبیہ (رضی اللہ تعالیٰ عنہا)"
+        ]
+      },
+      "correctIndex": 2
+    },
+    {
+      "question": {
+        "en": "What was the divine wisdom of Allah Almighty in the Holy Prophet ﷺ being born as a 'Durr-e-Yateem'?",
+        "hi": "हुज़ूर ﷺ के 'दुर्र-ए-यतीम' (नायाब मोती) बनकर दुनिया में आने में अल्लाह तआला की क्या अज़ीम हिकमत थी?",
+        "ur": "حضور ﷺ کے 'دُرِّ یتیم' بن کر دنیا میں آنے میں اللہ تعالیٰ کی کیا عظیم حکمت تھی؟"
+      },
+      "options": {
+        "en": [
+          "So that He would inherit worldly kingdoms",
+          "So the world would know that His upbringing and nurturing were directly done by Allah Himself",
+          "To keep Him away from His family and tribe",
+          "So that He would live in physical weakness"
+        ],
+        "hi": [
+          "ताकि वह दुनियावी सल्तनत के वारिस बनें",
+          "ताकि पूरी दुनिया जान ले कि आपकी परवरिश और तर्बियत सीधे अल्लाह ने फ़रमाई है",
+          "ताकि उन्हें उनके ख़ानदान और क़बीले से दूर रखा जा सके",
+          "ताकि वह कमज़ोर हाल में ज़िंदगी गुज़ारें"
+        ],
+        "ur": [
+          "تاکہ وہ دنیاوی سلطنت کے وارث بنیں",
+          "تاکہ پوری دنیا جان لے کہ آپ کی پرورش اور تربیت سیدھے اللہ نے فرمائی ہے",
+          "تاکہ انہیں ان کے خاندان اور قبیلے سے دور رکھا جا سکے",
+          "تاکہ وہ کمزور حال میں زندگی گزاریں"
+        ]
+      },
+      "correctIndex": 1
+    }
+  ]
+
+,
+
+
+ "chapter11": [
+    {
+      "question": {
+        "en": "On which day and time did the blessed birth of the Holy Prophet ﷺ take place?",
+        "hi": "हुज़ूर पुरनूर ﷺ की विलादत-ए-बा-सआदत किस दिन और किस मुक़द्दस वक़्त हुई?",
+        "ur": "حضور پرنور ﷺ کی ولادتِ با سعادت کس دن اور کس مقدس وقت ہوئی؟"
+      },
+      "options": {
+        "en": [
+          "12th Rabi-ul-Awwal, Monday, at true dawn (Subh Saadiq)",
+          "10th Muharram, Friday, at night",
+          "12th Rabi-ul-Awwal, Sunday, at noon",
+          "15th Shaban, Monday, at sunset"
+        ],
+        "hi": [
+          "12 रबी-उल-अव्वल, पीर, सुबह सादिक़ के वक़्त",
+          "10 मुहर्रम, जुम्मा, रात के वक़्त",
+          "12 रबी-उल-अव्वल, इतवार, दोपहर के वक़्त",
+          "15 शाबान, पीर, मगरिब के वक़्त"
+        ],
+        "ur": [
+          "12 ربیع الاول، پیر، صبح صادق کے وقت",
+          "10 محرم، جمعہ، رات کے وقت",
+          "12 ربیع الاول، اتوار، دوپہر کے وقت",
+          "15 شعبان، پیر، مغرب کے وقت"
+        ]
+      },
+      "correctIndex": 0
+    },
+    {
+      "question": {
+        "en": "What is the historical year of the Prophet's ﷺ birth known as in Arabia?",
+        "hi": "नबी-ए-रहमत ﷺ की विलादत वाले तारीख़ी साल को अरब में क्या कहा जाता है?",
+        "ur": "نبیِ رحمت ﷺ کی ولادت والے تاریخی سال کو عرب میں کیا کہا جاتا ہے؟"
+      },
+      "options": {
+        "en": [
+          "Aam-ul-Huzn (Year of Sorrow)",
+          "Aam-ul-Fatah (Year of Victory)",
+          "Aam-ul-Feel (Year of the Elephant)",
+          "Aam-ul-Noor (Year of Light)"
+        ],
+        "hi": [
+          "आम-उल-हुज़्न (ग़म का साल)",
+          "आम-उल-फ़तह (फ़तह का साल)",
+          "आम-उल-फ़ील (हाथियों वाला साल)",
+          "आम-उल-नूर (नूर का साल)"
+        ],
+        "ur": [
+          "عام الحزن (غم کا سال)",
+          "عام الفتح (فتح کا سال)",
+          "عام الفیل (ہاتھیوں والا سال)",
+          "عام النور (نور کا سال)"
+        ]
+      },
+      "correctIndex": 2
+    },
+    {
+      "question": {
+        "en": "What happened to the house of Hazrat Sayyidah Aminah (Radi Allahu Ta'ala Anha) at the birth of the Prophet ﷺ?",
+        "hi": "हुज़ूर ﷺ की विलादत के वक़्त हज़रत सय्यिदा आमिना का घर कैसा हो गया था?",
+        "ur": "حضور ﷺ کی ولادت کے وقت حضرت سیدہ آمنہ کا گھر کیسا ہو گیا تھا؟"
+      },
+      "options": {
+        "en": [
+          "It became filled with gold",
+          "It was illuminated with divine Noor",
+          "It was surrounded by angels",
+          "It was filled with flowers"
+        ],
+        "hi": [
+          "वह सोने से भर गया",
+          "वह 'नूर' से जगमगा उठा",
+          "वह फरिश्तों से घिर गया",
+          "वह फूलों से भर गया"
+        ],
+        "ur": [
+          "وہ سونے سے بھر گیا",
+          "وہ 'نور' سے جگمگا اٹھا",
+          "وہ فرشتوں سے گھر گیا",
+          "وہ پھولوں سے بھر گیا"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "How did the Holy Prophet ﷺ arrive in this world regarding his physical state?",
+        "hi": "हुज़ूर ﷺ दुनिया में किस हालत में तशरीफ़ लाए?",
+        "ur": "حضور ﷺ دنیا میں کس حالت میں تشریف لائے؟"
+      },
+      "options": {
+        "en": [
+          "Like an ordinary child",
+          "Already circumcised, umbilical cord cut, and pure from all impurities",
+          "Wearing royal clothes",
+          "With books in His hands"
+        ],
+        "hi": [
+          "एक आम बच्चे की तरह",
+          "ख़तना-शुदा, नाल कटी हुई और हर तरह की नापाकी से बिल्कुल पाक",
+          "शाही लिबास पहने हुए",
+          "हाथों में किताबें लिए हुए"
+        ],
+        "ur": [
+          "ایک عام بچے کی طرح",
+          "ختنہ شدہ، نال کٹی ہوئی اور ہر طرح کی ناپاکی سے بالکل پاک",
+          "شاہی لباس پہنے ہوئے",
+          "ہاتھوں میں کتابیں لیے ہوئے"
+        ]
+      },
+      "correctIndex": 1
+    },
+    {
+      "question": {
+        "en": "Who wept bitterly in despair at the blessed birth of the Holy Prophet ﷺ?",
+        "hi": "हुज़ूर ﷺ की विलादत-ए-मुबारका पर कौन अपनी नाकामी पर ज़ार-ओ-क़तार रोया था?",
+        "ur": "حضور ﷺ کی ولادتِ مبارکہ پر کون اپنی ناکامی پر زار و قطار رویا تھا؟"
+      },
+      "options": {
+        "en": [
+          "The people of Makkah",
+          "The tribe of Quraish",
+          "Satan (Iblis)",
+          "The enemies of Islam"
+        ],
+        "hi": [
+          "मक्का के लोग",
+          "क़ुरैश का ख़ानदान",
+          "शैतान (इब्लीस)",
+          "इस्लाम के दुश्मन"
+        ],
+        "ur": [
+          "مکہ کے لوگ",
+          "قریش کا خاندان",
+          "شیطان (ابلیس)",
+          "اسلام کے دشمن"
+        ]
+      },
+      "correctIndex": 2
+    }
+  ]
+
+,
+
+
+"chapter12": [
+{
+"question": {
+"en": "What happened to the palace of the Persian King 'Kisra' at the time of the Prophet's ﷺ birth?",
+"hi": "हुज़ूर ﷺ की विलादत-ए-बा-सआदत के वक़्त, ईरान के बादशाह 'किसरा' के महल में क्या हुआ?",
+"ur": "حضور ﷺ کی ولادتِ با سعادت کے وقت، ایران کے بادشاہ 'کسریٰ' کے محل میں کیا ہوا؟"
+},
+"options": {
+"en": [
+"A heavy tremor shook it and 14 balconies collapsed",
+"It caught fire",
+"It turned to gold",
+"It sank into the ground"
+],
+"hi": [
+"भयानक ज़लज़ला आया और उसके 14 कंगूरे टूट कर गिर गए",
+"उसमें आग लग गई",
+"वह सोने का बन गया",
+"वह ज़मीन में धंस गया"
+],
+"ur": [
+"بھیانک زلزلہ آیا اور اس کے 14 کنگرے ٹوٹ کر گر گئے",
+"اس میں آگ لگ گئی",
+"وہ سونے کا بن گیا",
+"وہ زمین میں دھنس گیا"
+]
+},
+"correctIndex": 0
+},
+{
+"question": {
+"en": "What miraculous event occurred at the famous Persian 'Aatash-Kada' (fire-temple)?",
+"hi": "ईरान के मशहूर 'आतश-कदा' (आग पूजने का मंदिर) में क्या मोजिज़ा ज़ाहिर हुआ?",
+"ur": "ایران کے مشہور 'آتش کدہ' (آگ پوجنے کا مندر) میں کیا معجزہ ظاہر ہوا؟"
+},
+"options": {
+"en": [
+"The fire grew larger",
+"The fire burning for 1000 years was suddenly extinguished",
+"It was flooded with water",
+"It changed into a garden"
+],
+"hi": [
+"आग और तेज़ हो गई",
+"1000 साल से जल रही आग अचानक बुझ गई",
+"वह पानी में डूब गया",
+"वह एक बाग़ में बदल गया"
+],
+"ur": [
+"آگ اور تیز ہو گئی",
+"1000 سال سے جل رہی آگ اچانک بجھ گئی",
+"وہ پانی میں ڈوب گیا",
+"وہ ایک باغ میں بدل گیا"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "What happened to the waters of Lake 'Sawa', which people revered and worshipped?",
+"hi": "'सावा' नाम की उस अज़ीम झील का क्या हुआ जिसे लोग मुक़द्दस मानकर पूजते थे?",
+"ur": "'ساوا' نام کی اس عظیم جھیل کا کیا ہوا جسے لوگ مقدس مان کر پوجتے تھے؟"
+},
+"options": {
+"en": [
+"It turned sweet",
+"It dried up entirely overnight",
+"It overflowed",
+"It changed its color"
+],
+"hi": [
+"वह मीठा हो गया",
+"उसका पानी रातों-रात बिल्कुल सूख गया",
+"उसमें बाढ़ आ गई",
+"उसका रंग बदल गया"
+],
+"ur": [
+"وہ میٹھا ہو گیا",
+"اس کا پانی راتوں رات بالکل خشک ہو گیا",
+"اس میں سیلاب آ گیا",
+"اس کا رنگ بدل گیا"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "As a sign of the arrival of the Truth, what happened to the idols kept inside the Holy Kaaba?",
+"hi": "हक़ के आने की निशानी के तौर पर, ख़ाना-ए-काबा के अंदर रखे हुए बुतों (Idols) का क्या हुआ?",
+"ur": "حق کے آنے کی نشانی کے طور پر، خانہ کعبہ کے اندر رکھے ہوئے بتوں کا کیا ہوا؟"
+},
+"options": {
+"en": [
+"They disappeared",
+"All the idols fell flat on their faces",
+"They started speaking",
+"They were thrown out"
+],
+"hi": [
+"वे ग़ायब हो गए",
+"तमाम बुत अपने मुँह के बल ज़मीन पर गिर पड़े",
+"वे बोलने लगे",
+"उन्हें बाहर फेंक दिया गया"
+],
+"ur": [
+"وہ غائب ہو گئے",
+"تمام بت اپنے منہ کے بل زمین پر گر پڑے",
+"وہ بولنے لگے",
+"انہیں باہر پھینک دیا گیا"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Due to the divine Noor emanating from the house of Hazrat Aminah (R.A), which palaces could be seen from Makkah?",
+"hi": "हज़रत आमिना (रज़ियल्लाहु तआला अन्हा) के घर से ज़ाहिर होने वाले 'नूर' की वजह से, मक्का से कहाँ के महल नज़र आने लगे?",
+"ur": "حضرت آمنہ (رضی اللہ عنہا) کے گھر سے ظاہر ہونے والے 'نور' کی وجہ سے، مکہ سے کہاں کے محل نظر آنے لگے؟"
+},
+"options": {
+"en": [
+"Palaces of Yemen",
+"Palaces of Shaam (Syria)",
+"Palaces of Egypt",
+"Palaces of Rome"
+],
+"hi": [
+"यमन के महल",
+"मुल्क-ए-शाम (सीरिया) के महल",
+"मिस्र के महल",
+"रोम के महल"
+],
+"ur": [
+"یمن کے محل",
+"ملکِ شام (سیریا) کے محل",
+"مصر کے محل",
+"روم کے محل"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+  
+
+"chapter13": [
+{
+"question": {
+"en": "Who came running to give Abu Lahab the glad tidings of the blessed birth of the Holy Prophet ﷺ?",
+"hi": "अबू लहब को हुज़ूर ﷺ की विलादत-ए-बा-सआदत की ख़ुशख़बरी दौड़कर किसने दी?",
+"ur": "ابو لہب کو حضور ﷺ کی ولادتِ با سعادت کی خوشخبری دوڑ کر کس نے دی؟"
+},
+"options": {
+"en": [
+"Hazrat Halimah",
+"Hazrat Shima",
+"His maidservant Thuwaibah",
+"Hazrat Umm-e-Aiman"
+],
+"hi": [
+"हज़रत हलीमा ने",
+"हज़रत शीमा ने",
+"उसकी कनीज़ सुवैबा ने",
+"हज़रत उम्मे ऐमन ने"
+],
+"ur": [
+"حضرت حلیمہ نے",
+"حضرت شیما نے",
+"اس کی کنیز ثویبہ نے",
+"حضرت امِ ایمن نے"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What did Abu Lahab do in his joy upon hearing the great news of the Prophet's ﷺ birth?",
+"hi": "हुज़ूर ﷺ की विलादत की अज़ीम ख़ुशख़बरी सुनकर अबू लहब ने ख़ुशी में क्या किया?",
+"ur": "حضور ﷺ کی ولادت کی عظیم خوشخبری سن کر ابو لہب نے خوشی میں کیا کیا؟"
+},
+"options": {
+"en": [
+"He gave away gold coins",
+"He freed his maidservant Thuwaibah with a mere gesture of his finger",
+"He hosted a grand feast for the Quraish",
+"He sacrificed 100 camels"
+],
+"hi": [
+"उसने सोने के सिक्के दान कर दिए",
+"उसने ख़ुशी में अपनी उंगली के इशारे से कनीज़ सुवैबा को आज़ाद कर दिया",
+"उसने क़ुरैश के लिए एक बड़ी दावत का इंतज़ाम किया",
+"उसने 100 ऊंटों की क़ुर्बानी दी"
+],
+"ur": [
+"اس نے سونے کے سکے دان کر دیے",
+"اس نے خوشی میں اپنی انگلی کے اشارے سے کنیز ثویبہ کو آزاد کر دیا",
+"اس نے قریش کے لیے ایک بڑی دعوت کا انتظام کیا",
+"اس نے 100 اونٹوں کی قربانی دی"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "As a reward for rejoicing at the blessed birth, on which day does Abu Lahab receive relief from the punishment of Hellfire?",
+"hi": "हुज़ूर ﷺ की विलादत की ख़ुशी मनाने के सिला में, अबू लहब को मौत के बाद किस दिन जहन्नम के अज़ाब में कमी दी जाती है?",
+"ur": "حضور ﷺ کی ولادت کی خوشی منانے کے صلے میں، ابو لہب کو موت کے بعد کس دن جہنم کے عذاب میں کمی دی جاتی ہے؟"
+},
+"options": {
+"en": [
+"Every Friday",
+"Every Sunday",
+"Every Monday (Peer)",
+"Every Thursday"
+],
+"hi": [
+"हर जुम्मा के दिन",
+"हर इतवार के दिन",
+"हर पीर (Monday) के दिन",
+"हर जुमेरात के दिन"
+],
+"ur": [
+"ہر جمعہ کے دن",
+"ہر اتوار کے دن",
+"ہر پیر (Monday) کے دن",
+"ہر جمعرات کے دن"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "From where is Abu Lahab granted drops of cool water to drink amidst the fire of Hell?",
+"hi": "जहन्नम की आग के बीच, अबू लहब को ठंडे पानी के क़तरे कहाँ से पीने को मिलते हैं?",
+"ur": "جہنم کی آگ کے بیچ، ابو لہب کو ٹھنڈے پانی کے قطرے کہاں سے پینے کو ملتے ہیں؟"
+},
+"options": {
+"en": [
+"From a river in Hell",
+"From a cup given by angels",
+"From the very same finger he had used to point and free Thuwaibah",
+"From the rain"
+],
+"hi": [
+"जहन्नम की एक नदी से",
+"फरिश्तों के दिए हुए प्याले से",
+"अपनी उसी उंगली से जिससे इशारा करके उसने सुवैबा को आज़ाद किया था",
+"बारिश के पानी से"
+],
+"ur": [
+"جہنم کی ایک ندی سے",
+"فرشتوں کے دیے ہوئے پیالے سے",
+"اپنی اسی انگلی سے جس سے اشارہ کر کے اس نے ثویبہ کو آزاد کیا تھا",
+"بارش کے پانی سے"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What great lesson do scholars derive from this incident of Abu Lahab receiving a reward?",
+"hi": "अबू लहब के इस वाक़िए से उलेमा क्या अज़ीम सबक़ बयान फ़रमाते हैं?",
+"ur": "ابو لہب کے اس واقعے سے علماء کیا عظیم سبق بیان فرماتے ہیں؟"
+},
+"options": {
+"en": [
+"That freeing a slave is the only way to be saved",
+"That everyone will eventually go to heaven",
+"That a believing Ummathi who rejoices in Milad throughout their life will have an immense reward and high status",
+"That only disbelievers receive rewards in Hell"
+],
+"hi": [
+"कि ग़ुलाम आज़ाद करना ही बचने का वाहिद रास्ता है",
+"कि हर कोई आख़िरकार जन्नत में जाएगा",
+"कि उम्र भर मीलाद की ख़ुशी मनाने वाले एक मोमिन उम्मती का इनाम और मक़ाम बहुत अज़ीम होगा",
+"कि सिर्फ़ काफ़िरों को ही जहन्नम में इनाम मिलता है"
+],
+"ur": [
+"کہ غلام آزاد کرنا ہی بچنے کا واحد راستہ ہے",
+"کہ ہر کوئی آخرکار جنت میں جائے گا",
+"کہ عمر بھر میلاد کی خوشی منانے والے ایک مومن امتی کا انعام اور مقام بہت عظیم ہوگا",
+"کہ صرف کافروں کو ہی جہنم میں انعام ملتا ہے"
+]
+},
+"correctIndex": 2
+}
+]
+
+,
+
+  
+"chapter14": [
+{
+"question": {
+"en": "What is the meaning of the blessed name 'Muhammad' (ﷺ) given by Hazrat Abdul Muttalib?",
+"hi": "हज़रत अब्दुल मुत्तलिब द्वारा रखे गए हुज़ूर ﷺ के अज़ीम नाम 'मुहम्मद' (ﷺ) के क्या मायने हैं?",
+"ur": "حضرت عبد المطلب کی طرف سے رکھے گئے حضور ﷺ کے عظیم نام 'محمد' (ﷺ) کے کیا معنی ہیں؟"
+},
+"options": {
+"en": [
+"The truthful one",
+"The profoundly praised one",
+"The pure one",
+"The leader"
+],
+"hi": [
+"सच्चा (हमेशा सच बोलने वाला)",
+"वह ज़ात जिसकी सबसे ज़्यादा तारीफ़ की गई हो",
+"पाकीज़ा (हर बुराई से पाक)",
+"सरदार (रहबर)"
+],
+"ur": [
+"سچا (ہمیشہ سچ بولنے والا)",
+"وہ ذات جس کی سب سے زیادہ تعریف کی گئی ہو",
+"پاکیزہ (ہر برائی سے پاک)",
+"سردار (رہبر)"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "According to the glad tidings received in a sacred dream, who named the Prophet ﷺ 'Ahmad'?",
+"hi": "एक मुक़द्दस ख़्वाब की बशारत के मुताबिक़, हुज़ूर ﷺ का नाम 'अहमद' (ﷺ) किसने रखा?",
+"ur": "ایک مقدس خواب کی بشارت کے مطابق، حضور ﷺ کا نام 'احمد' (ﷺ) کس نے رکھا؟"
+},
+"options": {
+"en": [
+"Hazrat Abdul Muttalib",
+"Hazrat Abu Talib",
+"Hazrat Sayyidah Aminah (Radi Allahu Ta'ala Anha)",
+"Hazrat Halimah"
+],
+"hi": [
+"हज़रत अब्दुल मुत्तलिब ने",
+"हज़रत अबू तालिब ने",
+"हज़रत सय्यिदा आमिना (रज़ियल्लाहु तआला अन्हा) ने",
+"हज़रत हलीमा ने"
+],
+"ur": [
+"حضرت عبد المطلب نے",
+"حضرت ابو طالب نے",
+"حضرت سیدہ آمنہ (رضی اللہ تعالیٰ عنہا) نے",
+"حضرت حلیمہ نے"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "Before the blessed birth of the Prophet ﷺ, how common were the names 'Muhammad' and 'Ahmad' in the history of Arabia?",
+"hi": "हुज़ूर ﷺ की विलादत से पहले पूरे अरब की तारीख़ में 'मुहम्मद' और 'अहमद' नामों का क्या मुक़ाम था?",
+"ur": "حضور ﷺ کی ولادت سے پہلے پورے عرب کی تاریخ میں 'محمد' اور 'احمد' ناموں کا کیا مقام تھا؟"
+},
+"options": {
+"en": [
+"They were the most common names",
+"They were given to many kings",
+"They had never been given to anyone else with such distinction",
+"They were traditional tribal names"
+],
+"hi": [
+"वे बहुत आम नाम थे",
+"वे कई बादशाहों के नाम थे",
+"यह नाम इस शान के साथ किसी और के नहीं रखे गए थे",
+"वे क़बीले के पुराने नाम थे"
+],
+"ur": [
+"وہ بہت عام نام تھے",
+"وہ کئی بادشاہوں کے نام تھے",
+"یہ نام اس شان کے ساتھ کسی اور کے نہیں رکھے گئے تھے",
+"وہ قبیلے کے پرانے نام تھے"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "By which blessed name was the Holy Prophet ﷺ foretold in the previous divine scriptures (Torah and Gospel)?",
+"hi": "पिछली आसमानी किताबों (तौरेत और इंजील) में हुज़ूर ﷺ को किस मुक़द्दस नाम से पुकारा गया है?",
+"ur": "پچھلی آسمانی کتابوں (توریت اور انجیل) میں حضور ﷺ کو کس مقدس نام سے پکارا گیا ہے؟"
+},
+"options": {
+"en": [
+"Muhammad",
+"Ahmad",
+"Yaseen",
+"Taha"
+],
+"hi": [
+"मुहम्मद",
+"अहमद",
+"यासीन",
+"ताहा"
+],
+"ur": [
+"محمد",
+"احمد",
+"یاسین",
+"طٰہٰ"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "According to the lesson, where did the inspiration for these two sacred names ('Muhammad' and 'Ahmad') come from?",
+"hi": "सबक़ के मुताबिक़, हुज़ूर ﷺ के यह दोनों मुक़द्दस नाम ('मुहम्मद' और 'अहमद') कहाँ से तय हुए थे?",
+"ur": "سبق کے مطابق، حضور ﷺ کے یہ دونوں مقدس نام ('محمد' اور 'احمد') کہاں سے طے ہوئے تھے؟"
+},
+"options": {
+"en": [
+"They were conceived by wise humans",
+"They were directly inspired by Allah Almighty",
+"They were chosen by the leaders of Makkah",
+"They were randomly selected"
+],
+"hi": [
+"उन्हें अक़्लमंद इंसानों ने सोचा था",
+"वे सीधे अल्लाह तआला की तरफ़ से इल्हाम किए गए थे",
+"उन्हें मक्का के सरदारों ने चुना था",
+"उन्हें पर्ची निकालकर चुना गया था"
+],
+"ur": [
+"انہیں عقلمند انسانوں نے سوچا تھا",
+"وہ سیدھے اللہ تعالیٰ کی طرف سے الہام کیے گئے تھے",
+"انہیں مکہ کے سرداروں نے چنا تھا",
+"انہیں پرچی نکال کر چنا گیا تھا"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+
+
+"chapter15": [
+{
+"question": {
+"en": "Why did the noble families of Arabia send their infants to rural areas?",
+"hi": "उस दौर में अरब के मुअज़्ज़िज़ घराने अपने बच्चों को देहात (गाँव) क्यों भेजते थे?",
+"ur": "اس دور میں عرب کے معزز گھرانے اپنے بچوں کو دیہات (گاؤں) کیوں بھیجتے تھے؟"
+},
+"options": {
+"en": [
+"For pure Arabic language and good upbringing",
+"To learn trading",
+"To become warriors",
+"To escape the heat of Makkah"
+],
+"hi": [
+"ख़ालिस अरबी ज़बान और अच्छी तर्बियत के लिए",
+"कारोबार (तिज़ारत) सीखने के लिए",
+"जंगजू (सिपाही) बनने के लिए",
+"मक्का की गर्मी से बचने के लिए"
+],
+"ur": [
+"خالص عربی زبان اور اچھی تربیت کے لیے",
+"کاروبار (تجارت) سیکھنے کے لیے",
+"جنگجو (سپاہی) بننے کے لیے",
+"مکہ کی گرمی سے بچنے کے لیے"
+]
+},
+"correctIndex": 0
+},
+{
+"question": {
+"en": "Which tribe, famous for raising infants, did Hazrat Halima Sadia (Radi Allahu Ta'ala Anha) belong to?",
+"hi": "बच्चों की परवरिश के लिए मशहूर किस क़बीले से हज़रत हलीमा सादिया (रज़ियल्लाहु तआला अन्हा) ताल्लुक़ रखती थीं?",
+"ur": "بچوں کی پرورش کے لیے مشہور کس قبیلے سے حضرت حلیمہ سعدیہ (رضی اللہ عنہا) تعلق رکھتی تھیں؟"
+},
+"options": {
+"en": [
+"Tribe of Banu Hashim",
+"Tribe of Banu Saad",
+"Tribe of Quraish",
+"Tribe of Banu Bakr"
+],
+"hi": [
+"क़बीला बनू हाशिम",
+"क़बीला बनू साद",
+"क़बीला-ए-क़ुरैश",
+"क़बीला बनू बक्र"
+],
+"ur": [
+"قبیلہ بنو ہاشم",
+"قبیلہ بنو سعد",
+"قبیلہ قریش",
+"قبیلہ بنو بکر"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Why did Hazrat Halima Sadia fall behind the caravan on her way to Makkah?",
+"hi": "मक्का आते वक़्त हज़रत हलीमा सादिया क़ाफ़िले में सबसे पीछे क्यों रह गई थीं?",
+"ur": "مکہ آتے وقت حضرت حلیمہ سعدیہ قافلے میں سب سے پیچھے کیوں رہ گئی تھیں؟"
+},
+"options": {
+"en": [
+"She was very ill",
+"Her riding animal was very weak",
+"She lost her way",
+"She stopped to rest"
+],
+"hi": [
+"वह बहुत बीमार थीं",
+"उनकी सवारी बहुत कमज़ोर थी",
+"वह रास्ता भटक गई थीं",
+"वह आराम करने के लिए रुक गई थीं"
+],
+"ur": [
+"وہ بہت بیمار تھیں",
+"ان کی سواری بہت کمزور تھی",
+"وہ راستہ بھٹک گئی تھیں",
+"وہ آرام کرنے کے لیے رک گئی تھیں"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Why had the other women bypassed the Holy Prophet ﷺ?",
+"hi": "दूसरी औरतों ने हुज़ूर ﷺ को क्यों छोड़ दिया था?",
+"ur": "دوسری عورتوں نے حضور ﷺ کو کیوں چھوڑ دیا تھا؟"
+},
+"options": {
+"en": [
+"Because they wanted to adopt a girl",
+"Because they considered Him an orphan and hoped for better compensation elsewhere",
+"Because they were in a hurry",
+"Because they did not know Him"
+],
+"hi": [
+"क्योंकि उन्हें एक लड़की चाहिए थी",
+"क्योंकि उन्होंने हुज़ूर ﷺ को 'यतीम' समझा और ज़्यादा उजरत (पैसे) की उम्मीद की",
+"क्योंकि उन्हें जल्दी थी",
+"क्योंकि वे उन्हें जानती नहीं थीं"
+],
+"ur": [
+"کیونکہ انہیں ایک لڑکی چاہیے تھی",
+"کیونکہ انہوں نے حضور ﷺ کو 'یتیم' سمجھا اور زیادہ اجرت (پیسے) کی امید کی",
+"کیونکہ انہیں جلدی تھی",
+"کیونکہ وہ انہیں جانتی نہیں تھیں"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "What miracle happened to Hazrat Halima's weak riding animal on the return journey?",
+"hi": "वापसी के सफ़र में हज़रत हलीमा की कमज़ोर सवारी के साथ क्या मोजिज़ा हुआ?",
+"ur": "واپسی کے سفر میں حضرت حلیمہ کی کمزور سواری کے ساتھ کیا معجزہ ہوا؟"
+},
+"options": {
+"en": [
+"It refused to move",
+"By the Prophet's ﷺ blessing, it gained extraordinary strength and overtook the entire caravan",
+"It started speaking",
+"It changed its color to white"
+],
+"hi": [
+"उसने चलने से इंकार कर दिया",
+"हुज़ूर ﷺ की बरकत से वह इतनी ताक़तवर हो गई कि क़ाफ़िले में सबसे आगे निकल गई",
+"वह बोलने लगी",
+"उसका रंग सफ़ेद हो गया"
+],
+"ur": [
+"اس نے چلنے سے انکار کر دیا",
+"حضور ﷺ کی برکت سے وہ اتنی طاقتور ہو گئی کہ قافلے میں سب سے آگے نکل گئی",
+"وہ بولنے لگی",
+"اس کا رنگ سفید ہو گیا"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+  
+
+ "chapter16": [
+{
+"question": {
+"en": "What happened to the parched and barren fields of Hazrat Halima Sadia when the Prophet ﷺ arrived?",
+"hi": "हुज़ूर ﷺ के क़दम-ए-मुबारक पड़ते ही हज़रत हलीमा सादिया के घर की सूखी और वीरान खेतियों का क्या हुआ?",
+"ur": "حضور ﷺ کے قدم مبارک پڑتے ہی حضرت حلیمہ سعدیہ کے گھر کی سوکھی اور ویران کھیتیوں کا کیا ہوا؟"
+},
+"options": {
+"en": [
+"They remained dry",
+"They blossomed and became lush green",
+"They were destroyed",
+"They turned into a river"
+],
+"hi": [
+"वे सूखी ही रहीं",
+"वे लहलहा उठीं और हरी-भरी हो गईं",
+"वे तबाह हो गईं",
+"वे एक नदी में बदल गईं"
+],
+"ur": [
+"وہ سوکھی ہی رہیں",
+"وہ لہلہا اٹھیں اور ہری بھری ہو گئیں",
+"وہ تباہ ہو گئیں",
+"وہ ایک ندی میں بدل گئیں"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "What miracle occurred with Hazrat Halima's weak camel and goats?",
+"hi": "अल्लाह के हबीब ﷺ की बरकत से हज़रत हलीमा की कमज़ोर ऊँटनी और बकरियों के साथ क्या मोजिज़ा हुआ?",
+"ur": "اللہ کے حبیب ﷺ کی برکت سے حضرت حلیمہ کی کمزور اونٹنی اور بکریوں کے ساتھ کیا معجزہ ہوا؟"
+},
+"options": {
+"en": [
+"They ran away",
+"Their dried-up udders were miraculously filled with milk",
+"They became weak",
+"They stopped eating"
+],
+"hi": [
+"वे भाग गईं",
+"उनके सूखे हुए थन दूध से भर गए और वे कसरत से दूध देने लगीं",
+"वे कमज़ोर हो गईं",
+"उन्होंने खाना छोड़ दिया"
+],
+"ur": [
+"وہ بھاگ گئیں",
+"ان کے سوکھے ہوئے تھن دودھ سے بھر گئے اور وہ کثرت سے دودھ دینے لگیں",
+"وہ کمزور ہو گئیں",
+"انہوں نے کھانا چھوڑ دیا"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Despite the severe famine in the tribe of Banu Saad, whose household became exceptionally prosperous?",
+"hi": "क़बीला-ए-बनू साद में शदीद क़हत (सूखे) के बावजूद, हुज़ूर ﷺ के सदक़े किसका घर ख़ुशहाली से मालामाल हो गया?",
+"ur": "قبیلہ بنو سعد میں شدید قحط (سوکھے) کے باوجود، حضور ﷺ کے صدقے کس کا گھر خوشحالی سے مالامال ہو گیا؟"
+},
+"options": {
+"en": [
+"The entire tribe's household",
+"Only Hazrat Halima's household",
+"The chief's household",
+"No one's household"
+],
+"hi": [
+"पूरे क़बीले का घर",
+"सिर्फ़ हज़रत हलीमा का घर",
+"क़बीले के सरदार का घर",
+"किसी का घर नहीं"
+],
+"ur": [
+"پورے قبیلے کا گھر",
+"صرف حضرت حلیمہ کا گھر",
+"قبیلے کے سردار کا گھر",
+"کسی کا گھر نہیں"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "How did the Prophet ﷺ demonstrate justice (Adl) even in his infancy regarding drinking milk?",
+"hi": "बचपन ही से हुज़ूर ﷺ के अद्ल-ओ-इंसाफ़ का क्या आलम था?",
+"ur": "بچپن ہی سے حضور ﷺ کے عدل و انصاف کا کیا عالم تھا؟"
+},
+"options": {
+"en": [
+"He drank from both sides",
+"He always drank from one side and left the other for his foster-brother",
+"He refused to drink milk",
+"He asked for more milk"
+],
+"hi": [
+"आप दोनों तरफ़ का दूध पीते थे",
+"आप हमेशा एक ही तरफ़ का दूध नोश फ़रमाते और दूसरी तरफ़ अपने रिज़ाई भाई के लिए छोड़ देते",
+"आप दूध पीने से इंकार कर देते",
+"आप और दूध मांगते"
+],
+"ur": [
+"آپ دونوں طرف کا دودھ پیتے تھے",
+"آپ ہمیشہ ایک ہی طرف کا دودھ نوش فرماتے اور دوسری طرف اپنے رضاعی بھائی کے لیے چھوڑ دیتے",
+"آپ دودھ پینے سے انکار کر دیتے",
+"آپ اور دودھ مانگتے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Unlike ordinary children, how was the physical growth (Nashw-o-Numa) of the Prophet ﷺ?",
+"hi": "आम बच्चों के ख़िलाफ़, हुज़ूर ﷺ की नश्व-ओ-नुमा (परवरिश) कैसी थी?",
+"ur": "عام بچوں کے خلاف، حضور ﷺ کی نشو و نما (پرورش) کیسی تھی؟"
+},
+"options": {
+"en": [
+"It was very slow",
+"It was remarkably swift and He appeared uniquely radiant and healthy",
+"It was the same as ordinary children",
+"He remained weak"
+],
+"hi": [
+"वह बहुत धीमी थी",
+"वह बहुत तेज़ी से हुई और आप बेमिसाल नूरानी और सेहतमंद नज़र आते थे",
+"वह आम बच्चों जैसी ही थी",
+"आप कमज़ोर ही रहे"
+],
+"ur": [
+"وہ بہت دھیمی تھی",
+"وہ بہت تیزی سے ہوئی اور آپ بے مثال نورانی اور صحت مند نظر آتے تھے",
+"وہ عام بچوں جیسی ہی تھی",
+"آپ کمزور ہی رہے"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+
+  
+"chapter17": [
+{
+"question": {
+"en": "At what age of the Holy Prophet ﷺ did the miracle of 'Shaq-e-Sadr' (splitting of the chest) occur?",
+"hi": "हुज़ूर ﷺ की किस उम्र-ए-मुबारक में 'शक़-ए-सद्र' (सीना-ए-मुबारक चाक होने) का मोजिज़ा पेश आया?",
+"ur": "حضور ﷺ کی کس عمرِ مبارک میں 'شقِ صدر' (سینۂ مبارک چاک ہونے) کا معجزہ پیش آیا؟"
+},
+"options": {
+"en": [
+"About 2 years old",
+"About 4 years old",
+"About 6 years old",
+"About 10 years old"
+],
+"hi": [
+"तक़रीबन 2 साल की उम्र में",
+"तक़रीबन 4 साल की उम्र में",
+"तक़रीबन 6 साल की उम्र में",
+"तक़रीबन 10 साल की उम्र में"
+],
+"ur": [
+"تقریباً 2 سال کی عمر میں",
+"تقریباً 4 سال کی عمر میں",
+"تقریباً 6 سال کی عمر میں",
+"تقریباً 10 سال کی عمر میں"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "With what holy water did Archangel Jibrail (A.S) wash the sacred heart of the Prophet ﷺ?",
+"hi": "हज़रत जिब्रील (अलैहिस्सलाम) ने हुज़ूर ﷺ के मुक़द्दस दिल को किस पानी से ग़ुस्ल (धोया) दिया?",
+"ur": "حضرت جبرئیل (علیہ السلام) نے حضور ﷺ کے مقدس دل کو کس پانی سے غسل (دھویا) دیا؟"
+},
+"options": {
+"en": [
+"Rain water",
+"River water",
+"The holy water of 'Zamzam' (Aab-e-Zamzam)",
+"Spring water"
+],
+"hi": [
+"बारिश के पानी से",
+"नदी के पानी से",
+"'आब-ए-ज़मज़म' (ज़मज़म के मुक़द्दस पानी) से",
+"चश्मे के पानी से"
+],
+"ur": [
+"بارش کے پانی سے",
+"ندی کے پانی سے",
+"'آبِ زمزم' (زمزم کے مقدس پانی) سے",
+"چشمے کے پانی سے"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What was the portion removed from the blessed heart called in the Hadith, in order to protect the Prophet ﷺ from Satanic influences?",
+"hi": "हदीस शरीफ़ के मुताबिक़, दिल-ए-मुबारक से कौन सा हिस्सा अलग किया गया ताकि अल्लाह के महबूब ﷺ वसवसों और शैतानी असरात से महफ़ूज़ रहें?",
+"ur": "حدیث شریف کے مطابق، دلِ مبارک سے کون سا حصہ الگ کیا گیا تاکہ اللہ کے محبوب ﷺ وسوسوں اور شیطانی اثرات سے محفوظ رہیں؟"
+},
+"options": {
+"en": [
+"Hazz-un-Nafs",
+"Hazz-ul-Malaikah",
+"Hazz-ush-Shaitan (The portion associated with Satan)",
+"Hazz-ud-Dunya"
+],
+"hi": [
+"हज़्ज़ुन्नफ़्स",
+"हज़्ज़ुलमलायका",
+"हज़्ज़ुश्शैतान (शैतान का हिस्सा)",
+"हज़्ज़ुद्दुनिया"
+],
+"ur": [
+"حَظُّ النَّفْس",
+"حَظُّ الْمَلَائِكَة",
+"حَظُّ الشَّیطان (شیطان کا حصہ)",
+"حَظُّ الدُّنْیَا"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "With what did Hazrat Jibrail (A.S) completely fill the sacred heart before placing it back?",
+"hi": "हज़रत जिब्रील (अलैहिस्सलाम) ने मुक़द्दस दिल को वापस अपनी जगह रखने से पहले किस दौलत से पूरी तरह भर दिया?",
+"ur": "حضرت جبرئیل (علیہ السلام) نے مقدس دل کو واپس اپنی جگہ رکھنے سے پہلے کس دولت سے پوری طرح بھر دیا؟"
+},
+"options": {
+"en": [
+"Wealth and gold",
+"'Noor' (divine light), knowledge, and 'Hikmat' (wisdom)",
+"Courage and strength",
+"Patience and peace"
+],
+"hi": [
+"दौलत और सोने से",
+"'नूर', 'इल्म' और 'हिकमत' की दौलत से",
+"हिम्मत और ताक़त से",
+"सब्र और सुकून से"
+],
+"ur": [
+"دولت اور سونے سے",
+"'نور'، 'علم' اور 'حکمت' کی دولت سے",
+"ہمت اور طاقت سے",
+"صبر اور سکون سے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "What did Hazrat Halima Sadia do out of concern for the Prophet's ﷺ safety after witnessing this extraordinary incident?",
+"hi": "इस हैरतअंगेज़ वाक़िए को देखकर फ़िक़्रमंद होने के बाद, हज़रत हलीमा सादिया ने हुज़ूर ﷺ की हिफ़ाज़त के लिए क्या किया?",
+"ur": "اس حیرت انگیز واقعے کو دیکھ کر فکرمند ہونے کے بعد، حضرت حلیمہ سعدیہ نے حضور ﷺ کی حفاظت کے لیے کیا کیا؟"
+},
+"options": {
+"en": [
+"She kept Him hidden inside her house",
+"She took Him to a different tribe",
+"She brought Him back to Makkah Muazzamah to His respected mother",
+"She asked the local leaders for protection"
+],
+"hi": [
+"उन्होंने आपको अपने घर में छुपा कर रखा",
+"वह आपको किसी दूसरे क़बीले में ले गईं",
+"वह आपको मक्का मुअज़्ज़मा आपकी वालिदा के पास वापस ले आईं",
+"उन्होंने मक़ामी सरदारों से हिफ़ाज़त की गुज़ारिश की"
+],
+"ur": [
+"انہوں نے آپ کو اپنے گھر میں چھپا کر رکھا",
+"وہ آپ کو کسی دوسرے قبیلے میں لے گئیں",
+"وہ آپ کو مکہ معظمہ آپ کی والدہ کے پاس واپس لے آئیں",
+"انہوں نے مقامی سرداروں سے حفاظت کی گزارش کی"
+]
+},
+"correctIndex": 2
+}
+]
+
+,
+
+  
+"chapter18": [
+{
+"question": {
+"en": "At what blessed age did the Holy Prophet ﷺ go to Madinah Munawwarah with his mother?",
+"hi": "हुज़ूर ﷺ की उम्र-ए-मुबारक क्या थी जब आपकी वालिदा माजिदा आपको मदीना मुनव्वरा ले गईं?",
+"ur": "حضور ﷺ کی عمرِ مبارک کیا تھی جب آپ کی والدہ ماجدہ آپ کو مدینہ منورہ لے گئیں؟"
+},
+"options": {
+"en": [
+"About 4 years",
+"About 6 years",
+"About 8 years",
+"About 10 years"
+],
+"hi": [
+"तक़रीबन 4 साल",
+"तक़रीबन 6 साल",
+"तक़रीबन 8 साल",
+"तक़रीबन 10 साल"
+],
+"ur": [
+"تقریباً 4 سال",
+"تقریباً 6 سال",
+"تقریباً 8 سال",
+"تقریباً 10 سال"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Why did Hazrat Sayyidah Aminah (R.A) take the Holy Prophet ﷺ to Madinah Munawwarah?",
+"hi": "हज़रत सय्यिदा आमिना (रज़ियल्लाहु तआला अन्हा) हुज़ूर ﷺ को मदीना मुनव्वरा क्यों ले गईं?",
+"ur": "حضرت سیدہ آمنہ (رضی اللہ عنہا) حضور ﷺ کو مدینہ منورہ کیوں لے گئیں؟"
+},
+"options": {
+"en": [
+"To trade goods",
+"To meet maternal relatives",
+"To migrate",
+"To escape a famine"
+],
+"hi": [
+"तिज़ारत (व्यापार) के लिए",
+"ननिहाल के रिश्तेदारों से मिलने के लिए",
+"हिजरत करने के लिए",
+"क़हत (सूखे) से बचने के लिए"
+],
+"ur": [
+"تجارت (کاروبار) کے لیے",
+"نھیال کے رشتہ داروں سے ملنے کے لیے",
+"ہجرت کرنے کے لیے",
+"قحط (سوکھے) سے بچنے کے لیے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "At which place did Hazrat Sayyidah Aminah (R.A) fall ill and pass away during the return journey?",
+"hi": "वापसी के सफ़र में किस मुक़ाम पर हज़रत सय्यिदा आमिना (रज़ियल्लाहु तआला अन्हा) बीमार हुईं और उनका विसाल हुआ?",
+"ur": "واپسی کے سفر میں کس مقام پر حضرت سیدہ آمنہ (رضی اللہ عنہا) بیمار ہوئیں اور ان کا وصال ہوا؟"
+},
+"options": {
+"en": [
+"Taif",
+"Badr",
+"Abwa",
+"Uhud"
+],
+"hi": [
+"ताइफ़",
+"बद्र",
+"अबवा",
+"उहुद"
+],
+"ur": [
+"طائف",
+"بدر",
+"ابواء",
+"احد"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What is the current location of the sacred grave of Hazrat Sayyidah Aminah (R.A) according to the lesson?",
+"hi": "सबक़ के मुताबिक़, हज़रत सय्यिदा आमिना (रज़ियल्लाहु तआला अन्हा) की मुक़द्दस क़ब्र-ए-अनवर आज भी कहाँ मौजूद है?",
+"ur": "سبق کے مطابق، حضرت سیدہ آمنہ (رضی اللہ عنہا) کی مقدس قبرِ انور آج بھی کہاں موجود ہے؟"
+},
+"options": {
+"en": [
+"Makkah",
+"Abwa",
+"Madinah",
+"Taif"
+],
+"hi": [
+"मक्का में",
+"अबवा में",
+"मदीना में",
+"ताइफ़ में"
+],
+"ur": [
+"مکہ میں",
+"ابواء میں",
+"مدینہ میں",
+"طائف میں"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Who comforted the Holy Prophet ﷺ and brought him back to Makkah Muazzamah after his mother's passing?",
+"hi": "वालिदा के विसाल के बाद हुज़ूर ﷺ को किसने सँभाला और मक्का मुअज़्ज़मा वापस लेकर आईं?",
+"ur": "والدہ کے وصال کے بعد حضور ﷺ کو کس نے سنبھالا اور مکہ معظمہ واپس لے کر آئیں؟"
+},
+"options": {
+"en": [
+"Hazrat Halima Sadia",
+"Hazrat Umm-e-Aiman",
+"Hazrat Khadijah",
+"Hazrat Fatima"
+],
+"hi": [
+"हज़रत हलीमा सादिया",
+"हज़रत उम्मे ऐमन",
+"हज़रत ख़दीजा",
+"हज़रत फ़ातिमा"
+],
+"ur": [
+"حضرت حلیمہ سعدیہ",
+"حضرت امِ ایمن",
+"حضرت خدیجہ",
+"حضرت فاطمہ"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+
+
+"chapter19": [
+{
+"question": {
+"en": "Who took over the responsibility of the Holy Prophet's ﷺ upbringing after the passing of his respected mother?",
+"hi": "वालिदा माजिदा के विसाल के बाद हुज़ूर ﷺ की परवरिश की ज़िम्मेदारी किसने सँभाली?",
+"ur": "والدہ ماجدہ کے وصال کے بعد حضور ﷺ کی پرورش کی ذمہ داری کس نے سنبھالی؟"
+},
+"options": {
+"en": [
+"Hazrat Abu Talib",
+"Hazrat Abdul Muttalib",
+"Hazrat Hamza",
+"Hazrat Abbas"
+],
+"hi": [
+"हज़रत अबू तालिब ने",
+"हज़रत अब्दुल मुत्तलिब ने",
+"हज़रत हमज़ा ने",
+"हज़रत अब्बास ने"
+],
+"ur": [
+"حضرت ابو طالب نے",
+"حضرت عبدالمطلب نے",
+"حضرت حمزہ نے",
+"حضرت عباس نے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "How did Hazrat Abdul Muttalib treat the Holy Prophet ﷺ compared to his own children?",
+"hi": "हज़रत अब्दुल मुत्तलिब हुज़ूर ﷺ के साथ अपनी सगी औलाद के मुक़ाबले कैसा सुलूक करते थे?",
+"ur": "حضرت عبدالمطلب حضور ﷺ کے ساتھ اپنی سگی اولاد کے مقابلے کیسا سلوک کرتے تھے؟"
+},
+"options": {
+"en": [
+"He treated them all equally",
+"He pampered the Prophet ﷺ even more than his own children",
+"He sent him away to be raised by others",
+"He loved his own sons more"
+],
+"hi": [
+"वह सबके साथ बराबर सुलूक करते थे",
+"वह अपनी सगी औलाद से भी ज़्यादा हुज़ूर ﷺ का लाड उठाते थे",
+"उन्होंने हुज़ूर ﷺ को परवरिश के लिए दूसरों के पास भेज दिया",
+"वह अपने बेटों से ज़्यादा महब्बत करते थे"
+],
+"ur": [
+"وہ سب کے ساتھ برابر سلوک کرتے تھے",
+"وہ اپنی سگی اولاد سے بھی زیادہ حضور ﷺ کا لاڈ اٹھاتے تھے",
+"انہوں نے حضور ﷺ کو پرورش کے لیے دوسروں کے پاس بھیج دیا",
+"وہ اپنے بیٹوں سے زیادہ محبت کرتے تھے"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "Where was the special seating arrangement made for Hazrat Abdul Muttalib?",
+"hi": "हज़रत अब्दुल मुत्तलिब के लिए ख़ुसूसी नशिस्त (बैठक) कहाँ बिछाई जाती थी?",
+"ur": "حضرت عبدالمطلب کے لیے خصوصی نشست (بیٹھک) کہاں بچھائی جاتی تھی؟"
+},
+"options": {
+"en": [
+"Near the Holy Kaaba",
+"In the marketplace",
+"Inside his house",
+"In the mountains"
+],
+"hi": [
+"खाना-ए-काबा शरीफ़ के पास",
+"बाज़ार में",
+"उनके घर के अंदर",
+"पहाड़ों में"
+],
+"ur": [
+"خانۂ کعبہ کے پاس",
+"بازار میں",
+"ان کے گھر کے اندر",
+"پہاڑوں میں"
+]
+},
+"correctIndex": 0
+},
+{
+"question": {
+"en": "What did Hazrat Abdul Muttalib predict about the Holy Prophet ﷺ upon seeing his radiant glow?",
+"hi": "हुज़ूर ﷺ के चेहरे की चमक और बरकतों को देखकर हज़रत अब्दुल मुत्तलिब क्या फ़रमाते थे?",
+"ur": "حضور ﷺ کے چہرے کی چمک اور برکات کو دیکھ کر حضرت عبدالمطلب کیا فرماتے تھے؟"
+},
+"options": {
+"en": [
+"He will become a great warrior",
+"He will become the richest man in Makkah",
+"He will attain an exceptionally high status in the world",
+"He will migrate to another land"
+],
+"hi": [
+"यह एक अज़ीम जंगजू (योद्धा) बनेगा",
+"यह मक्का का सबसे अमीर इंसान बनेगा",
+"यह दुनिया में बहुत बड़ा मर्तबा पाएगा",
+"यह दूसरे मुल्क हिजरत करेगा"
+],
+"ur": [
+"یہ ایک عظیم جنگجو بنے گا",
+"یہ مکہ کا سب سے امیر انسان بنے گا",
+"یہ دنیا میں بہت بڑا مرتبہ پائے گا",
+"یہ دوسرے ملک ہجرت کرے گا"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What was Hazrat Abdul Muttalib's special practice during meal times regarding the Holy Prophet ﷺ?",
+"hi": "खाना खाने के वक़्त हुज़ूर ﷺ के हवाले से हज़रत अब्दुल मुत्तलिब का क्या मामूल (तरीक़ा) था?",
+"ur": "کھانا کھانے کے وقت حضور ﷺ کے حوالے سے حضرت عبدالمطلب کا کیا معمول تھا؟"
+},
+"options": {
+"en": [
+"He ate alone",
+"He would never begin eating until the Holy Prophet ﷺ was present",
+"He ate first and fed others later",
+"He did not eat at home"
+],
+"hi": [
+"वह अकेले खाना खाते थे",
+"जब तक हुज़ूर ﷺ दस्तरख़्वान पर तशरीफ़ न लाते, वह खाना शुरू नहीं करते थे",
+"वह पहले खाते और दूसरों को बाद में खिलाते थे",
+"वह घर पर खाना नहीं खाते थे"
+],
+"ur": [
+"وہ اکیلے کھانا کھاتے تھے",
+"جب تک حضور ﷺ دسترخوان پر تشریف نہ لاتے، وہ کھانا شروع نہیں کرتے تھے",
+"وہ پہلے کھاتے اور دوسروں کو بعد میں کھلاتے تھے",
+"وہ گھر پر کھانا نہیں کھاتے تھے"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+
+
+"chapter20": [
+{
+"question": {
+"en": "At what blessed age was the Holy Prophet ﷺ when his grandfather Hazrat Abdul Muttalib passed away?",
+"hi": "जब हज़रत अब्दुल मुत्तलिब का विसाल हुआ, तब हुज़ूर ﷺ की उम्र-ए-मुबारक तक़रीबन क्या थी?",
+"ur": "جب حضرت عبدالمطلب کا وصال ہوا، تب حضور ﷺ کی عمرِ مبارک تقریباً کیا تھی؟"
+},
+"options": {
+"en": [
+"About 6 years",
+"About 8 years",
+"About 10 years",
+"About 12 years"
+],
+"hi": [
+"तक़रीबन 6 साल",
+"तक़रीबन 8 साल",
+"तक़रीबन 10 साल",
+"तक़रीबन 12 साल"
+],
+"ur": [
+"تقریباً 6 سال",
+"تقریباً 8 سال",
+"تقریباً 10 سال",
+"تقریباً 12 سال"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "To whom did Hazrat Abdul Muttalib entrust the care of the Holy Prophet ﷺ before his passing?",
+"hi": "अपने विसाल से पहले दादा जान ने हुज़ूर ﷺ की कफ़ालत (परवरिश) किसे सौंपी?",
+"ur": "اپنے وصال سے پہلے دادا جان نے حضور ﷺ کی کفالت کسے سونپی؟"
+},
+"options": {
+"en": [
+"Hazrat Hamza",
+"Hazrat Abbas",
+"Hazrat Abu Talib",
+"Hazrat Abu Lahab"
+],
+"hi": [
+"हज़रत हमज़ा को",
+"हज़रत अब्बास को",
+"हज़रत अबू तालिब को",
+"हज़रत अबू लहब को"
+],
+"ur": [
+"حضرت حمزہ کو",
+"حضرت عباس کو",
+"حضرت ابو طالب کو",
+"حضرت ابو لہب کو"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What did Hazrat Abdul Muttalib specifically state in his will regarding the Holy Prophet ﷺ?",
+"hi": "हज़रत अब्दुल मुत्तलिब ने हज़रत अबू तालिब को वसीयत करते हुए हुज़ूर ﷺ के बारे में क्या फ़रमाया?",
+"ur": "حضرت عبدالمطلب نے حضرت ابو طالب کو وصیت کرتے ہوئے حضور ﷺ کے بارے میں کیا فرمایا؟"
+},
+"options": {
+"en": [
+"Send him away for business",
+"Take care of him more than your own life",
+"Let him live independently",
+"Teach him how to fight"
+],
+"hi": [
+"इन्हें तिज़ारत के लिए भेज देना",
+"अपनी जान से बढ़कर इनका ख़्याल रखना और इन्हें कभी अकेला मत छोड़ना",
+"इन्हें आज़ाद छोड़ देना",
+"इन्हें जंगी हुनर सिखाना"
+],
+"ur": [
+"انہیں تجارت کے لیے بھیج دینا",
+"اپنی جان سے بڑھ کر ان کا خیال رکھنا اور انہیں کبھی اکیلا مت چھوڑنا",
+"انہیں آزاد چھوڑ دینا",
+"انہیں جنگی ہنر سکھانا"
+]
+},
+"correctIndex": 1
+},
+{
+"question": {
+"en": "How did Hazrat Abu Talib treat the Holy Prophet ﷺ after taking over his guardianship?",
+"hi": "कफ़ालत सँभालने के बाद हज़रत अबू तालिब ने हुज़ूर ﷺ के साथ कैसा सुलूक किया?",
+"ur": "کفالت سنبھالنے کے بعد حضرت ابو طالب نے حضور ﷺ کے ساتھ کیسا سلوک کیا؟"
+},
+"options": {
+"en": [
+"He treated him like an ordinary child",
+"He sent him back to Halima Sadia",
+"He cherished and pampered him more than his own children",
+"He entrusted him to another relative"
+],
+"hi": [
+"उन्होंने आम बच्चों जैसा सुलूक किया",
+"उन्होंने वापस हज़रत हलीमा सादिया के पास भेज दिया",
+"उन्होंने अपनी सगी औलाद से भी ज़्यादा अज़ीज़ और लाडला रखा",
+"उन्होंने किसी और रिश्तेदार को सौंप दिया"
+],
+"ur": [
+"انہوں نے عام بچوں جیسا سلوک کیا",
+"انہوں نے واپس حضرت حلیمہ سعدیہ کے پاس بھیج دیا",
+"انہوں نے اپنی سگی اولاد سے بھی زیادہ عزیز اور لاڈلا رکھا",
+"انہوں نے کسی اور رشتہ دار کو سونپ دیا"
+]
+},
+"correctIndex": 2
+},
+{
+"question": {
+"en": "What remarkable blessing occurred in Hazrat Abu Talib's household due to the Holy Prophet ﷺ?",
+"hi": "हुज़ूर ﷺ के क़दम-ए-मुबारक की बरकत से हज़रत अबू तालिब के घर में क्या बरकत ज़ाहिर हुई?",
+"ur": "حضور ﷺ کے قدمِ مبارک کی برکت سے حضرت ابو طالب کے گھر میں کیا برکت ظاہر ہوئی؟"
+},
+"options": {
+"en": [
+"They discovered a well of water",
+"A small amount of food would suffice for the entire family",
+"They became the wealthiest in Makkah",
+"Their house became larger"
+],
+"hi": [
+"उन्हें पानी का एक कुआँ मिल गया",
+"थोड़ा सा खाना भी पूरे ख़ानदान के लिए काफ़ी हो जाता था",
+"वह मक्का के सबसे अमीर लोग बन गए",
+"उनका घर बड़ा हो गया"
+],
+"ur": [
+"انہیں پانی کا ایک کنواں مل گیا",
+"تھوڑا سا کھانا بھی پورے خاندان کے لیے کافی ہو جاتا تھا",
+"وہ مکہ کے سب سے امیر لوگ بن گئے",
+"ان کا گھر بڑا ہو گیا"
+]
+},
+"correctIndex": 1
+}
+]
+
+,
+
+
+"chapter21": [
+  {
+    "question": {
+      "en": "At approximately what blessed age did the Holy Prophet ﷺ undertake His first commercial journey to Syria with Hazrat Abu Talib?",
+      "hi": "हुज़ूर पुरनूर ﷺ ने हज़रत अबू तालिब के साथ मुल्के-शाम का पहला तिजारती सफ़र तक़रीबन किस उम्र-ए-मुबारक में फ़रमाया?",
+      "ur": "حضور پرنور ﷺ نے حضرت ابو طالب کے ساتھ ملکِ شام کا پہلا تجارتی سفر تقریباً کس عمرِ مبارک میں فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "Approximately 10 years",
+        "Approximately 12 years",
+        "Approximately 15 years",
+        "Approximately 18 years"
+      ],
+      "hi": [
+        "तक़रीबन 10 साल",
+        "तक़रीबन 12 साल",
+        "तक़रीबन 15 साल",
+        "तक़रीबन 18 साल"
+      ],
+      "ur": [
+        "تقریباً 10 سال",
+        "تقریباً 12 سال",
+        "تقریباً 15 سال",
+        "تقریباً 18 سال"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Why did Hazrat Abu Talib take the Holy Prophet ﷺ with him on the journey to Syria?",
+      "hi": "हज़रत अबू तालिब हुज़ूर पुरनूर ﷺ को मुल्के-शाम के सफ़र में अपने साथ क्यों ले गए?",
+      "ur": "حضرت ابو طالب حضور پرنور ﷺ کو ملکِ شام کے سفر میں اپنے ساتھ کیوں لے گئے؟"
+    },
+    "options": {
+      "en": [
+        "To teach Him trade",
+        "Because both deeply loved each other and did not wish to be separated",
+        "To protect the caravan",
+        "To meet the rulers of Syria"
+      ],
+      "hi": [
+        "तिजारत सिखाने के लिए",
+        "क्योंकि दोनों एक-दूसरे से बेपनाह मुहब्बत करते थे और जुदा नहीं होना चाहते थे",
+        "क़ाफ़िले की हिफ़ाज़त के लिए",
+        "शाम के हुक्मरानों से मिलने के लिए"
+      ],
+      "ur": [
+        "تجارت سکھانے کے لیے",
+        "کیونکہ دونوں ایک دوسرے سے بے پناہ محبت کرتے تھے اور جدا نہیں ہونا چاہتے تھے",
+        "قافلے کی حفاظت کے لیے",
+        "شام کے حکمرانوں سے ملنے کے لیے"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "At which place did the trade caravan halt during the journey to Syria?",
+      "hi": "मुल्के-शाम के सफ़र के दौरान तिजारती क़ाफ़िला किस मक़ाम पर ठहरा?",
+      "ur": "ملکِ شام کے سفر کے دوران تجارتی قافلہ کس مقام پر ٹھہرا؟"
+    },
+    "options": {
+      "en": [
+        "Makkah",
+        "Busra",
+        "Madinah",
+        "Ta'if"
+      ],
+      "hi": [
+        "मक्का मुकर्रमा",
+        "बुसरा",
+        "मदीना मुनव्वरा",
+        "ताइफ़"
+      ],
+      "ur": [
+        "مکہ مکرمہ",
+        "بصریٰ",
+        "مدینہ منورہ",
+        "طائف"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Who was Bahira, whom the caravan encountered at Busra?",
+      "hi": "बुसरा में रहने वाले बुहैरा कौन थे?",
+      "ur": "بصریٰ میں رہنے والے بحیرا کون تھے؟"
+    },
+    "options": {
+      "en": [
+        "A governor of Syria",
+        "A Christian monk and scholar of the Torah and the Gospel",
+        "A famous merchant",
+        "A military commander"
+      ],
+      "hi": [
+        "शाम के एक हाकिम",
+        "तौरात और इंजील के आलिम एक ईसाई राहिब",
+        "एक मशहूर ताजिर",
+        "एक फ़ौजी सरदार"
+      ],
+      "ur": [
+        "شام کے ایک حاکم",
+        "تورات و انجیل کے عالم ایک عیسائی راہب",
+        "ایک مشہور تاجر",
+        "ایک فوجی سپہ سالار"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What extraordinary sign did Bahira witness regarding the Holy Prophet ﷺ?",
+      "hi": "बुहैरा राहिब ने हुज़ूर पुरनूर ﷺ के बारे में कौन-सी अजीम निशानी देखी?",
+      "ur": "بحیرا راہب نے حضور پرنور ﷺ کے بارے میں کون سی عظیم نشانی دیکھی؟"
+    },
+    "options": {
+      "en": [
+        "A bright star remained above Him",
+        "A patch of cloud shaded only the blessed head of the Holy Prophet ﷺ",
+        "Birds constantly flew around Him",
+        "A spring of water flowed beside Him"
+      ],
+      "hi": [
+        "एक चमकता सितारा हमेशा ऊपर था",
+        "एक बादल का टुकड़ा सिर्फ़ हुज़ूर ﷺ के सर-ए-मुबारक पर साया किए हुए था",
+        "परिंदे हमेशा आपके चारों ओर उड़ते रहे",
+        "आप ﷺ के पास पानी का चश्मा जारी हो गया"
+      ],
+      "ur": [
+        "ایک چمکتا ہوا ستارہ ہمیشہ اوپر تھا",
+        "بادل کا ایک ٹکڑا صرف حضور ﷺ کے سرِ مبارک پر سایہ کیے ہوئے تھا",
+        "پرندے ہمیشہ آپ کے گرد اڑتے رہے",
+        "آپ ﷺ کے قریب پانی کا چشمہ جاری ہو گیا"
+      ]
+    },
+    "correctIndex": 1
+  }
+]
+
+,
+
+
+"chapter22": [
+  {
+    "question": {
+      "en": "After witnessing the miracles, what did Buhaira the monk do?",
+      "hi": "मोअजिज़ात देखने के बाद बुहैरा राहिब ने क्या किया?",
+      "ur": "معجزات دیکھنے کے بعد بحیرا راہب نے کیا کیا؟"
+    },
+    "options": {
+      "en": [
+        "He immediately returned to Syria",
+        "He invited the caravan to a feast and closely observed the Holy Prophet ﷺ",
+        "He left his monastery and joined the caravan",
+        "He sent a message to the rulers of Syria"
+      ],
+      "hi": [
+        "वह फ़ौरन शाम लौट गया",
+        "उसने क़ाफ़िले वालों की दावत की और हुज़ूर ﷺ के मुबारक चेहरे के अनवार को ग़ौर से देखा",
+        "वह अपनी इबादतगाह छोड़कर क़ाफ़िले में शामिल हो गया",
+        "उसने शाम के हुक्मरानों को पैग़ाम भेजा"
+      ],
+      "ur": [
+        "وہ فوراً شام واپس چلا گیا",
+        "اس نے قافلے والوں کی دعوت کی اور حضور ﷺ کے مبارک چہرے کے انوار کو غور سے دیکھا",
+        "وہ اپنی عبادت گاہ چھوڑ کر قافلے میں شامل ہو گیا",
+        "اس نے شام کے حکمرانوں کو پیغام بھیجا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Which blessed sign did Buhaira observe between the shoulders of the Holy Prophet ﷺ?",
+      "hi": "बुहैरा राहिब ने हुज़ूर पुरनूर ﷺ के दोनों कंधों के बीच कौन-सी मुबारक निशानी देखी?",
+      "ur": "بحیرا راہب نے حضور پرنور ﷺ کے دونوں کندھوں کے درمیان کون سی مبارک نشانی دیکھی؟"
+    },
+    "options": {
+      "en": [
+        "A shining birthmark",
+        "The blessed Seal of Prophethood",
+        "A mark of leadership",
+        "A sign of kingship"
+      ],
+      "hi": [
+        "एक चमकता हुआ जन्म-निशान",
+        "मोहर-ए-नुबुव्वत की मुबारक निशानी",
+        "सरदारी की निशानी",
+        "बादशाहत की निशानी"
+      ],
+      "ur": [
+        "ایک چمکتا ہوا پیدائشی نشان",
+        "مہرِ نبوت کی مبارک نشانی",
+        "سرداری کی نشانی",
+        "بادشاہت کی نشانی"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What did Buhaira say to Hazrat Abu Talib about the Holy Prophet ﷺ?",
+      "hi": "बुहैरा राहिब ने हज़रत अबू तालिब से हुज़ूर ﷺ के बारे में क्या फ़रमाया?",
+      "ur": "بحیرا راہب نے حضرت ابو طالب سے حضور ﷺ کے بارے میں کیا فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "He will become a great merchant",
+        "He is the Final Prophet of the Lord of all worlds; take great care of Him",
+        "He will become the chief of Quraysh",
+        "He should remain in Syria"
+      ],
+      "hi": [
+        "यह एक बड़े ताजिर बनेंगे",
+        "यह रब्बुल आलमीन के आख़िरी नबी हैं, इनका बहुत ख़्याल रखें",
+        "यह क़ुरैश के सरदार बनेंगे",
+        "इन्हें शाम में ही रहने दें"
+      ],
+      "ur": [
+        "یہ ایک بڑے تاجر بنیں گے",
+        "یہ رب العالمین کے آخری نبی ہیں، ان کا بہت خیال رکھیں",
+        "یہ قریش کے سردار بنیں گے",
+        "انہیں شام ہی میں رہنے دیں"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Why did Buhaira advise Hazrat Abu Talib to protect the Holy Prophet ﷺ?",
+      "hi": "बुहैरा राहिब ने हज़रत अबू तालिब को हुज़ूर ﷺ की हिफ़ाज़त करने की ताकीद क्यों की?",
+      "ur": "بحیرا راہب نے حضرت ابو طالب کو حضور ﷺ کی حفاظت کی تاکید کیوں کی؟"
+    },
+    "options": {
+      "en": [
+        "Because the journey was very long",
+        "Because some people might recognize the signs and try to harm Him",
+        "Because the weather in Syria was harsh",
+        "Because the caravan was too small"
+      ],
+      "hi": [
+        "क्योंकि सफ़र बहुत लंबा था",
+        "क्योंकि कुछ लोग इन निशानियों को पहचानकर नुकसान पहुँचाने की कोशिश कर सकते थे",
+        "क्योंकि शाम का मौसम सख़्त था",
+        "क्योंकि क़ाफ़िला बहुत छोटा था"
+      ],
+      "ur": [
+        "کیونکہ سفر بہت طویل تھا",
+        "کیونکہ بعض لوگ ان نشانیوں کو پہچان کر نقصان پہنچانے کی کوشش کر سکتے تھے",
+        "کیونکہ شام کا موسم سخت تھا",
+        "کیونکہ قافلہ بہت چھوٹا تھا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What did Hazrat Abu Talib do after hearing Buhaira's warning?",
+      "hi": "बुहैरा राहिब की बात सुनने के बाद हज़रत अबू तालिब ने क्या किया?",
+      "ur": "بحیرا راہب کی بات سننے کے بعد حضرت ابو طالب نے کیا کیا؟"
+    },
+    "options": {
+      "en": [
+        "He continued the trade journey",
+        "He sold the trade goods there and returned to Makkah with the Holy Prophet ﷺ",
+        "He stayed in Busra for several months",
+        "He sent the Holy Prophet ﷺ ahead with the caravan"
+      ],
+      "hi": [
+        "उन्होंने तिजारती सफ़र जारी रखा",
+        "उन्होंने माल-ए-तिजारत वहीं बेच दिया और हुज़ूर ﷺ को लेकर मक्का मुअज़्ज़मा लौट आए",
+        "वह कई महीने बुसरा में ठहरे रहे",
+        "उन्होंने हुज़ूर ﷺ को क़ाफ़िले के साथ आगे भेज दिया"
+      ],
+      "ur": [
+        "انہوں نے تجارتی سفر جاری رکھا",
+        "انہوں نے مالِ تجارت وہیں بیچ دیا اور حضور ﷺ کو لے کر مکہ معظمہ واپس آ گئے",
+        "وہ کئی ماہ بصریٰ میں ٹھہرے رہے",
+        "انہوں نے حضور ﷺ کو قافلے کے ساتھ آگے بھیج دیا"
+      ]
+    },
+    "correctIndex": 1
+  }
+]
+
+,
+
+
+"chapter23": [
+  {
+    "question": {
+      "en": "Between which two tribes was Harb-e-Fijar fought?",
+      "hi": "हर्ब-ए-फ़िजार की जंग किन दो क़बीलों के दरमियान लड़ी गई?",
+      "ur": "حربِ فجار کن دو قبیلوں کے درمیان لڑی گئی؟"
+    },
+    "options": {
+      "en": [
+        "Quraish and Qais Aylan",
+        "Aws and Khazraj",
+        "Banu Hashim and Banu Umayyah",
+        "Quraish and Banu Thaqif"
+      ],
+      "hi": [
+        "क़ुरैश और क़ैस ऐलान",
+        "औस और ख़ज़रज",
+        "बनू हाशिम और बनू उमय्या",
+        "क़ुरैश और बनू सक़ीफ़"
+      ],
+      "ur": [
+        "قریش اور قیس عیلان",
+        "اوس اور خزرج",
+        "بنو ہاشم اور بنو امیہ",
+        "قریش اور بنو ثقیف"
+      ]
+    },
+    "correctIndex": 0
+  },
+  {
+    "question": {
+      "en": "How old was the Holy Prophet ﷺ approximately during Harb-e-Fijar?",
+      "hi": "हर्ब-ए-फ़िजार के वक़्त हुज़ूर पुरनूर ﷺ की उम्र-ए-मुबारक तक़रीबन कितनी थी?",
+      "ur": "حربِ فجار کے وقت حضور پرنور ﷺ کی عمرِ مبارک تقریباً کتنی تھی؟"
+    },
+    "options": {
+      "en": [
+        "Around 10 years",
+        "Around 15 or 20 years",
+        "Around 25 years",
+        "Around 30 years"
+      ],
+      "hi": [
+        "तक़रीबन 10 साल",
+        "तक़रीबन 15 या 20 साल",
+        "तक़रीबन 25 साल",
+        "तक़रीबन 30 साल"
+      ],
+      "ur": [
+        "تقریباً 10 سال",
+        "تقریباً 15 یا 20 سال",
+        "تقریباً 25 سال",
+        "تقریباً 30 سال"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What role did the Holy Prophet ﷺ perform during Harb-e-Fijar?",
+      "hi": "हर्ब-ए-फ़िजार में हुज़ूर पुरनूर ﷺ ने क्या फ़रमाया?",
+      "ur": "حربِ فجار میں حضور پرنور ﷺ نے کیا فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "He fought bravely with a sword",
+        "He led the army",
+        "He gathered the enemy's arrows and handed them to his uncles for defense",
+        "He stayed away from the battlefield"
+      ],
+      "hi": [
+        "आप ﷺ ने तलवार से जंग की",
+        "आप ﷺ ने लश्कर की क़ियादत की",
+        "आप ﷺ दुश्मन के तीर उठाकर दिफ़ा के लिए अपने चचाओं को देते थे",
+        "आप ﷺ जंग के मैदान में गए ही नहीं"
+      ],
+      "ur": [
+        "آپ ﷺ نے تلوار سے جنگ کی",
+        "آپ ﷺ نے لشکر کی قیادت کی",
+        "آپ ﷺ دشمن کے تیر اٹھا کر دفاع کے لیے اپنے چچاؤں کو دیتے تھے",
+        "آپ ﷺ میدانِ جنگ میں گئے ہی نہیں"
+      ]
+    },
+    "correctIndex": 2
+  },
+  {
+    "question": {
+      "en": "How did the Holy Prophet ﷺ feel after witnessing the bloodshed and oppression in the war?",
+      "hi": "जंग में ख़ून-ख़राबा और ज़ुल्म देखकर हुज़ूर पुरनूर ﷺ के क़ल्ब-ए-अतहर पर क्या असर हुआ?",
+      "ur": "جنگ میں خون خرابہ اور ظلم دیکھ کر حضور پرنور ﷺ کے قلبِ اطہر پر کیا اثر ہوا؟"
+    },
+    "options": {
+      "en": [
+        "He became pleased",
+        "He became deeply grieved",
+        "He ignored the events",
+        "He encouraged the fighting"
+      ],
+      "hi": [
+        "आप ﷺ ख़ुश हुए",
+        "आप ﷺ को शदीद रंज पहुँचा",
+        "आप ﷺ ने इस पर ध्यान नहीं दिया",
+        "आप ﷺ ने जंग जारी रखने का हुक्म दिया"
+      ],
+      "ur": [
+        "آپ ﷺ خوش ہوئے",
+        "آپ ﷺ کو شدید رنج پہنچا",
+        "آپ ﷺ نے اس پر توجہ نہ دی",
+        "آپ ﷺ نے جنگ جاری رکھنے کا حکم دیا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Which famous treaty was established after Harb-e-Fijar to stop oppression and establish peace?",
+      "hi": "हर्ब-ए-फ़िजार के बाद ज़ुल्म रोकने और अमन क़ायम करने के लिए कौन-सा मशहूर मुआहिदा हुआ?",
+      "ur": "حربِ فجار کے بعد ظلم روکنے اور امن قائم کرنے کے لیے کون سا مشہور معاہدہ ہوا؟"
+    },
+    "options": {
+      "en": [
+        "Treaty of Hudaybiyyah",
+        "Hilf-ul-Fudul",
+        "Treaty of Aqabah",
+        "Constitution of Madinah"
+      ],
+      "hi": [
+        "सुल्ह-ए-हुदैबिया",
+        "हिल्फ़-उल-फ़ुज़ूल",
+        "बैअत-ए-अक़बा",
+        "मीसाक़-ए-मदीना"
+      ],
+      "ur": [
+        "صلح حدیبیہ",
+        "حلف الفضول",
+        "بیعتِ عقبہ",
+        "میثاقِ مدینہ"
+      ]
+    },
+    "correctIndex": 1
+  }
+]
+
+,
+
+
+"chapter24": [
+  {
+    "question": {
+      "en": "Where did the noble people of Makkah gather to establish Hilf-ul-Fudul?",
+      "hi": "हिल्फ़-उल-फ़ुज़ूल का मुआहिदा करने के लिए मक्का के मुअज़्ज़ज़ लोग कहाँ जमा हुए?",
+      "ur": "حلف الفضول کا معاہدہ کرنے کے لیے مکہ کے معزز لوگ کہاں جمع ہوئے؟"
+    },
+    "options": {
+      "en": [
+        "At the Ka'bah",
+        "At the house of Abdullah ibn Jud'an",
+        "At Dar-un-Nadwah",
+        "At Mount Safa"
+      ],
+      "hi": [
+        "खाना-ए-काबा में",
+        "अब्दुल्लाह बिन जुदआन के मकान पर",
+        "दारुन्नदवा में",
+        "सफ़ा पहाड़ी पर"
+      ],
+      "ur": [
+        "خانۂ کعبہ میں",
+        "عبداللہ بن جدعان کے مکان پر",
+        "دار الندوہ میں",
+        "صفا پہاڑی پر"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "How did the Holy Prophet ﷺ view the alliance of Hilf-ul-Fudul?",
+      "hi": "हुज़ूर पुरनूर ﷺ ने हिल्फ़-उल-फ़ुज़ूल के मुआहिदे के बारे में क्या रवैया इख़्तियार फ़रमाया?",
+      "ur": "حضور پرنور ﷺ نے حلف الفضول کے معاہدے کے بارے میں کیا رویہ اختیار فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "He did not participate in it",
+        "He participated in it and greatly appreciated it",
+        "He opposed the alliance",
+        "He remained unaware of it"
+      ],
+      "hi": [
+        "आप ﷺ ने इसमें शिरकत नहीं फ़रमाई",
+        "आप ﷺ ने इसमें शिरकत फ़रमाई और इसे बहुत पसंद फ़रमाया",
+        "आप ﷺ ने इसका मुख़ालफ़त फ़रमाई",
+        "आप ﷺ को इसकी जानकारी नहीं थी"
+      ],
+      "ur": [
+        "آپ ﷺ نے اس میں شرکت نہیں فرمائی",
+        "آپ ﷺ نے اس میں شرکت فرمائی اور اسے بہت پسند فرمایا",
+        "آپ ﷺ نے اس کی مخالفت فرمائی",
+        "آپ ﷺ کو اس کی خبر ہی نہ تھی"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What was the primary objective of Hilf-ul-Fudul?",
+      "hi": "हिल्फ़-उल-फ़ुज़ूल का असल मक़सद क्या था?",
+      "ur": "حلف الفضول کا اصل مقصد کیا تھا؟"
+    },
+    "options": {
+      "en": [
+        "To expand trade in Makkah",
+        "To prevent injustice against the poor, helpless, and travelers",
+        "To prepare for war",
+        "To collect taxes"
+      ],
+      "hi": [
+        "मक्का में तिजारत बढ़ाना",
+        "ग़रीबों, बेसहारों और मुसाफ़िरों पर होने वाले ज़ुल्म को रोकना",
+        "जंग की तैयारी करना",
+        "टैक्स वसूल करना"
+      ],
+      "ur": [
+        "مکہ میں تجارت بڑھانا",
+        "غریبوں، بے سہاروں اور مسافروں پر ہونے والے ظلم کو روکنا",
+        "جنگ کی تیاری کرنا",
+        "ٹیکس وصول کرنا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "After the declaration of Prophethood, what did the Holy Prophet ﷺ say about Hilf-ul-Fudul?",
+      "hi": "ऐलान-ए-नुबुव्वत के बाद हुज़ूर ﷺ ने हिल्फ़-उल-फ़ुज़ूल के बारे में क्या फ़रमाया?",
+      "ur": "اعلانِ نبوت کے بعد حضور ﷺ نے حلف الفضول کے بارے میں کیا فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "He had forgotten about it",
+        "He would not exchange participation in it even for the most precious red camels",
+        "It was no longer needed",
+        "It was only for the people of Makkah"
+      ],
+      "hi": [
+        "आप ﷺ उसे भूल चुके थे",
+        "आप ﷺ उसे सबसे क़ीमती सुर्ख ऊँटों के बदले भी बदलना पसंद न करते",
+        "अब उसकी ज़रूरत नहीं रही",
+        "वह सिर्फ़ मक्का वालों के लिए था"
+      ],
+      "ur": [
+        "آپ ﷺ اسے بھول چکے تھے",
+        "آپ ﷺ اسے قیمتی سرخ اونٹوں کے بدلے بھی لینا پسند نہ کرتے",
+        "اب اس کی ضرورت نہ رہی",
+        "وہ صرف مکہ والوں کے لیے تھا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Hilf-ul-Fudul is a great example of which qualities of the Holy Prophet ﷺ?",
+      "hi": "हिल्फ़-उल-फ़ुज़ूल हुज़ूर पुरनूर ﷺ की किन ख़ुसूसियात की अज़ीम मिसाल है?",
+      "ur": "حلف الفضول حضور پرنور ﷺ کی کن صفات کی عظیم مثال ہے؟"
+    },
+    "options": {
+      "en": [
+        "Wealth and trade",
+        "Justice, love for peace, and compassion for the oppressed",
+        "Military leadership",
+        "Political authority"
+      ],
+      "hi": [
+        "दौलत और तिजारत",
+        "इंसाफ़-पसंदी, अमन-ख़्वाही और मज़लूमों से हमदर्दी",
+        "फ़ौजी क़ियादत",
+        "सियासी हुकूमत"
+      ],
+      "ur": [
+        "دولت اور تجارت",
+        "انصاف پسندی، امن خواہی اور مظلوموں سے ہمدردی",
+        "فوجی قیادت",
+        "سیاسی حکومت"
+      ]
+    },
+    "correctIndex": 1
+  }
+]
+
+,
+
+
+
+"chapter25": [
+  {
+    "question": {
+      "en": "When did the Holy Prophet ﷺ become famous throughout Arabia for His truthfulness and honesty?",
+      "hi": "हुज़ूर पुरनूर ﷺ अपनी बेमिसाल सचाई और दयानतदारी की वजह से पूरे अरब में कब मशहूर हुए?",
+      "ur": "حضور پرنور ﷺ اپنی بے مثال سچائی اور دیانت داری کی وجہ سے پورے عرب میں کب مشہور ہوئے؟"
+    },
+    "options": {
+      "en": [
+        "After Hijrah to Madinah",
+        "After the conquest of Makkah",
+        "Before the declaration of Prophethood",
+        "After the Battle of Badr"
+      ],
+      "hi": [
+        "हिजरत-ए-मदीना के बाद",
+        "फ़त्ह-ए-मक्का के बाद",
+        "ऐलान-ए-नुबुव्वत से पहले",
+        "ग़ज़वा-ए-बद्र के बाद"
+      ],
+      "ur": [
+        "ہجرتِ مدینہ کے بعد",
+        "فتحِ مکہ کے بعد",
+        "اعلانِ نبوت سے پہلے",
+        "غزوۂ بدر کے بعد"
+      ]
+    },
+    "correctIndex": 2
+  },
+  {
+    "question": {
+      "en": "Why did the people of Makkah call the Holy Prophet ﷺ 'As-Sadiq' and 'Al-Ameen'?",
+      "hi": "मक्का के लोग हुज़ूर पुरनूर ﷺ को 'सादिक़' और 'अमीन' क्यों कहते थे?",
+      "ur": "مکہ کے لوگ حضور پرنور ﷺ کو 'صادق' اور 'امین' کیوں کہتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "Because of His wealth",
+        "Because of His noble character, truthfulness, and trustworthiness",
+        "Because He was a famous trader",
+        "Because He belonged to Banu Hashim"
+      ],
+      "hi": [
+        "आपकी दौलत की वजह से",
+        "आपके आला अख़लाक़, सचाई और अमानतदारी की वजह से",
+        "क्योंकि आप मशहूर ताजिर थे",
+        "क्योंकि आप बनू हाशिम से थे"
+      ],
+      "ur": [
+        "آپ کی دولت کی وجہ سے",
+        "آپ کے اعلیٰ اخلاق، سچائی اور امانت داری کی وجہ سے",
+        "کیونکہ آپ مشہور تاجر تھے",
+        "کیونکہ آپ بنو ہاشم سے تھے"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Who considered their valuable belongings safest with the Holy Prophet ﷺ?",
+      "hi": "कौन लोग अपनी सबसे क़ीमती अमानतें हुज़ूर ﷺ के पास रखना सबसे महफ़ूज़ समझते थे?",
+      "ur": "کون لوگ اپنی سب سے قیمتی امانتیں حضور ﷺ کے پاس رکھنا سب سے زیادہ محفوظ سمجھتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "Only the Muslims",
+        "Only His relatives",
+        "Even the idolaters and His staunch opponents",
+        "Only the merchants of Makkah"
+      ],
+      "hi": [
+        "सिर्फ मुसलमान",
+        "सिर्फ आपके रिश्तेदार",
+        "यहाँ तक कि बुत-परस्त और आपके सख़्त मुखालिफ़ीन भी",
+        "सिर्फ मक्का के ताजिर"
+      ],
+      "ur": [
+        "صرف مسلمان",
+        "صرف آپ کے رشتہ دار",
+        "یہاں تک کہ بت پرست اور آپ کے سخت مخالفین بھی",
+        "صرف مکہ کے تاجر"
+      ]
+    },
+    "correctIndex": 2
+  },
+  {
+    "question": {
+      "en": "Which statement best describes the character of the Holy Prophet ﷺ?",
+      "hi": "हुज़ूर पुरनूर ﷺ के किरदार-ए-पाक के बारे में कौन-सी बात सही है?",
+      "ur": "حضور پرنور ﷺ کے کردارِ پاک کے بارے میں کون سی بات درست ہے؟"
+    },
+    "options": {
+      "en": [
+        "He never spoke even the slightest untruth nor deceived anyone",
+        "He sometimes spoke untruth for people's benefit",
+        "He only avoided lying after Prophethood",
+        "He was truthful only with His family"
+      ],
+      "hi": [
+        "आप ﷺ ने कभी छोटा-सा झूठ भी नहीं बोला और कभी किसी को धोखा नहीं दिया",
+        "आप ﷺ कभी-कभी लोगों की भलाई के लिए झूठ बोलते थे",
+        "आप ﷺ ने नुबुव्वत के बाद ही झूठ छोड़ दिया",
+        "आप ﷺ सिर्फ अपने घर वालों से सच बोलते थे"
+      ],
+      "ur": [
+        "آپ ﷺ نے کبھی معمولی سا جھوٹ بھی نہیں بولا اور نہ کبھی کسی کو دھوکہ دیا",
+        "آپ ﷺ کبھی کبھی لوگوں کی بھلائی کے لیے جھوٹ بولتے تھے",
+        "آپ ﷺ نے نبوت کے بعد ہی جھوٹ چھوڑا",
+        "آپ ﷺ صرف اپنے گھر والوں سے سچ بولتے تھے"
+      ]
+    },
+    "correctIndex": 0
+  },
+  {
+    "question": {
+      "en": "What did even the enemies admit about the Holy Prophet ﷺ?",
+      "hi": "हुज़ूर पुरनूर ﷺ के बारे में दुश्मन भी किस बात की गवाही देने पर मजबूर हो जाते थे?",
+      "ur": "حضور پرنور ﷺ کے بارے میں دشمن بھی کس بات کی گواہی دینے پر مجبور ہو جاتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "His wealth and influence",
+        "His bravery in trade",
+        "His purity of character and truthfulness",
+        "His political leadership"
+      ],
+      "hi": [
+        "आपकी दौलत और असर",
+        "आपकी तिजारती महारत",
+        "आपके पाकीज़ा किरदार और सचाई",
+        "आपकी सियासी क़ियादत"
+      ],
+      "ur": [
+        "آپ کی دولت اور اثر",
+        "آپ کی تجارتی مہارت",
+        "آپ کے پاکیزہ کردار اور سچائی",
+        "آپ کی سیاسی قیادت"
+      ]
+    },
+    "correctIndex": 2
+  }
+]
+
+,
+
+
+"chapter26": [
+  {
+    "question": {
+      "en": "Who was Hazrat Syedatuna Khadija-tul-Kubra (Radi Allahu Ta'ala Anha) in Makkah?",
+      "hi": "हज़रत सैय्यदतुना ख़दीजा-तुल-कुबरा (रज़ियल्लाहु तआला अन्हा) मक्का शरीफ़ में कैसी ख़ातून थीं?",
+      "ur": "حضرت سیدتنا خدیجۃ الکبریٰ (رضی اللہ عنہا) مکہ شریف میں کیسی خاتون تھیں؟"
+    },
+    "options": {
+      "en": [
+        "A poor merchant",
+        "A noble, pure, and immensely wealthy lady",
+        "A queen of Makkah",
+        "A famous poet"
+      ],
+      "hi": [
+        "एक ग़रीब ताजिर",
+        "एक निहायत मुअज़्ज़ज़, पाकीज़ा और बहुत मालदार ख़ातून",
+        "मक्का की मलिका",
+        "एक मशहूर शायरा"
+      ],
+      "ur": [
+        "ایک غریب تاجر",
+        "ایک نہایت معزز، پاکیزہ اور بہت مالدار خاتون",
+        "مکہ کی ملکہ",
+        "ایک مشہور شاعرہ"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "By which honorable title did the people respectfully call Hazrat Khadija (Radi Allahu Ta'ala Anha)?",
+      "hi": "लोग हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) को किस मुबारक लक़ब से पुकारते थे?",
+      "ur": "لوگ حضرت خدیجہ (رضی اللہ عنہا) کو کس مبارک لقب سے پکارتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "As-Siddiqah",
+        "Tahira",
+        "Al-Ameen",
+        "Umm-ul-Qura"
+      ],
+      "hi": [
+        "सिद्दीक़ा",
+        "ताहिरा",
+        "अमीन",
+        "उम्मुल क़ुरा"
+      ],
+      "ur": [
+        "صدیقہ",
+        "طاہرہ",
+        "امین",
+        "ام القریٰ"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "How did Hazrat Khadija (Radi Allahu Ta'ala Anha) conduct her business?",
+      "hi": "हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) अपना कारोबार किस तरह चलाती थीं?",
+      "ur": "حضرت خدیجہ (رضی اللہ عنہا) اپنا کاروبار کس طرح چلاتی تھیں؟"
+    },
+    "options": {
+      "en": [
+        "She personally traveled with every caravan",
+        "She entrusted her trade goods to trustworthy people and shared the agreed profits",
+        "She sold goods only in Makkah",
+        "She never engaged in trade"
+      ],
+      "hi": [
+        "वह हर क़ाफ़िले के साथ ख़ुद सफ़र करती थीं",
+        "वह अपना माल-ए-तिजारत भरोसेमंद लोगों को देतीं और तयशुदा मुनाफ़ा बाँट लेती थीं",
+        "वह सिर्फ़ मक्का में कारोबार करती थीं",
+        "उन्होंने कभी तिजारत नहीं की"
+      ],
+      "ur": [
+        "وہ ہر قافلے کے ساتھ خود سفر کرتی تھیں",
+        "وہ اپنا مالِ تجارت بھروسے مند لوگوں کو دیتی تھیں اور طے شدہ منافع بانٹ لیتی تھیں",
+        "وہ صرف مکہ میں تجارت کرتی تھیں",
+        "انہوں نے کبھی تجارت نہیں کی"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Why did Hazrat Khadija (Radi Allahu Ta'ala Anha) offer the Holy Prophet ﷺ a greater share of profit?",
+      "hi": "हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) ने हुज़ूर पुरनूर ﷺ को ज़्यादा मुनाफ़ा देने की पेशकश क्यों की?",
+      "ur": "حضرت خدیجہ (رضی اللہ عنہا) نے حضور پرنور ﷺ کو زیادہ منافع دینے کی پیشکش کیوں کی؟"
+    },
+    "options": {
+      "en": [
+        "Because He was her relative",
+        "Because of His reputation as As-Sadiq and Al-Ameen and His unmatched honesty",
+        "Because He requested it",
+        "Because no other merchant was available"
+      ],
+      "hi": [
+        "क्योंकि आप ﷺ उनके रिश्तेदार थे",
+        "क्योंकि आप ﷺ 'सादिक़' और 'अमीन' के नाम से मशहूर थे और बेमिसाल दयानतदार थे",
+        "क्योंकि आप ﷺ ने इसकी मांग की थी",
+        "क्योंकि कोई दूसरा ताजिर मौजूद नहीं था"
+      ],
+      "ur": [
+        "کیونکہ آپ ﷺ ان کے رشتہ دار تھے",
+        "کیونکہ آپ ﷺ 'صادق' اور 'امین' کے نام سے مشہور تھے اور بے مثال دیانت دار تھے",
+        "کیونکہ آپ ﷺ نے اس کا مطالبہ کیا تھا",
+        "کیونکہ کوئی دوسرا تاجر موجود نہ تھا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Whom did Hazrat Khadija (Radi Allahu Ta'ala Anha) send with the Holy Prophet ﷺ on the journey to Syria?",
+      "hi": "हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) ने मुल्के-शाम के सफ़र में हुज़ूर ﷺ के साथ किसे भेजा?",
+      "ur": "حضرت خدیجہ (رضی اللہ عنہا) نے ملکِ شام کے سفر میں حضور ﷺ کے ساتھ کس کو بھیجا؟"
+    },
+    "options": {
+      "en": [
+        "Hazrat Abu Talib",
+        "Hazrat Ali",
+        "Maisara",
+        "Hazrat Zaid"
+      ],
+      "hi": [
+        "हज़रत अबू तालिब",
+        "हज़रत अली",
+        "मैसरा",
+        "हज़रत ज़ैद"
+      ],
+      "ur": [
+        "حضرت ابو طالب",
+        "حضرت علی",
+        "میسرہ",
+        "حضرت زید"
+      ]
+    },
+    "correctIndex": 2
+  }
+]
+
+,
+
+
+"chapter27": [
+  {
+    "question": {
+      "en": "Whose trade merchandise did the Holy Prophet ﷺ take on the second journey to Syria?",
+      "hi": "मुल्के-शाम के दूसरे तिजारती सफ़र में हुज़ूर पुरनूर ﷺ किसका माल-ए-तिजारत लेकर रवाना हुए?",
+      "ur": "ملکِ شام کے دوسرے تجارتی سفر میں حضور پرنور ﷺ کس کا مالِ تجارت لے کر روانہ ہوئے؟"
+    },
+    "options": {
+      "en": [
+        "Hazrat Abu Talib",
+        "Hazrat Syedatuna Khadija (Radi Allahu Ta'ala Anha)",
+        "The merchants of Quraish",
+        "Hazrat Abbas"
+      ],
+      "hi": [
+        "हज़रत अबू तालिब",
+        "हज़रत सैय्यदतुना ख़दीजा (रज़ियल्लाहु तआला अन्हा)",
+        "क़ुरैश के ताजिर",
+        "हज़रत अब्बास"
+      ],
+      "ur": [
+        "حضرت ابو طالب",
+        "حضرت سیدتنا خدیجہ (رضی اللہ عنہا)",
+        "قریش کے تاجر",
+        "حضرت عباس"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What was the outcome of the second trade journey to Syria?",
+      "hi": "मुल्के-शाम के दूसरे तिजारती सफ़र का क्या नतीजा निकला?",
+      "ur": "ملکِ شام کے دوسرے تجارتی سفر کا کیا نتیجہ نکلا؟"
+    },
+    "options": {
+      "en": [
+        "The caravan suffered a heavy loss",
+        "Only a small profit was earned",
+        "A magnificent profit was earned through the blessings and honesty of the Holy Prophet ﷺ",
+        "The trade goods remained unsold"
+      ],
+      "hi": [
+        "क़ाफ़िले को बहुत बड़ा नुक़सान हुआ",
+        "सिर्फ थोड़ा-सा मुनाफ़ा हुआ",
+        "हुज़ूर ﷺ की बरकत और दयानतदारी से उम्मीद से कहीं ज़्यादा शानदार मुनाफ़ा हुआ",
+        "माल-ए-तिजारत बिका ही नहीं"
+      ],
+      "ur": [
+        "قافلے کو بہت بڑا نقصان ہوا",
+        "صرف تھوڑا سا منافع ہوا",
+        "حضور ﷺ کی برکت اور دیانت داری سے توقع سے کہیں زیادہ شاندار منافع ہوا",
+        "مالِ تجارت فروخت ہی نہ ہوا"
+      ]
+    },
+    "correctIndex": 2
+  },
+  {
+    "question": {
+      "en": "What extraordinary event did Maisarah witness during the journey?",
+      "hi": "सफ़र के दौरान मैसरा ने कौन-सा अजीम वाक़िआ अपनी आँखों से देखा?",
+      "ur": "سفر کے دوران میسرہ نے کون سا عظیم واقعہ اپنی آنکھوں سے دیکھا؟"
+    },
+    "options": {
+      "en": [
+        "A cloud followed the caravan",
+        "Two angels shaded the blessed head of the Holy Prophet ﷺ",
+        "A spring of water flowed beside the caravan",
+        "The mountains greeted the Prophet ﷺ"
+      ],
+      "hi": [
+        "एक बादल पूरे क़ाफ़िले पर साया कर रहा था",
+        "दो फ़रिश्ते हुज़ूर ﷺ के सर-ए-मुबारक पर साया कर रहे थे",
+        "क़ाफ़िले के साथ पानी का चश्मा चल रहा था",
+        "पहाड़ों ने हुज़ूर ﷺ का इस्तिक़बाल किया"
+      ],
+      "ur": [
+        "ایک بادل پورے قافلے پر سایہ کر رہا تھا",
+        "دو فرشتے حضور ﷺ کے سرِ مبارک پر سایہ کر رہے تھے",
+        "قافلے کے ساتھ پانی کا چشمہ چل رہا تھا",
+        "پہاڑوں نے حضور ﷺ کا استقبال کیا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "After returning to Makkah, what did Maisarah tell Hazrat Khadija (Radi Allahu Ta'ala Anha)?",
+      "hi": "मक्का वापस आकर मैसरा ने हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) से क्या बयान किया?",
+      "ur": "مکہ واپس آ کر میسرہ نے حضرت خدیجہ (رضی اللہ عنہا) سے کیا بیان کیا؟"
+    },
+    "options": {
+      "en": [
+        "Only about the profit earned",
+        "About the Prophet's ﷺ trustworthiness, noble character, and the miracles he witnessed",
+        "Only about the markets of Syria",
+        "That the journey had failed"
+      ],
+      "hi": [
+        "सिर्फ मुनाफ़े के बारे में",
+        "हुज़ूर ﷺ की अमानतदारी, आला अख़लाक़ और रास्ते में ज़ाहिर होने वाले मोजिज़ात के बारे में",
+        "सिर्फ शाम के बाज़ारों के बारे में",
+        "कि सफ़र नाकाम रहा"
+      ],
+      "ur": [
+        "صرف منافع کے بارے میں",
+        "حضور ﷺ کی امانت داری، اعلیٰ اخلاق اور راستے میں ظاہر ہونے والے معجزات کے بارے میں",
+        "صرف شام کے بازاروں کے بارے میں",
+        "کہ سفر ناکام رہا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Through whom did Hazrat Khadija (Radi Allahu Ta'ala Anha) send her marriage proposal to the Holy Prophet ﷺ?",
+      "hi": "हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) ने हुज़ूर ﷺ की ख़िदमत में निकाह का पैग़ाम किसके ज़रिए भेजा?",
+      "ur": "حضرت خدیجہ (رضی اللہ عنہا) نے حضور ﷺ کی خدمت میں نکاح کا پیغام کس کے ذریعے بھیجا؟"
+    },
+    "options": {
+      "en": [
+        "Maisarah",
+        "Hazrat Abu Talib",
+        "Nafisah",
+        "Hazrat Ali"
+      ],
+      "hi": [
+        "मैसरा",
+        "हज़रत अबू तालिब",
+        "नफ़ीसा",
+        "हज़रत अली"
+      ],
+      "ur": [
+        "میسرہ",
+        "حضرت ابو طالب",
+        "نفیسہ",
+        "حضرت علی"
+      ]
+    },
+    "correctIndex": 2
+  }
+]
+
+,
+  
+
+
+"chapter28": [
+  {
+    "question": {
+      "en": "How old were the Holy Prophet ﷺ and Hazrat Khadija (Radi Allahu Ta'ala Anha) at the time of their blessed marriage?",
+      "hi": "निकाह-ए-मुबारक के वक़्त हुज़ूर पुरनूर ﷺ और हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) की उम्र कितनी थी?",
+      "ur": "نکاحِ مبارک کے وقت حضور پرنور ﷺ اور حضرت خدیجہ (رضی اللہ عنہا) کی عمر کتنی تھی؟"
+    },
+    "options": {
+      "en": [
+        "30 years and 35 years",
+        "25 years and 40 years",
+        "20 years and 35 years",
+        "25 years and 45 years"
+      ],
+      "hi": [
+        "30 साल और 35 साल",
+        "25 साल और 40 साल",
+        "20 साल और 35 साल",
+        "25 साल और 45 साल"
+      ],
+      "ur": [
+        "30 سال اور 35 سال",
+        "25 سال اور 40 سال",
+        "20 سال اور 35 سال",
+        "25 سال اور 45 سال"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Who delivered the Khutbah of the blessed marriage?",
+      "hi": "इस बा-बरकत निकाह का ख़ुतबा किसने पढ़ा?",
+      "ur": "اس بابرکت نکاح کا خطبہ کس نے پڑھا؟"
+    },
+    "options": {
+      "en": [
+        "Hazrat Hamzah",
+        "Hazrat Abu Talib",
+        "Hazrat Abbas",
+        "Hazrat Abu Bakr"
+      ],
+      "hi": [
+        "हज़रत हमज़ा",
+        "हज़रत अबू तालिब",
+        "हज़रत अब्बास",
+        "हज़रत अबू बक्र"
+      ],
+      "ur": [
+        "حضرت حمزہ",
+        "حضرت ابو طالب",
+        "حضرت عباس",
+        "حضرت ابو بکر"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "With what great honor was Hazrat Syedatuna Khadija (Radi Allahu Ta'ala Anha) blessed?",
+      "hi": "हज़रत सैय्यदतुना ख़दीजा (रज़ियल्लाहु तआला अन्हा) को कौन-सा अज़ीम शरफ़ हासिल हुआ?",
+      "ur": "حضرت سیدتنا خدیجہ (رضی اللہ عنہا) کو کون سا عظیم شرف حاصل ہوا؟"
+    },
+    "options": {
+      "en": [
+        "She became the first woman to migrate to Madinah",
+        "She was honored as the first noble wife of the Holy Prophet ﷺ",
+        "She became the leader of Makkah",
+        "She led the trade caravans of Arabia"
+      ],
+      "hi": [
+        "वह मदीना हिजरत करने वाली पहली ख़ातून बनीं",
+        "उन्हें हुज़ूर ﷺ की पहली ज़ौजा-ए-मुताहरा बनने का शरफ़ मिला",
+        "वह मक्का की सरदार बनीं",
+        "उन्होंने अरब के तिजारती क़ाफ़िलों की क़ियादत की"
+      ],
+      "ur": [
+        "وہ مدینہ ہجرت کرنے والی پہلی خاتون بنیں",
+        "انہیں حضور ﷺ کی پہلی زوجۂ مطہرہ بننے کا شرف ملا",
+        "وہ مکہ کی سردار بنیں",
+        "انہوں نے عرب کے تجارتی قافلوں کی قیادت کی"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "How long did the Holy Prophet ﷺ remain married only to Hazrat Khadija (Radi Allahu Ta'ala Anha) during her lifetime?",
+      "hi": "हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) की ज़िन्दगी में हुज़ूर ﷺ ने तक़रीबन कितने अरसे तक कोई दूसरा निकाह नहीं फ़रमाया?",
+      "ur": "حضرت خدیجہ (رضی اللہ عنہا) کی حیات میں حضور ﷺ نے تقریباً کتنے عرصے تک کوئی دوسرا نکاح نہیں فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "About 10 years",
+        "About 15 years",
+        "About 20 years",
+        "About 25 years"
+      ],
+      "hi": [
+        "तक़रीबन 10 साल",
+        "तक़रीबन 15 साल",
+        "तक़रीबन 20 साल",
+        "तक़रीबन 25 साल"
+      ],
+      "ur": [
+        "تقریباً 10 سال",
+        "تقریباً 15 سال",
+        "تقریباً 20 سال",
+        "تقریباً 25 سال"
+      ]
+    },
+    "correctIndex": 3
+  },
+  {
+    "question": {
+      "en": "What did Hazrat Khadija (Radi Allahu Ta'ala Anha) do after her marriage to the Holy Prophet ﷺ?",
+      "hi": "निकाह के बाद हज़रत ख़दीजा (रज़ियल्लाहु तआला अन्हा) ने क्या किया?",
+      "ur": "نکاح کے بعد حضرت خدیجہ (رضی اللہ عنہا) نے کیا کیا؟"
+    },
+    "options": {
+      "en": [
+        "She devoted all her wealth to the service of the Holy Prophet ﷺ and Islam",
+        "She stopped all trade permanently",
+        "She moved to Syria",
+        "She became the ruler of Makkah"
+      ],
+      "hi": [
+        "उन्होंने अपना सारा माल-ओ-दौलत हुज़ूर ﷺ और इस्लाम की ख़िदमत में पेश कर दिया",
+        "उन्होंने हमेशा के लिए तिजारत छोड़ दी",
+        "वह मुल्के-शाम चली गईं",
+        "वह मक्का की हाकिम बन गईं"
+      ],
+      "ur": [
+        "انہوں نے اپنا سارا مال و دولت حضور ﷺ اور اسلام کی خدمت میں پیش کر دیا",
+        "انہوں نے ہمیشہ کے لیے تجارت چھوڑ دی",
+        "وہ ملکِ شام چلی گئیں",
+        "وہ مکہ کی حاکم بن گئیں"
+      ]
+    },
+    "correctIndex": 0
+  }
+]
+
+,
+
+
+"chapter29": [
+  {
+    "question": {
+      "en": "Why did a dispute arise among the tribes of Makkah during the rebuilding of the Holy Kaaba?",
+      "hi": "ख़ाना-ए-काबा की दोबारा तामीर के दौरान मक्का के क़बीलों में झगड़ा क्यों हुआ?",
+      "ur": "خانۂ کعبہ کی دوبارہ تعمیر کے دوران مکہ کے قبیلوں میں جھگڑا کیوں ہوا؟"
+    },
+    "options": {
+      "en": [
+        "Over collecting building materials",
+        "Over placing the Hajar-e-Aswad in its rightful place",
+        "Over choosing the chief of Makkah",
+        "Over dividing the trade profits"
+      ],
+      "hi": [
+        "तामीर का सामान इकट्ठा करने पर",
+        "हजर-ए-अस्वद को उसकी जगह पर नसब करने पर",
+        "मक्का का सरदार चुनने पर",
+        "तिजारत का मुनाफ़ा बाँटने पर"
+      ],
+      "ur": [
+        "تعمیر کا سامان جمع کرنے پر",
+        "حجرِ اسود کو اس کی جگہ پر نصب کرنے پر",
+        "مکہ کا سردار چننے پر",
+        "تجارت کا منافع تقسیم کرنے پر"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Why did every tribe want to place the Hajar-e-Aswad?",
+      "hi": "हर क़बीला हजर-ए-अस्वद को नसब करने का शरफ़ क्यों हासिल करना चाहता था?",
+      "ur": "ہر قبیلہ حجرِ اسود کو نصب کرنے کا شرف کیوں حاصل کرنا چاہتا تھا؟"
+    },
+    "options": {
+      "en": [
+        "To gain wealth",
+        "Because every tribe wanted the honor for itself",
+        "To complete the construction quickly",
+        "To impress visiting traders"
+      ],
+      "hi": [
+        "दौलत हासिल करने के लिए",
+        "क्योंकि हर क़बीला यह अज़ीम शरफ़ सिर्फ अपने लिए चाहता था",
+        "तामीर जल्दी पूरी करने के लिए",
+        "बाहर से आने वाले ताजिरों को मुतास्सिर करने के लिए"
+      ],
+      "ur": [
+        "دولت حاصل کرنے کے لیے",
+        "کیونکہ ہر قبیلہ یہ عظیم شرف صرف اپنے لیے چاہتا تھا",
+        "تعمیر جلد مکمل کرنے کے لیے",
+        "باہر سے آنے والے تاجروں کو متاثر کرنے کے لیے"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What did the Holy Prophet ﷺ do to resolve the dispute?",
+      "hi": "हुज़ूर पुरनूर ﷺ ने इस झगड़े को ख़त्म करने के लिए क्या फ़रमाया?",
+      "ur": "حضور پرنور ﷺ نے اس جھگڑے کو ختم کرنے کے لیے کیا فرمایا؟"
+    },
+    "options": {
+      "en": [
+        "He selected one tribe to place the stone",
+        "He placed the Hajar-e-Aswad in the center of a cloak",
+        "He postponed the rebuilding",
+        "He asked the tribes to draw lots"
+      ],
+      "hi": [
+        "आप ﷺ ने एक क़बीले को चुन लिया",
+        "आप ﷺ ने हजर-ए-अस्वद को एक चादर के बीच में रख दिया",
+        "आप ﷺ ने तामीर रोक दी",
+        "आप ﷺ ने क़ुरआ डालने का हुक्म दिया"
+      ],
+      "ur": [
+        "آپ ﷺ نے ایک قبیلہ منتخب کر لیا",
+        "آپ ﷺ نے حجرِ اسود کو ایک چادر کے درمیان رکھ دیا",
+        "آپ ﷺ نے تعمیر روک دی",
+        "آپ ﷺ نے قرعہ ڈالنے کا حکم دیا"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What instruction did the Holy Prophet ﷺ give to the chiefs of the tribes?",
+      "hi": "हुज़ूर पुरनूर ﷺ ने तमाम क़बीलों के सरदारों को क्या हुक्म दिया?",
+      "ur": "حضور پرنور ﷺ نے تمام قبیلوں کے سرداروں کو کیا حکم دیا؟"
+    },
+    "options": {
+      "en": [
+        "To leave the Kaaba immediately",
+        "To hold one corner of the cloak each and lift it together",
+        "To appoint one representative",
+        "To rebuild the Kaaba separately"
+      ],
+      "hi": [
+        "फ़ौरन काबा से बाहर चले जाएँ",
+        "हर क़बीले का सरदार चादर का एक-एक कोना पकड़कर मिलकर उठाए",
+        "एक ही नुमाइंदा चुना जाए",
+        "हर क़बीला अलग-अलग तामीर करे"
+      ],
+      "ur": [
+        "فوراً کعبہ سے باہر چلے جائیں",
+        "ہر قبیلے کا سردار چادر کا ایک ایک کونا پکڑ کر مل کر اٹھائے",
+        "ایک ہی نمائندہ منتخب کیا جائے",
+        "ہر قبیلہ الگ الگ تعمیر کرے"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "How was the dispute finally resolved?",
+      "hi": "आख़िरकार हजर-ए-अस्वद का मसला किस तरह हल हुआ?",
+      "ur": "آخرکار حجرِ اسود کا مسئلہ کس طرح حل ہوا؟"
+    },
+    "options": {
+      "en": [
+        "The tribes abandoned the rebuilding",
+        "Everyone shared the honor, and the Holy Prophet ﷺ placed the Hajar-e-Aswad into the wall with His blessed hands",
+        "One tribe won the right after a battle",
+        "The stone was left outside the Kaaba"
+      ],
+      "hi": [
+        "क़बीलों ने तामीर छोड़ दी",
+        "सबने मिलकर पत्थर उठाया और हुज़ूर ﷺ ने अपने दस्ते-मुबारक से उसे काबा शरीफ़ की दीवार में नसब फ़रमा दिया",
+        "जंग के बाद एक क़बीले को यह शरफ़ मिला",
+        "पत्थर को काबा के बाहर ही छोड़ दिया गया"
+      ],
+      "ur": [
+        "قبیلوں نے تعمیر چھوڑ دی",
+        "سب نے مل کر پتھر اٹھایا اور حضور ﷺ نے اپنے دستِ مبارک سے اسے کعبہ شریف کی دیوار میں نصب فرما دیا",
+        "جنگ کے بعد ایک قبیلے کو یہ شرف ملا",
+        "پتھر کو کعبہ کے باہر ہی چھوڑ دیا گیا"
+      ]
+    },
+    "correctIndex": 1
+  }
+]
+
+,
+
+
+"chapter30": [
+  {
+    "question": {
+      "en": "As the time of Prophethood approached, what became especially beloved to the Holy Prophet ﷺ?",
+      "hi": "ऐलान-ए-नुबुव्वत का वक़्त क़रीब आने पर हुज़ूर पुरनूर ﷺ को क्या चीज़ बहुत पसंद आने लगी?",
+      "ur": "اعلانِ نبوت کا وقت قریب آنے پر حضور پرنور ﷺ کو کون سی چیز بہت پسند آنے لگی؟"
+    },
+    "options": {
+      "en": [
+        "Trade journeys",
+        "Solitude for the remembrance of Allah",
+        "Public gatherings",
+        "Travelling across Arabia"
+      ],
+      "hi": [
+        "तिजारती सफ़र",
+        "अल्लाह की याद के लिए ख़ल्वत-नशीनी (एकांत)",
+        "बड़ी-बड़ी महफ़िलें",
+        "पूरे अरब का सफ़र"
+      ],
+      "ur": [
+        "تجارتی سفر",
+        "اللہ کی یاد کے لیے خلوت نشینی",
+        "بڑی بڑی محفلیں",
+        "پورے عرب کا سفر"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "Where did the Holy Prophet ﷺ go for worship?",
+      "hi": "हुज़ूर पुरनूर ﷺ इबादत के लिए कहाँ तशरीफ़ ले जाया करते थे?",
+      "ur": "حضور پرنور ﷺ عبادت کے لیے کہاں تشریف لے جایا کرتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "The Cave of Thawr",
+        "The Cave of Hira on Jabal-e-Noor",
+        "Masjid al-Haram",
+        "Mount Uhud"
+      ],
+      "hi": [
+        "ग़ार-ए-सौर",
+        "जबल-ए-नूर पर वाक़े ग़ार-ए-हिरा",
+        "मस्जिद-ए-हराम",
+        "जबल-ए-उहुद"
+      ],
+      "ur": [
+        "غارِ ثور",
+        "جبلِ نور پر واقع غارِ حرا",
+        "مسجد الحرام",
+        "جبلِ احد"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What provisions did the Holy Prophet ﷺ usually take with Him for several days of worship?",
+      "hi": "हुज़ूर ﷺ कई दिनों की इबादत के लिए अपने साथ क्या ले जाया करते थे?",
+      "ur": "حضور ﷺ کئی دنوں کی عبادت کے لیے اپنے ساتھ کیا لے جایا کرتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "Dates and milk",
+        "Sattu and water",
+        "Bread and meat",
+        "Honey and fruits"
+      ],
+      "hi": [
+        "खजूर और दूध",
+        "सत्तू और पानी",
+        "रोटी और गोश्त",
+        "शहद और फल"
+      ],
+      "ur": [
+        "کھجور اور دودھ",
+        "ستو اور پانی",
+        "روٹی اور گوشت",
+        "شہد اور پھل"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What did the Holy Prophet ﷺ contemplate while in the Cave of Hira?",
+      "hi": "ग़ार-ए-हिरा में हुज़ूर ﷺ किस बात पर ग़ौर-ओ-फ़िक्र फ़रमाते थे?",
+      "ur": "غارِ حرا میں حضور ﷺ کن چیزوں پر غور و فکر فرماتے تھے؟"
+    },
+    "options": {
+      "en": [
+        "The trade of Makkah",
+        "The power of Allah, the creation of the heavens and the earth, and the universe",
+        "The history of Arab tribes",
+        "The politics of Makkah"
+      ],
+      "hi": [
+        "मक्का की तिजारत",
+        "अल्लाह तआला की क़ुदरत, ज़मीन-ओ-आसमान की पैदाइश और पूरी कायनात के निज़ाम पर",
+        "अरब के क़बीलों की तारीख़",
+        "मक्का की सियासत"
+      ],
+      "ur": [
+        "مکہ کی تجارت",
+        "اللہ تعالیٰ کی قدرت، زمین و آسمان کی پیدائش اور پوری کائنات کے نظام پر",
+        "عرب کے قبائل کی تاریخ",
+        "مکہ کی سیاست"
+      ]
+    },
+    "correctIndex": 1
+  },
+  {
+    "question": {
+      "en": "What great event was destined to occur in the Cave of Hira?",
+      "hi": "ग़ार-ए-हिरा में कौन-सा अज़ीम वाक़िआ पेश आने वाला था?",
+      "ur": "غارِ حرا میں کون سا عظیم واقعہ پیش آنے والا تھا؟"
+    },
+    "options": {
+      "en": [
+        "The migration to Madinah",
+        "The first Divine Revelation through Hazrat Jibril (A.S.)",
+        "The conquest of Makkah",
+        "The Battle of Badr"
+      ],
+      "hi": [
+        "हिजरत-ए-मदीना",
+        "हज़रत जिबरील (अलैहिस्सलाम) के ज़रिए पहली वही का नाज़िल होना",
+        "फ़त्ह-ए-मक्का",
+        "ग़ज़वा-ए-बद्र"
+      ],
+      "ur": [
+        "ہجرتِ مدینہ",
+        "حضرت جبرائیل علیہ السلام کے ذریعے پہلی وحی کا نازل ہونا",
+        "فتح مکہ",
+        "غزوۂ بدر"
+      ]
+    },
+    "correctIndex": 1
+  }
+]
+}

@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dastaan-e-Islam | Seerate Mustafa (ﷺ)</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <audio id="tapSound" src="assets/audio/TAP.wav"></audio>
+    <audio id="startSound" src="assets/audio/START.mp3"></audio>
+        <audio id="nextSound" src="assets/audio/NEXT.mp3"></audio>
+    <audio id="quizStartSound" src="assets/audio/QUIZSTART.mp3"></audio>
+        <audio id="correctSound" src="assets/audio/COMPLETE.wav"></audio>
+    <audio id="wrongSound" src="assets/audio/WRONG.wav"></audio>
+
+
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0B6E4F">
+  <meta name="mobile-web-app-capable" content="yes">
+
+
+</head>
+<body>
+  
+  <div id="splash-screen" class="splash-overlay">
+    <img id="splash-image" src="assets/images/OPEN-IMAGE-EN.webp" alt="Dastaan-e-Islam Loading...">
+</div>
+
+  
+  
+  
+  
+  <div id="intro-screen" class="intro-overlay hidden">
+    <div class="intro-content">
+        <img id="intro-image" src="" alt="Lesson Intro">
+        <h2 id="intro-text"></h2>
+        
+        <div class="loader-container">
+            <div class="loader-bar"></div>
+            <p id="loading-label">Preparing Your Lesson...</p>
+        </div>
+    </div>
+</div>
+
+            <div id="lesson-screen" class="screen hidden">
+        <div class="lesson-header">
+            <button class="close-btn" onclick="closeLesson()">✖</button>
+            <div class="progress-bar-bg">
+                <div id="lesson-progress" class="progress-fill"></div>
+            </div>
+        </div>
+        
+        <div class="slide-content">
+            <img id="slide-image" src="" alt="Lesson Image" class="slide-img fade-in">
+            <div class="slide-text-box">
+                <p id="slide-text" class="fade-in">Preparing Your chapters...</p>
+            </div>
+        </div>
+        
+        <div class="lesson-bottom">
+            <button class="btn-primary btn-full" onclick="nextSlide()">Next</button>
+        </div>
+    </div>
+
+            <div id="quiz-screen" class="screen hidden">
+        <div class="lesson-header">
+            <button class="close-btn" onclick="closeLesson()">✖</button>
+            <div class="progress-bar-bg">
+                <div id="quiz-progress" class="progress-fill" style="background-color: #4CAF50;"></div>
+            </div>
+        </div>
+        
+        <div class="quiz-content">
+            <div class="question-box">
+                <h2 id="quiz-question">Preparing Your QUIZS...</h2>
+            </div>
+            
+            <div id="quiz-options" class="options-container">
+                </div>
+        </div>
+        
+        <div class="lesson-bottom hidden" id="quiz-next-container">
+            <button class="btn-primary btn-full" id="quiz-next-btn" onclick="nextQuizQuestion()">Next</button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="screen hidden">
+        <div class="result-content">
+            <h1 id="result-title" class="pop-in">Alhamdulillah</h1>
+            
+            <div id="star-container" class="stars pop-in" style="font-size: 2.5rem; margin-bottom: 10px;">
+                <!-- यहाँ JS से स्टार्स आएंगे -->
+            </div>
+            
+            <div class="score-board fade-in">
+                <h2 id="score-text">स्कोर: 0 / 0</h2>
+                <p id="result-message">Mashallah, excellent progress!</p>
+            </div>
+
+            <!-- 🔥 नया रिवॉर्ड सेक्शन जो रिज़ल्ट में दिखेगा -->
+            <div id="rewards-container" class="fade-in" style="display: flex; justify-content: center; gap: 20px; margin-top: 25px;">
+                <div class="reward-box" style="background: #FFF9C4; padding: 10px 20px; border-radius: 12px; font-weight: bold; color: #F57F17; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <span style="font-size: 1.5rem; display: block; margin-bottom: 5px;">💎</span>
+                    <span id="result-gems" style="font-size: 1.2rem;">+0</span>
+                </div>
+                <div class="reward-box" style="background: #E3F2FD; padding: 10px 20px; border-radius: 12px; font-weight: bold; color: #1565C0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    <span style="font-size: 1.5rem; display: block; margin-bottom: 5px;">⭐</span>
+                    <span id="result-xp" style="font-size: 1.2rem;">+0 XP</span>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="lesson-bottom fade-in">
+            <button class="btn-primary btn-full" onclick="returnToHome()">Return Home</button>
+        </div>
+    </div>
+
+        
+        <div id="language-screen" class="screen active">
+        <div class="full-screen-bg">
+            <img src="assets/images/LANGUAGE.webp" alt="Select Language" class="fullscreen-img">
+            
+            <div class="lang-buttons-overlay">
+                <button onclick="selectLanguage('en')" class="btn-lang" id="btn-en">EN</button>
+                <button onclick="selectLanguage('ur')" class="btn-lang" id="btn-ur">UR</button>
+                <button onclick="selectLanguage('hi')" class="btn-lang" id="btn-hi">HI</button>
+            </div>
+        </div>
+        
+        <button id="continue-btn" class="btn-primary hidden ripple press" onclick="startApp()">Select Language & Continue</button>
+    </div>
+
+    <div id="main-app" class="screen hidden">
+        
+        <header>
+    <div class="top-bar" style="display: flex; flex-direction: column; gap: 8px; padding: 12px 15px;">
+        <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <img src="assets/images/LOGO.png" alt="Logo Small" class="nav-logo">
+                <h1 id="app-title" style="margin: 0;">Dastaan-e-Islam</h1>
+            </div>
+            <button onclick="openSettings()" class="settings-icon">⚙️</button>
+        </div>
+        
+        <!-- LIVE STATS BAR (Energy & XP) -->
+        
+        
+                      <div class="top-stats-container">
+            <div class="stats-badges-wrapper">
+                <div onclick="openEnergyModal()" class="stat-badge stat-energy">⚡️ <span class="top-energy-text">10</span></div>
+                <div class="stat-badge stat-streak"><span class="top-streak-icon">🔥</span> <span class="top-streak-text">0</span></div>
+                <div class="stat-badge stat-gems">💎 <span class="top-gems-text">0</span></div>
+                <div class="stat-badge stat-xp">🔖 <span class="top-xp-text">0</span></div>
+            </div>
+            <button onclick="openAchievements()" class="btn-top-action" style="font-size: 1.5rem;">🏆</button>
+        </div>
+
+
+
+        
+        
+    </div>
+</header>
+
+        
+        <main id="content-area">
+            <div class="main-book-banner" onclick="showChaptersScreen()">
+                <img src="assets/images/LOGO.png" alt="Book" class="book-img">
+                <div class="book-info">
+                    <h2 id="banner-title">Seerat-e-Mustafaﷺ</h2>
+                    <p id="banner-sub">Begin Your Complete Journey</p>
+                </div>
+            </div>
+        </main>
+        
+        <!--nav class="bottom-nav" style="display: flex; justify-content: space-around; background: white; padding: 10px 0; border-top: 1px solid #ddd; position: fixed; bottom: 0; width: 100%; z-index: 1000; box-shadow: 0 -2px 10px rgba(0,0,0,0.05);">
+    <div class="nav-item" onclick="switchTab('home')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.5rem;">🏠</div>
+        <span style="font-size: 0.75rem; color: #666; font-weight: bold;">Home</span>
+    </div>
+    <div class="nav-item" onclick="switchTab('journey')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.5rem;">📜</div>
+        <span style="font-size: 0.75rem; color: #666; font-weight: bold;">Journey</span>
+    </div>
+    <div class="nav-item" onclick="showToast('Leaderboard जल्दी ही आ रहा है! 🏆')" style="text-align: center; cursor: pointer; flex: 1; opacity: 0.6;">
+        <div style="font-size: 1.5rem;">📊</div>
+        <span style="font-size: 0.75rem; color: #666; font-weight: bold;">Rank</span>
+    </div>
+    <div class="nav-item" onclick="switchTab('profile')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.5rem;">👤</div>
+        <span style="font-size: 0.75rem; color: #666; font-weight: bold;">Profile</span>
+    </div>
+</nav-->
+
+        
+        
+        
+    </div>
+
+    <div id="chapters-screen" class="screen hidden">
+        
+        <header class="back-header" style="display: flex; flex-direction: column; gap: 8px; padding: 12px 15px; background: #fff; border-bottom: 1px solid #eee;">
+    <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <button class="back-btn" onclick="backToHome()">❮</button>
+            <h2 id="chapters-title" style="margin: 0;">Your Learning Path</h2>
+        </div>
+    </div>
+    
+                    <div class="top-stats-container">
+            <div class="stats-badges-wrapper" style="margin: 0 auto;">
+                <div onclick="openEnergyModal()" class="stat-badge stat-energy">⚡️ <span class="top-energy-text">10</span></div>
+                <div class="stat-badge stat-streak"><span class="top-streak-icon">🔥</span> <span class="top-streak-text">0</span></div>
+                <div class="stat-badge stat-gems">💎 <span class="top-gems-text">0</span></div>
+                <div class="stat-badge stat-xp">🔖 <span class="top-xp-text">0</span></div>
+            </div>
+        </div>
+
+
+
+    
+    
+    
+</header>
+
+        
+        
+        
+
+       <div class="chapters-list-container">
+    <div class="chapter-banner-box bg-green" onclick="openLessonMap('unit1')">
+        <div class="chap-text">
+            <span class="chap-num">UNIT 1</span>
+            <h3>Lineage and Family of the Prophet ﷺ</h3>
+        </div>
+        <div class="chap-progress" id="unit1-progress">0/20</div> 
+    </div>
+
+    <div class="chapter-banner-box locked" id="chap-banner-2" onclick="openLessonMap('unit2')">
+        <div class="chap-text">
+            <span class="chap-num">UNIT 2</span>
+            <h3>The Makkan Era of the Prophet ﷺ</h3>
+        </div>
+        <div class="chap-progress" id="unit2-progress">🔒</div>
+    </div>
+</div>
+
+       
+    </div>
+
+    <div id="lesson-map-screen" class="screen hidden" style="overflow-y: auto;">
+        
+        
+        <header class="back-header" style="display: flex; flex-direction: column; gap: 8px; padding: 12px 15px; background: #fff; border-bottom: 1px solid #eee;">
+    <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+        <div style="display: flex; align-items: center; gap: 8px;">
+            <button class="back-btn" onclick="backToChapters()">⬅️</button>
+            <h2 id="current-chapter-title" style="margin: 0;">Lineage and Family of the Prophet ﷺ"</h2>
+        </div>
+    </div>
+    
+                    <div class="top-stats-container">
+            <div class="stats-badges-wrapper" style="margin: 0 auto;">
+                <div onclick="openEnergyModal()" class="stat-badge stat-energy">⚡️ <span class="top-energy-text">10</span></div>
+                <div class="stat-badge stat-streak"><span class="top-streak-icon">🔥</span> <span class="top-streak-text">0</span></div>
+                <div class="stat-badge stat-gems">💎 <span class="top-gems-text">0</span></div>
+                <div class="stat-badge stat-xp">🔖 <span class="top-xp-text">0</span></div>
+            </div>
+        </div>
+
+
+
+    
+    
+</header>
+
+        
+
+        <div class="lesson-map-path">
+            <div class="path-vertical-line"></div>
+           
+           
+      
+      <div id="unit1-nodes">
+
+    <div class="node-wrapper pos-0">
+        <button id="node-chapter1" class="lesson-node active" onclick="loadLesson('chapter1')">
+            <span class="node-icon">📖</span>
+        </button>
+        <div class="node-label-box">LESSON 1 </div>
+    </div>
+
+    <div class="node-wrapper pos-1">
+        <button id="node-chapter2" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 2</div>
+    </div>
+
+    <div class="node-wrapper pos-2">
+        <button id="node-chapter3" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 3 </div>
+    </div>
+
+    <div class="node-wrapper pos-3">
+        <button id="node-chapter4" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 4</div>
+    </div>
+
+    <div class="node-wrapper pos-4">
+        <button id="node-chapter5" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 5</div>
+    </div>
+    
+        <div class="node-wrapper pos-5">
+        <button id="node-chapter6" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 6</div>
+    </div>
+    
+      <div class="node-wrapper pos-6">
+        <button id="node-chapter7" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 7</div>
+    </div>  
+    
+        <div class="node-wrapper pos-7">
+        <button id="node-chapter8" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 8</div>
+    </div>
+    
+       <div class="node-wrapper pos-8">
+        <button id="node-chapter9" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 9</div>
+    </div> 
+    
+       <div class="node-wrapper pos-9">
+        <button id="node-chapter10" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 10</div>
+    </div> 
+    
+        <div class="node-wrapper pos-10">
+        <button id="node-chapter11" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 11</div>
+    </div>
+    
+       <div class="node-wrapper pos-11">
+        <button id="node-chapter12" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 12</div>
+    </div> 
+    
+        <div class="node-wrapper pos-12">
+        <button id="node-chapter13" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 13</div>
+    </div>
+    
+      <div class="node-wrapper pos-13">
+        <button id="node-chapter14" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 14</div>
+    </div>  
+    
+       <div class="node-wrapper pos-14">
+        <button id="node-chapter15" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 15</div>
+    </div> 
+    
+      <div class="node-wrapper pos-15">
+        <button id="node-chapter16" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 16</div>
+    </div>  
+    
+        <div class="node-wrapper pos-16">
+        <button id="node-chapter17" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 17</div>
+    </div>
+   
+       <div class="node-wrapper pos-17">
+        <button id="node-chapter18" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 18</div>
+    </div> 
+   
+       <div class="node-wrapper pos-18">
+        <button id="node-chapter19" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 19</div>
+    </div>
+   
+        <div class="node-wrapper pos-19">
+        <button id="node-chapter20" class="lesson-node locked">
+            <span class="node-icon">🔒</span>
+        </button>
+        <div class="node-label-box">LESSON 20</div>
+    </div>
+    
+    
+    
+    
+    
+
+    </div>
+
+      
+            <div id="unit2-nodes" class="hidden">
+        
+        <div class="node-wrapper pos-0">
+            <button id="node-chapter21" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 21</div>
+        </div>
+
+        <div class="node-wrapper pos-1">
+            <button id="node-chapter22" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 22</div>
+        </div>
+
+        <div class="node-wrapper pos-2">
+            <button id="node-chapter23" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 23</div>
+        </div>
+
+        <div class="node-wrapper pos-3">
+            <button id="node-chapter24" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 24</div>
+        </div>
+
+        <div class="node-wrapper pos-4">
+            <button id="node-chapter25" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 25</div>
+        </div>
+
+        <div class="node-wrapper pos-5">
+            <button id="node-chapter26" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 26</div>
+        </div>
+
+        <div class="node-wrapper pos-6">
+            <button id="node-chapter27" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 27</div>
+        </div>
+
+        <div class="node-wrapper pos-7">
+            <button id="node-chapter28" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 28</div>
+        </div>
+
+        <div class="node-wrapper pos-8">
+            <button id="node-chapter29" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 29</div>
+        </div>
+
+        <div class="node-wrapper pos-9">
+            <button id="node-chapter30" class="lesson-node locked">
+                <span class="node-icon">🔒</span>
+            </button>
+            <div class="node-label-box">LESSON 30</div>
+        </div>
+
+      </div>
+
+
+      
+      
+    </div>
+    </div>
+
+<nav id="main-nav" class="bottom-nav" style="display: none; justify-content: space-around; background: white; padding: 10px 0; border-top: 1px solid #ddd; position: fixed; bottom: 0; width: 100%; z-index: 1000; box-shadow: 0 -2px 10px rgba(0,0,0,0.05);">
+    <div class="nav-item" onclick="switchTab('home')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.4rem;">🏠</div>
+        <span style="font-size: 0.7rem; color: #666; font-weight: bold;">HOME</span>
+    </div>
+    <div class="nav-item" onclick="switchTab('journey')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.4rem;">📜</div>
+        <span style="font-size: 0.7rem; color: #666; font-weight: bold;">Journey</span>
+    </div>
+    <div class="nav-item" onclick="switchTab('store')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.4rem;">📑</div>
+        <span style="font-size: 0.7rem; color: #666; font-weight: bold;">Store</span>
+    </div>
+    <div class="nav-item" onclick="showToast('Leaderboard जल्दी ही आ रहा है! 🏆')" style="text-align: center; cursor: pointer; flex: 1; opacity: 0.6;">
+        <div style="font-size: 1.4rem;">📊</div>
+        <span style="font-size: 0.7rem; color: #666; font-weight: bold;">Leaderboard</span>
+    </div>
+    <div class="nav-item" onclick="switchTab('profile')" style="text-align: center; cursor: pointer; flex: 1;">
+        <div style="font-size: 1.4rem;">👤</div>
+        <span style="font-size: 0.7rem; color: #666; font-weight: bold;">Profile</span>
+    </div>
+</nav>
+
+
+
+
+    </div>
+       
+       
+       
+       <div id="settings-screen" class="screen hidden" style="z-index: 1000; background: rgba(0,0,0,0.6); justify-content: center; align-items: center; padding: 20px;">
+         
+         
+
+    
+    
+    <div class="settings-box" style="background: white; width: 100%; max-width: 400px; border-radius: 20px; padding: 25px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px;">
+            <h2 style="color: var(--primary-color, #2E5B3E);">⚙️ Settings</h2>
+            <button onclick="closeSettingsScreen()" style="background: none; border: none; font-size: 1.5rem; color: #888; cursor: pointer;">✖</button>
+        </div>
+
+        <!-- 1. Language -->
+<div style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
+    <label style="font-weight: bold; color: #333;">Language</label>
+    <div style="display: flex; gap: 8px;">
+        <button id="btn-lang-en" class="lang-btn" style="padding: 8px 12px; border-radius: 8px; border: 2px solid #ccc; background: white; transition: 0.2s;" onclick="changeLanguageWithoutReset('en')">ENGLISH</button>
+        <button id="btn-lang-ur" class="lang-btn" style="padding: 8px 12px; border-radius: 8px; border: 2px solid #ccc; background: white; transition: 0.2s;" onclick="changeLanguageWithoutReset('ur')">اردو</button>
+        <button id="btn-lang-hi" class="lang-btn" style="padding: 8px 12px; border-radius: 8px; border: 2px solid #ccc; background: white; transition: 0.2s;" onclick="changeLanguageWithoutReset('hi')">हिंदी</button>
+    </div>
+</div>
+
+         
+         
+         <div style="margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center;">
+    <label style="font-weight: bold; color: #333;">Font Size</label>
+    <div style="display: flex; gap: 8px;">
+        <button id="btn-font-small" class="font-btn" style="padding: 8px 12px; border-radius: 8px; border: 2px solid #ccc; background: white; transition: 0.2s;" onclick="changeFontSize('small')">A-</button>
+        <button id="btn-font-medium" class="font-btn" style="padding: 8px 12px; border-radius: 8px; border: 2px solid #ccc; background: white; transition: 0.2s;" onclick="changeFontSize('medium')">A</button>
+        <button id="btn-font-large" class="font-btn" style="padding: 8px 12px; border-radius: 8px; border: 2px solid #ccc; background: white; transition: 0.2s;" onclick="changeFontSize('large')">A+</button>
+    </div>
+</div>
+
+         
+         
+
+        <div style="margin-bottom: 15px;">
+            <label style="font-weight: bold; color: #333; display: block; margin-bottom: 8px;">Promo Code</label>
+            <div style="display: flex; gap: 10px;">
+                <input type="text" id="promo-input" placeholder="Enter Code" style="flex-grow: 1; padding: 10px; border-radius: 8px; border: 1px solid #ccc; text-transform: uppercase;">
+                <button style="padding: 10px 15px; border-radius: 8px; border: none; background: var(--secondary-color, #D4AF37); color: white; font-weight: bold;" onclick="applyPromoCode()">Apply</button>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <button style="width: 100%; padding: 12px; background: #2196F3; color: white; border: none; border-radius: 10px; font-weight: bold; font-size: 1.1rem;" onclick="showAboutInfo()">ℹ️ About the Developer</button>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+
+        <div style="text-align: center;">
+            <button style="background: #F44336; color: white; width: 100%; padding: 12px; border: none; border-radius: 10px; font-weight: bold; font-size: 1.1rem;" onclick="resetAppProgress()">⚠️ Reset Progress</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+            <!-- RESET CONFIRMATION SCREEN (Custom Window) -->
+<div id="reset-screen" class="screen hidden" style="z-index: 1200; background: rgba(0,0,0,0.7); justify-content: center; align-items: center; padding: 20px;">
+    <div style="background: white; width: 100%; max-width: 320px; border-radius: 20px; padding: 25px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        
+        <h2 style="color: #F44336; margin-bottom: 10px;">⚠️ Warning!</h2>
+        <p style="color: #333; font-size: 1rem; margin-bottom: 25px; line-weight: 1.5;">Are you sure you want to reset?<br>This action cannot be undone.
+        </p>
+        
+        <div style="display: flex; gap: 10px; justify-content: center;">
+            <button onclick="closeResetScreen()" style="flex: 1; padding: 10px; border-radius: 10px; border: 2px solid #ccc; background: white; color: #333; font-weight: bold;">Cancel</button>
+            <button onclick="confirmAppReset()" style="flex: 1; padding: 10px; border-radius: 10px; border: none; background: #F44336; color: white; font-weight: bold;">Yes, Reset</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+         <div id="about-screen" class="screen hidden" style="z-index: 1100; background: rgba(0,0,0,0.7); justify-content: center; align-items: center; padding: 20px;">
+    <div style="background: white; width: 100%; max-width: 320px; border-radius: 20px; padding: 25px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); position: relative;">
+        
+        <h2 style="color: var(--primary-color, #2E5B3E); margin-bottom: 5px;">DASTAAN-E-ISLAM</h2>
+        <p style="font-size: 0.9rem; color: #888; margin-bottom: 20px;">Version 1.0</p>
+        
+        <p style="font-weight: bold; color: #333; margin-bottom: 10px;">Developed by:</p>
+        <h3 style="color: #2196F3; margin-bottom: 15px;">MD RAZA ANSARI</h3>
+        
+        <p style="color: #666; font-size: 0.95rem; line-height: 1.5; margin-bottom: 25px;">Designed to help you easily read, learn, and understand the beautiful Seerah of Prophet Muhammad ﷺ.<br><br>      Please keep me in your prayers!
+        
+        </p>
+        
+        <button onclick="closeAboutInfo()" style="background: var(--primary-color, #2E5B3E); color: white; padding: 10px 40px; border: none; border-radius: 25px; font-weight: bold; font-size: 1.1rem; cursor: pointer;">CLOSE</button>
+    </div>
+</div>
+
+       
+       <!-- ENERGY TIMER MODAL -->
+<div id="energy-modal" class="screen hidden" style="z-index: 1500; background: rgba(0,0,0,0.7); justify-content: center; align-items: center; padding: 20px;">
+    <div style="background: white; width: 100%; max-width: 320px; border-radius: 20px; padding: 25px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); position: relative;">
+        
+        <h2 style="color: #E65100; margin-bottom: 10px; font-size: 1.8rem;">⚡️ ENERGY</h2>
+        
+        <div style="background: #FFF3E0; border-radius: 15px; padding: 15px; margin-bottom: 20px;">
+            <p style="color: #333; font-weight: bold; font-size: 1.2rem; margin-bottom: 5px;">
+                <span id="modal-energy-count">10</span> /10
+            </p>
+            <p id="energy-timer-display" style="color: #E65100; font-size: 1.1rem; font-weight: bold; margin: 0;">
+                Your energy is full! 
+                Time to start a new lesson.
+            </p>
+        </div>
+        
+        <p style="font-size: 0.85rem; color: #666; margin-bottom: 20px; line-height: 1.5;">
+          Energy refills automatically every few minutes. Save your energy by answering correctly!
+        </p>
+        
+        <button onclick="closeEnergyModal()" style="background: #E65100; color: white; width: 100%; padding: 12px; border: none; border-radius: 10px; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
+            OK
+        </button>
+    </div>
+</div>
+       
+       
+       <div id="achievements-modal" class="screen hidden" style="z-index: 1500; background: rgba(0,0,0,0.7); justify-content: center; align-items: center; padding: 20px;">
+    <div style="background: white; width: 100%; max-width: 350px; border-radius: 20px; padding: 25px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.3); position: relative; max-height: 80vh; overflow-y: auto;">
+        
+        <h2 style="color: #2E5B3E; margin-bottom: 20px; font-size: 1.6rem;">🏆 Achievements</h2>
+
+        <div id="achievements-list-container"></div>
+
+        <button onclick="closeAchievements()" style="background: #2E5B3E; color: white; width: 100%; padding: 12px; border: none; border-radius: 10px; font-weight: bold; font-size: 1.1rem; cursor: pointer; margin-top: 10px;">
+            CLOSE
+        </button>
+    </div>
+</div>
+
+
+       
+       
+       <div id="journey-screen" class="screen hidden" style="background: #FAFAFA; padding-bottom: 80px; overflow-y: auto; height: 100vh;">
+    <header style="background: white; padding: 15px; text-align: center; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 10;">
+        <h2 style="margin: 0; color: #2E5B3E; font-size: 1.4rem;">Your Learning History📜</h2>
+        <p style="margin: 5px 0 0 0; font-size: 0.85rem; color: #666;">All your completed lessons in one place.</p>
+    </header>
+    
+    <div id="journey-content" style="padding: 20px;">
+        <div style="text-align: center; color: #888; margin-top: 50px;">
+            <div class="loader-bar"></div>
+            <p>Loading your learning journey...</p>
+        </div>
+    </div>
+</div>
+
+<div id="profile-screen" class="screen hidden" style="background: #F4F7F6; padding-bottom: 80px; overflow-y: auto; height: 100vh;">
+    
+    <div style="background: linear-gradient(135deg, #2E5B3E, #4CAF50); height: 120px; border-bottom-left-radius: 30px; border-bottom-right-radius: 30px; position: relative; margin-bottom: 60px;">
+        
+        <div style="position: absolute; bottom: -50px; left: 50%; transform: translateX(-50%); text-align: center;">
+            <label for="profile-upload" style="cursor: pointer; position: relative; display: inline-block;">
+                <img id="profile-pic-preview" src="assets/images/default-avatar.png" alt="Profile" style="width: 100px; height: 100px; border-radius: 50%; border: 4px solid white; object-fit: cover; background: white; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                <div style="position: absolute; bottom: 0; right: 0; background: #FFC107; padding: 6px; border-radius: 50%; border: 2px solid white; display: flex; justify-content: center; align-items: center;">
+                    📷
+                </div>
+            </label>
+            <input type="file" id="profile-upload" accept="image/*" style="display: none;" onchange="uploadProfilePic(event)">
+        </div>
+    </div>
+
+    <div style="padding: 0 20px;">
+        <div style="text-align: center; margin-bottom: 25px;">
+            <input type="text" id="profile-name" placeholder="Enter your name.." onchange="saveProfileData()" style="font-size: 1.4rem; font-weight: bold; color: #333; text-align: center; border: none; background: transparent; width: 100%; border-bottom: 1px dashed #ccc; padding-bottom: 5px; margin-bottom: 10px;">
+            
+            <textarea id="profile-about" placeholder="Write something about yourself..." onchange="saveProfileData()" style="font-size: 0.9rem; color: #666; text-align: center; border: none; background: transparent; width: 100%; resize: none; font-family: inherit; border-bottom: 1px dashed #ccc; padding-bottom: 5px;"></textarea>
+        </div>
+
+        <div style="display: flex; gap: 15px; margin-bottom: 30px;">
+            <div style="flex: 1; background: white; padding: 15px; border-radius: 20px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <div style="font-size: 2rem; margin-bottom: 5px;" id="profile-streak-icon">🔥</div>
+                <div style="font-size: 1.5rem; font-weight: bold; color: #C2185B;" id="profile-streak-count">0</div>
+                <div style="font-size: 0.8rem; color: #888;">Day Streak</div>
+            </div>
+            <div style="flex: 1; background: white; padding: 15px; border-radius: 20px; text-align: center; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <div style="font-size: 2rem; margin-bottom: 5px;">🔖</div>
+                <div style="font-size: 1.5rem; font-weight: bold; color: #2E7D32;" id="profile-xp-count">0</div>
+                <div style="font-size: 0.8rem; color: #888;">TOTAL XP</div>
+            </div>
+        </div>
+
+        <h3 style="color: #333; font-size: 1.1rem; margin-bottom: 15px;">My Achievements 🏆</h3>
+        <div id="profile-achievements-container" style="background: white; border-radius: 20px; padding: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); display: flex; gap: 10px; overflow-x: auto;">
+            </div>
+    </div>
+</div>
+
+       
+       <div id="store-screen" class="screen hidden" style="background: #F9FBFA; padding-bottom: 80px; overflow-y: auto; height: 100vh;">
+    <header style="background: white; padding: 15px; text-align: center; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 10;">
+        <h2 style="margin: 0; color: #2E5B3E; font-size: 1.4rem;">MY Store 📑</h2>
+        <p style="margin: 5px 0 0 0; font-size: 0.85rem; color: #666;">Use your gems to buy items.</p>
+    </header>
+
+    <div style="padding: 20px;">
+        <div style="background: linear-gradient(135deg, #FFD700, #FFA500); padding: 15px; border-radius: 20px; text-align: center; color: white; box-shadow: 0 4px 15px rgba(255,165,0,0.2); margin-bottom: 25px;">
+            <div style="font-size: 0.9rem; font-weight: bold; text-transform: uppercase; letter-spacing: 1px;">Your Balance</div>
+            <div style="font-size: 2.2rem; font-weight: bold; margin: 5px 0; display: flex; justify-content: center; align-items: center; gap: 8px;">
+                💎 <span id="store-gems-count">0</span>
+            </div>
+            <p style="margin: 0; font-size: 0.8rem; opacity: 0.9;">Complete lessons to earn more gems!</p>
+        </div>
+
+        <div style="background: white; border-radius: 20px; padding: 15px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4px 12px rgba(0,0,0,0.05); margin-bottom: 15px; border-left: 5px solid #E65100;">
+            <div style="display: flex; align-items: center; gap: 15px;">
+                <div style="font-size: 2.5rem; background: #FFF3E0; width: 60px; height: 60px; border-radius: 15px; display: flex; justify-content: center; align-items: center;">⚡</div>
+                <div>
+                    <h4 style="margin: 0; color: #333; font-size: 1.05rem;">Energy Refill</h4>
+                    <p style="margin: 3px 0 0 0; font-size: 0.75rem; color: #777;">Add +1 Energy</p>
+                </div>
+            </div>
+            <button onclick="buyEnergyFromStore()" style="background: #E65100; color: white; border: none; padding: 10px 15px; border-radius: 12px; font-weight: bold; cursor: pointer; display: flex; align-items: center; gap: 4px; box-shadow: 0 3px 8px rgba(230,81,0,0.2);">
+                20 💎
+            </button>
+        </div>
+
+        <div class="store-card">
+    <div class="store-card-info">
+        <div class="store-card-icon">♨️</div>
+        <div>
+            <h4 class="store-card-title">Streak Freezer</h4>
+            <p class="store-card-desc">Protect your streak if you miss a day</p>
+            <p class="store-card-stash">Stash: <span id="store-freezer-count">0</span>/2 Max</p>
+        </div>
+    </div>
+    <button id="buy-freezer-btn" onclick="buyFreezerFromStore()" class="btn-buy-store">
+        30 💎
+    </button>
+</div>
+
+
+        <div style="background: #E8F5E9; border: 1px dashed #2E7D32; border-radius: 15px; padding: 12px; text-align: center; color: #2E7D32; font-size: 0.8rem; font-weight: bold;">
+Reward: Get 1 free Streak Freeze every 3 days! 🎁
+            <div id="freezer-timer-info" style="font-size: 0.75rem; font-weight: normal; color: #555; margin-top: 4px;"></div>
+        </div>
+    </div>
+</div>
+
+       
+       <!-- TOAST NOTIFICATION -->
+<div id="toast-message" style="position: fixed; bottom: -50px; left: 50%; transform: translateX(-50%); background: #333; color: white; padding: 10px 20px; border-radius: 25px; font-size: 0.9rem; transition: 0.3s; z-index: 2000; opacity: 0;">
+    Message Here
+</div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/quiz.js"></script>
+    <script src="js/pwa.js"></script>
+    <script src="js/ripple.js"></script>
+
+</body>
+</html>

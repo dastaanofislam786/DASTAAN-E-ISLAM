@@ -1,0 +1,206 @@
+/* =========================================
+   ANIMATIONS (animations.css)
+   ========================================= */
+
+/* App open hone par Logo aur text aahista se dikhne ke liye */
+.fade-in {
+    animation: fadeIn 1.2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Duolingo jaisa Pop/Bounce effect buttons aane par */
+.pop-in {
+    animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+@keyframes popIn {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+/* Continue button ke liye halka dhak-dhak (pulse) effect taki user uspe click kare */
+.pulse {
+    animation: pulseEffect 2s infinite;
+}
+
+@keyframes pulseEffect {
+    0% { transform: translateX(-50%) scale(1); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); }
+    50% { transform: translateX(-50%) scale(1.05); box-shadow: 0 6px 15px rgba(212, 175, 55, 0.6); }
+    100% { transform: translateX(-50%) scale(1); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); }
+}
+
+/* Naye page (Sabaq ya Quiz) pe jane ke liye smooth slide animation */
+.slide-up {
+    animation: slideUp 0.4s ease-out forwards;
+}
+
+@keyframes slideUp {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* =========================================
+   VERSION 1.0.4 - ADVANCED ANIMATIONS
+   ========================================= */
+
+/* Fade Up */
+.fade-up{
+    animation:fadeUp .6s ease forwards;
+}
+
+@keyframes fadeUp{
+
+from{
+opacity:0;
+transform:translateY(25px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+/* Fade Down */
+
+.fade-down{
+
+animation:fadeDown .6s ease forwards;
+
+}
+
+@keyframes fadeDown{
+
+from{
+
+opacity:0;
+
+transform:translateY(-25px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+/* Zoom */
+
+.zoom-in{
+
+animation:zoomIn .4s ease forwards;
+
+}
+
+@keyframes zoomIn{
+
+from{
+
+opacity:0;
+
+transform:scale(.85);
+
+}
+
+to{
+
+opacity:1;
+
+transform:scale(1);
+
+}
+
+}
+
+/* Button Press Effect */
+
+.press{
+
+transition:.15s;
+
+}
+
+.press:active{
+
+transform:scale(.95);
+
+}
+
+/* Smooth Rotation */
+
+.rotate{
+
+animation:rotate360 .8s linear;
+
+}
+
+@keyframes rotate360{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
+
+
+
+
+/* =========================================
+   RIPPLE EFFECT
+   Version 1.0.4
+========================================= */
+
+.ripple{
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.ripple span{
+
+position:absolute;
+
+border-radius:50%;
+
+transform:scale(0);
+
+background:rgba(255,255,255,.35);
+
+animation:ripple .6s linear;
+
+pointer-events:none;
+
+}
+
+@keyframes ripple{
+
+to{
+
+transform:scale(4);
+
+opacity:0;
+
+}
+
+}

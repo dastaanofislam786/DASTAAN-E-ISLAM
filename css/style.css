@@ -1,0 +1,1102 @@
+/* =========================================
+   1. GLOBAL SETTINGS & COLORS
+   ========================================= */
+:root {
+    --primary-color: #2E5B3E; /* Dark Islamic Green */
+    --secondary-color: #D4AF37; /* Golden */
+    --bg-color: #F4F7F5; /* Soft background */
+    --text-dark: #333333;
+    --text-light: #FFFFFF;
+    --nav-bg: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-tap-highlight-color: transparent; /* Mobile click highlight hatane ke liye */
+}
+
+body {
+    background-color: var(--bg-color);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Screen ke bahar kuch na jaye */
+}
+
+/* =========================================
+   2. SCREEN MANAGEMENT (Hide/Show)
+   ========================================= */
+.screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* Default hidden */
+    flex-direction: column;
+}
+
+.screen.active {
+    display: flex;
+}
+
+.hidden {
+    display: none !important;
+}
+/* =========================================
+   3. LANGUAGE SELECTION SCREEN (Full Screen)
+   ========================================= */
+.full-screen-bg {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fullscreen-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ye image ko puri screen par fit kar dega bina stretch kiye */
+    z-index: -1; /* Ye image ko sabse piche (background me) bhej dega */
+}
+
+/* Buttons ko white circles ke upar set karna */
+.lang-buttons-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 38px; /* Buttons ke beech ki doori */
+    margin-top: 120px; /* Upar se niche khiskane ke liye (Ise apne phone ke hisab se adjust kar lena) */
+    z-index: 1;
+}
+
+.btn-lang {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    /* अब यह पूरी तरह पारदर्शी नहीं, बल्कि हल्का वाइट रहेगा */
+    background-color: rgba(255, 255, 255, 0.85); 
+    border: 4px solid transparent;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* हल्का सा साया */
+}
+
+/* बटन दबाने पर इफ़ेक्ट */
+.btn-lang:active {
+    transform: scale(0.90);
+    background-color: #ffffff;
+}
+
+/* सेलेक्ट होने पर गोल्डन बॉर्डर */
+.btn-lang.selected {
+    border-color: var(--secondary-color);
+    background-color: #ffffff;
+    color: var(--secondary-color);
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+}
+
+
+/* Continue Button ko screen ke bottom me set karna */
+#continue-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: 2px solid var(--secondary-color);
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s ease;
+}
+
+.btn-primary:active {
+    transform: translateX(-50%) scale(0.95);
+}
+
+
+/* =========================================
+   4. MAIN APP LAYOUT (Header, Content, Nav)
+   ========================================= */
+header {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 15px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 40px;
+    border-radius: 50%;
+}
+
+#app-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.settings-icon {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-light);
+}
+
+#content-area {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 20px;
+    background-color: var(--bg-color);
+    padding-bottom: 80px; /* Bottom nav ke liye jagah */
+}
+
+/* Welcome Message */
+#welcome-message {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#welcome-message h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.btn-start {
+    margin-top: 20px;
+    background-color: var(--secondary-color);
+    color: var(--text-dark);
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: none; /* <-- ये लाइन ऐड करें (छुपाने के लिए) */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--nav-bg);
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 10;
+}
+
+/* ये नया कोड उसके ठीक नीचे डाल दें (जब ऐप खुलेगा तब दिखाने के लिए) */
+#main-app.active .bottom-nav {
+    display: flex;
+}
+
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.nav-item span {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.nav-item:active, .nav-item.active {
+    color: var(--primary-color);
+}
+/* =========================================
+   5. LESSON PATH (Duolingo Style Map)
+   ========================================= */
+#lesson-path-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 50px 0;
+    gap: 60px; /* बटन्स के बीच की दूरी */
+}
+
+/* पीछे वाली ग्रे लाइन */
+.path-line {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    width: 12px;
+    background-color: #E0E0E0;
+    z-index: 0;
+    border-radius: 10px;
+    display: none;
+}
+
+/* बटन और नाम को एक साथ रखने के लिए */
+.lesson-node-wrapper {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Zigzag इफ़ेक्ट (एक लेफ्ट, एक राइट) */
+.lesson-node-wrapper.left { transform: translateX(-45px); }
+.lesson-node-wrapper.right { transform: translateX(45px); }
+
+/* 3D गोल बटन का डिज़ाइन */
+.lesson-node {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    box-shadow: 0 8px 0px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+/* बटन को दबाने पर वो नीचे दबे (3D इफ़ेक्ट) */
+.lesson-node:active {
+    transform: translateY(8px);
+    box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+}
+
+/* खुला हुआ (Active) लेसन - गोल्डन रंग */
+.lesson-node.active {
+    background-color: var(--secondary-color);
+    color: white;
+    box-shadow: 0 8px 0px #B8860B; /* डार्क गोल्डन शैडो */
+}
+
+/* लॉक (Locked) लेसन - ग्रे रंग */
+.lesson-node.locked {
+    background-color: #E5E5E5;
+    color: #9E9E9E;
+    box-shadow: 0 8px 0px #CCCCCC;
+}
+
+/* लेसन का नाम (Label) */
+.node-label {
+    margin-top: 15px;
+    font-weight: bold;
+    color: var(--primary-color);
+    background: white;
+    padding: 6px 16px;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    font-size: 1rem;
+}
+/* =========================================
+   6. LESSON SLIDE SCREEN
+   ========================================= */
+#lesson-screen {
+    background-color: var(--bg-color);
+    z-index: 20; /* सबसे ऊपर दिखने के लिए */
+}
+
+.lesson-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #888;
+    cursor: pointer;
+}
+
+.progress-bar-bg {
+    flex-grow: 1;
+    height: 12px;
+    background-color: #E0E0E0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%; /* JavaScript इसे बढ़ाएगा */
+    background-color: var(--secondary-color); /* गोल्डन कलर */
+    transition: width 0.3s ease;
+}
+
+.slide-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    overflow-y: auto;
+}
+
+.slide-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.slide-text-box {
+    background: lightseagreen;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    width: 100%;
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* =========================================
+   LESSON BOTTOM & BUTTON FIX
+   ========================================= */
+.lesson-bottom {
+    padding: 20px;
+    background: white;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.btn-full {
+    flex-grow: 1; /* ये बटन को कंटेनर के हिसाब से अपने आप सेट कर देगा */
+    width: 100%;
+    border-radius: 15px;
+    padding: 18px;
+    font-size: 1.2rem;
+    margin: 0;
+    position: relative;
+    z-index: 15;
+    transform: none; /* अगर कोई पुराना इफ़ेक्ट लगा है तो उसे हटा देगा */
+}
+
+/* Next बटन का टैप फिक्स */
+.btn-full:active {
+    transform: scale(0.95) !important; 
+}
+/* =========================================
+   7. QUIZ SCREEN
+   ========================================= */
+#quiz-screen {
+    background-color: var(--bg-color);
+    z-index: 25; /* ये लेसन स्क्रीन से भी ऊपर दिखेगा */
+}
+
+.quiz-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+.question-box {
+    margin-bottom: 30px;
+}
+
+#quiz-question {
+    font-size: 1.5rem;
+    color: var(--text-dark);
+    line-height: 1.5;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* ऑप्शंस बटन का डिज़ाइन */
+.option-btn {
+    background: white;
+    border: 2px solid #E0E0E0;
+    padding: 18px;
+    border-radius: 15px;
+    font-size: 1.1rem;
+    color: var(--text-dark);
+    text-align: left;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 0px #E0E0E0;
+}
+
+.option-btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 0px 0px #E0E0E0;
+}
+
+/* सही और गलत जवाब का डिज़ाइन */
+.option-btn.correct {
+    background-color: #D7FFD9;
+    border-color: #4CAF50;
+    color: #2E7D32;
+    box-shadow: 0 4px 0px #4CAF50;
+}
+
+.option-btn.wrong {
+    background-color: #FFD7D7;
+    border-color: #F44336;
+    color: #C62828;
+    box-shadow: 0 4px 0px #F44336;
+}
+
+/* अगर कोई ऑप्शन चुन लिया गया हो तो बाकी ऑप्शंस को डिसेबल (disable) दिखाने के लिए */
+.option-btn.disabled {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+/* =========================================
+   8. RESULT SCREEN (रिजल्ट स्क्रीन)
+   ========================================= */
+#result-screen {
+    background-color: var(--bg-color);
+    z-index: 30; /* सबसे ऊपर दिखने के लिए */
+    display: flex;
+    flex-direction: column;
+}
+
+.result-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+#result-title {
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stars {
+    font-size: 4.5rem;
+    color: #FFD700; /* गोल्डन रंग */
+    margin-bottom: 25px;
+    letter-spacing: 5px;
+    text-shadow: 0 4px 15px rgba(255, 215, 0, 0.5); /* चमकता हुआ इफ़ेक्ट */
+}
+
+.score-board {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+#score-text {
+    font-size: 1.8rem;
+    color: var(--text-dark);
+    margin-bottom: 10px;
+}
+
+#result-message {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+.intro-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #299; /* डार्क बैकग्राउंड */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.intro-content img {
+    width: 85%;
+    max-width: 400px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #ffcc00; /* गोल्डन बॉर्डर */
+}
+
+#intro-text {
+    font-size: 1.5rem;
+    margin: 15px;
+    padding: 0 20px;
+}
+
+/* लोडिंग बार एनीमेशन */
+.loader-container {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.loader-bar {
+    height: 6px;
+    background: #ffcc00;
+    width: 0%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ffcc00;
+    animation: loadProgress 3s linear forwards;
+}
+
+@keyframes loadProgress {
+    0% { width: 0%; }
+    100% { width: 100%; }
+}
+
+
+
+/* Unit Wrapper */
+.unit-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+/* Rectangular Banner (आयातकार बॉक्स) */
+.unit-banner {
+    width: 92%;
+    background: #58cc02; /* Duolingo Green */
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    box-shadow: 0 8px 0 #46a302; /* 3D Bottom */
+    margin-bottom: 30px;
+    position: sticky; /* यह ऊपर टिका रहेगा */
+    top: 10px;
+    z-index: 5;
+}
+
+.unit-title { font-size: 1.2rem; font-weight: 800; }
+.unit-subtitle { font-size: 0.8rem; font-weight: 600; opacity: 0.9; }
+
+/* Zig-Zag Path Logic */
+.lesson-map-path {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 80px; /* यह 20वें लेसन के नीचे जगह बना देगा */
+}
+
+
+.node-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Zig-Zag Positions  */
+.pos-0  { transform: translateX(0vw); }
+
+.pos-1  { transform: translateX(12vw); }
+.pos-2  { transform: translateX(-12vw); }
+
+.pos-3  { transform: translateX(16vw); }
+.pos-4  { transform: translateX(-16vw); }
+
+.pos-5  { transform: translateX(10vw); }
+.pos-6  { transform: translateX(-10vw); }
+
+.pos-7  { transform: translateX(18vw); }
+.pos-8  { transform: translateX(-18vw); }
+
+.pos-9  { transform: translateX(13vw); }
+.pos-10 { transform: translateX(-13vw); }
+
+.pos-11 { transform: translateX(17vw); }
+.pos-12 { transform: translateX(-17vw); }
+
+.pos-13 { transform: translateX(11vw); }
+.pos-14 { transform: translateX(-11vw); }
+
+.pos-15 { transform: translateX(15vw); }
+.pos-16 { transform: translateX(-15vw); }
+
+.pos-17 { transform: translateX(9vw); }
+.pos-18 { transform: translateX(-9vw); }
+
+.pos-19 { transform: translateX(0vw); }
+
+.lesson-node {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: none;
+    background: #e5e5e5;
+    box-shadow: 0 8px 0 #cccccc;
+    font-size: 2rem;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.lesson-node.active {
+    background: #58cc02;
+    box-shadow: 0 8px 0 #46a302;
+    color: white;
+}
+
+.node-label-box {
+    margin-top: 10px;
+    background: white;
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 0.9rem;
+}
+
+
+
+
+/* ============================================================
+   9. NEW SCREENS CSS (Banner, Chapters & Back Button)
+   ============================================================ */
+
+/* Main Book Banner: Ye Home Screen par dikhega */
+.main-book-banner {
+    background: linear-gradient(135deg, #2E5B3E, #4CAF50); /* Islamic Green Theme */
+    border-radius: 20px;
+    padding: 30px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    margin: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Jab user banner par ungli rakhega to wo thoda dabega */
+.main-book-banner:active { 
+    transform: scale(0.95); 
+}
+
+.book-img {
+    width: 80px; /* Logo ka size */
+    height: auto;
+    filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+}
+
+.book-info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+.book-info p {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Back Header: Chapters aur Map screen ke top bar ke liye */
+.back-header {
+    background: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    color: var(--text-dark);
+    z-index: 100;
+}
+
+.back-btn { 
+    background: none; 
+    border: none; 
+    font-size: 1.5rem; 
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* Chapters List: Jahan saare 20 chapters dikhenge */
+
+/* Chapters screen ko pura dikhane ke liye */
+#chapters-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color); /* Taki peeche ka sab chhup jaye */
+    z-index: 100; /* Sabse upar dikhne ke liye */
+    display: none; /* JS ise flex karega */
+    flex-direction: column;
+}
+
+/* Jab screen active ho */
+#chapters-screen.active {
+    display: flex !important;
+}
+
+
+.chapters-list-container {
+    padding: 20px;
+    overflow-y: auto; /* Agar list lambi ho to scroll hoga */
+    flex-grow: 1;
+    background: var(--bg-color);
+    padding-bottom: 40px;
+}
+
+/* Chapter Box: Har ek chapter ka rectangular box */
+.chapter-banner-box {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+    box-shadow: 0 6px 0px #e0e0e0; /* 3D effect */
+    border: 2px solid #e0e0e0;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+/* Click karne par dabne wala effect */
+.chapter-banner-box:active { 
+    transform: translateY(4px); 
+    box-shadow: 0 2px 0px #e0e0e0; 
+}
+
+/* Unlocked Chapter: Jo chapter khul chuka hai (Green) */
+.chapter-banner-box.bg-green { 
+    border-color: #58cc02; 
+    box-shadow: 0 6px 0px #46a302; 
+}
+
+.chapter-banner-box.bg-green h3 { 
+    color: #2E5B3E; /* Dark Green Text */
+    font-size: 1.2rem;
+}
+
+.chap-num {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #888;
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+
+/* Unlocked Unit 2 Chapter Banner (Blue Theme) */
+.chapter-banner-box.bg-blue { 
+    border-color: #2196F3; 
+    box-shadow: 0 6px 0px #1976D2; 
+}
+
+.chapter-banner-box.bg-blue h3 { 
+    color: #0D47A1; /* Dark Blue Text */
+    font-size: 1.2rem;
+}
+
+.chapter-banner-box.bg-blue .chap-progress {
+    color: #2196F3;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+
+
+/* Locked Chapter: Jo abhi band hai (Grey) */
+.chapter-banner-box.locked {
+    background: #f5f5f5;
+    opacity: 0.8;
+    cursor: not-allowed;
+}
+
+.chap-progress {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #58cc02;
+}
+
+
+
+/* Path Line Fix: Map screen par line ko set karne ke liye */
+.path-vertical-line {
+    position: absolute;
+    width: 12px;
+    background: #e0e0e0;
+    top: 40px;    /* ऊपर से थोड़ा छोड़कर शुरू होगी */
+    bottom: 40px; /* नीचे भी थोड़ी जगह छोड़ेगी */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 0;   /* ये बटन्स के एकदम पीछे रहेगी */
+    border-radius: 10px;
+}
+
+
+/* Path Line Fix: Map screen par line ko set karne ke liye 
+.path-vertical-line 
+    position: absolute;
+    width: 8px;
+    background: #e0e0e0;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+*/
+
+
+
+
+
+
+
+
+/*splash screen */
+/* Splash Screen Styles */
+.splash-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2E5B3E; /* अगर इमेज ट्रांसपेरेंट हो तो बैकग्राउंड कलर सेट करें */
+    z-index: 9999; /* सबसे ऊपर रखने के लिए */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.5s ease-out; /* स्मूथ तरीके से गायब होने के लिए */
+}
+
+.splash-overlay img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ताकि इमेज पूरी स्क्रीन पर अच्छी तरह फिट हो जाए */
+}
+
+/* गायब करने के लिए क्लास */
+.splash-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+/* =========================================
+   STORE SCREEN STYLES (CLEANED)
+   ========================================= */
+.store-card {
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    box-shadow: 0 4px 0 #E5E5E5;
+}
+
+.store-card-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.store-card-icon {
+    font-size: 2.5rem;
+    background: #FCE4EC;
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.store-card-title {
+    margin: 0;
+    color: #333333;
+    font-size: 1.05rem;
+}
+
+.store-card-desc {
+    margin: 3px 0 0 0;
+    font-size: 0.75rem;
+    color: #777777;
+}
+
+.store-card-stash {
+    margin: 2px 0 0 0;
+    font-size: 0.7rem;
+    color: #C2185B;
+    font-weight: bold;
+}
+
+.btn-buy-store {
+    background: #C2185B;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    box-shadow: 0 3px 8px rgba(194,24,91,0.2);
+    transition: transform 0.1s ease;
+}
+
+.btn-buy-store:active {
+    transform: scale(0.96);
+}
+
+
+
+
+
+
+
+/* =========================================
+   LIVE STATS BAR (TOP BAR) STYLES
+   ========================================= */
+.top-stats-container {
+    display: flex;
+    gap: 6px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats-badges-wrapper {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.stat-badge {
+    padding: 4px 8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid transparent;
+}
+
+.stat-energy {
+    background: #FFF3E0;
+    color: #E65100;
+    border-color: #FFE0B2;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.stat-streak {
+    background: #FCE4EC;
+    color: #C2185B;
+    border-color: #F8BBD0;
+}
+
+.stat-gems {
+    background: #E3F2FD;
+    color: #1976D2;
+    border-color: #BBDEFB;
+}
+
+.stat-xp {
+    background: #E8F5E9;
+    color: #2E7D32;
+    border-color: #C8E6C9;
+}
+
+.btn-achievements {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s ease;
+}
+
+.btn-achievements:active {
+    transform: scale(0.9); /* क्लिक करने पर बटन हल्का सा छोटा होकर फील देगा */
+}

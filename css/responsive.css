@@ -1,0 +1,49 @@
+/* =========================================
+   RESPONSIVE DESIGN (responsive.css)
+   ========================================= */
+
+/* Chote mobile screens ke liye (Jaise purane Android ya chhote iPhone) */
+@media (max-width: 380px) {
+    .lang-buttons-overlay {
+        margin-top: 90px; /* Choti screen pe buttons thoda upar shift honge */
+        gap: 25px; /* Buttons ke beech ki doori thodi kam hogi */
+    }
+    
+    .btn-lang {
+        width: 70px;
+        height: 70px;
+        font-size: 1.4rem;
+    }
+    
+    #continue-btn {
+        bottom: 20px;
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
+
+/* Normal aur thode bade mobile screens ke liye (Default set hai humari style.css me) */
+
+/* Badi screens ya Tablets ke liye */
+@media (min-width: 600px) {
+    .lang-buttons-overlay {
+        margin-top: 150px;
+        gap: 50px;
+    }
+    
+    .btn-lang {
+        width: 110px;
+        height: 110px;
+        font-size: 2.2rem;
+    }
+    
+    #continue-btn {
+        bottom: 60px;
+        padding: 18px 50px;
+        font-size: 1.4rem;
+    }
+    
+    #app-title {
+        font-size: 1.5rem;
+    }
+}
