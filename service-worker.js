@@ -1,4 +1,4 @@
-const CACHE_NAME = "dastaan-cache-v1.0.2";
+const CACHE_NAME = "dastaan-cache-v1.0.3";
 
 const FILES_TO_CACHE = [
   "./",
@@ -14,7 +14,9 @@ const FILES_TO_CACHE = [
   "./js/quiz.js",
 
   "./data/seerat_text.json",
-  "./data/quiz_questions.json"
+  "./data/quiz_questions.json",
+  "./js/pwa.js",
+"./js/ripple.js"
 ];
 
 // Install
