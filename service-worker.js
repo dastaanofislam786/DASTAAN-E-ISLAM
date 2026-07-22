@@ -1,6 +1,6 @@
-const CACHE_NAME = "dastaan-cache-v1.0.3";
+const CACHE_NAME = "dastaan-cache-v1.0.4";
 
-const FILES_TO_CACHE = [
+const STATIC_FILES = [
   "./",
   "./index.html",
   "./manifest.json",
@@ -12,95 +12,135 @@ const FILES_TO_CACHE = [
 
   "./js/main.js",
   "./js/quiz.js",
+  "./js/pwa.js",
+  "./js/ripple.js",
 
   "./data/seerat_text.json",
-  "./data/quiz_questions.json",
-  "./js/pwa.js",
-"./js/ripple.js"
+  "./data/quiz_questions.json"
 ];
 
-// Install
+// INSTALL
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(FILES_TO_CACHE);
-    })
+    caches.open(CACHE_NAME).then(cache => cache.addAll(STATIC_FILES))
   );
 
   self.skipWaiting();
 });
 
-// Activate
+// ACTIVATE
 self.addEventListener("activate", (event) => {
+
   event.waitUntil(
-    caches.keys().then((keys) =>
+
+    caches.keys().then(keys =>
+
       Promise.all(
-        keys.map((key) => {
+
+        keys.map(key => {
+
           if (key !== CACHE_NAME) {
             return caches.delete(key);
           }
+
         })
+
       )
+
     )
+
   );
 
   self.clients.claim();
+
 });
 
-// Smart Fetch (Version 1.0.2)
-
+// FETCH
 self.addEventListener("fetch", (event) => {
 
-    if (event.request.method !== "GET") return;
+  if (event.request.method !== "GET") return;
+
+  const request = event.request;
+
+  // HTML pages → Network First
+  if (request.mode === "navigate") {
 
     event.respondWith(
 
-        caches.match(event.request).then((cachedResponse) => {
+      fetch(request)
 
-            if (cachedResponse) {
+        .then(response => {
 
-                return cachedResponse;
+          const copy = response.clone();
 
-            }
+          caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
 
-            return fetch(event.request)
-
-                .then((networkResponse) => {
-
-                    if (!networkResponse || networkResponse.status !== 200) {
-
-                        return networkResponse;
-
-                    }
-
-                    const responseClone = networkResponse.clone();
-
-                    caches.open(CACHE_NAME)
-
-                        .then((cache) => {
-
-                            cache.put(event.request, responseClone);
-
-                        });
-
-                    return networkResponse;
-
-                })
-
-
-
-             .catch(() => {
-
-    if (event.request.mode === "navigate") {
-        return caches.match("./offline.html");
-    }
-
-    return Response.error();
-
-});
+          return response;
 
         })
 
+        .catch(() =>
+
+          caches.match(request)
+            .then(r => r || caches.match("./offline.html"))
+
+        )
+
     );
+
+    return;
+
+  }
+
+  // Images / Audio / CSS / JS / JSON → Cache First
+  event.respondWith(
+
+    caches.match(request)
+
+      .then(cacheResponse => {
+
+        if (cacheResponse) {
+
+          return cacheResponse;
+
+        }
+
+        return fetch(request)
+
+          .then(networkResponse => {
+
+            if (!networkResponse || networkResponse.status !== 200) {
+
+              return networkResponse;
+
+            }
+
+            const copy = networkResponse.clone();
+
+            caches.open(CACHE_NAME)
+
+              .then(cache => {
+
+                cache.put(request, copy);
+
+              });
+
+            return networkResponse;
+
+          });
+
+      })
+
+      .catch(() => {
+
+        if (request.destination === "image") {
+
+          return caches.match("./assets/images/LOGO.png");
+
+        }
+
+      })
+
+  );
 
 });

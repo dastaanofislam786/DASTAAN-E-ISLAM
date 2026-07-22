@@ -603,12 +603,43 @@ function closeLesson() {
 }
 
 function showSlide() {
+
     const slide = currentChapterData.slides[currentSlideIndex];
-    document.getElementById('slide-image').src = slide.image;
-    document.getElementById('slide-text').innerText = slide[userLang];
-    
-    const progress = ((currentSlideIndex + 1) / currentChapterData.slides.length) * 100;
-    document.getElementById('lesson-progress').style.width = progress + '%';
+
+    const slideImage = document.getElementById("slide-image");
+
+    // Agar image cache me hai to turant dikhao
+    slideImage.src = slide.image;
+
+    // Next image preload
+    const nextSlide = currentChapterData.slides[currentSlideIndex + 1];
+
+    if (nextSlide && nextSlide.image) {
+
+        const img = new Image();
+        img.src = nextSlide.image;
+
+    }
+
+    // Previous image bhi memory me rahe
+    const prevSlide = currentChapterData.slides[currentSlideIndex - 1];
+
+    if (prevSlide && prevSlide.image) {
+
+        const img = new Image();
+        img.src = prevSlide.image;
+
+    }
+
+    // Text
+    document.getElementById("slide-text").innerText = slide[userLang];
+
+    // Progress
+    const progress =
+        ((currentSlideIndex + 1) / currentChapterData.slides.length) * 100;
+
+    document.getElementById("lesson-progress").style.width = progress + "%";
+
 }
 
 function nextSlide() {
