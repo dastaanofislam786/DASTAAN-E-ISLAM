@@ -377,33 +377,7 @@ const achievementsList = [
     { id: 'lesson_15', type: 'lesson', req: 15, title: '15 Lessons', desc: 'Complete 15 lessons', gems: 50, icon: '📖' }
 ];
 
-// 2. बैकग्राउंड में अचीवमेंट चेक करना
-function checkAchievements() {
-    let unlockedAchievements = JSON.parse(localStorage.getItem('unlockedAchievements')) || [];
-    let newlyUnlocked = false;
 
-    achievementsList.forEach(ach => {
-        if (!unlockedAchievements.includes(ach.id)) {
-            let conditionMet = false;
-            if (ach.type === 'streak' && userStreak >= ach.req) conditionMet = true;
-            if (ach.type === 'lesson' && totalLessonsDone >= ach.req) conditionMet = true;
-
-            if (conditionMet) {
-                unlockedAchievements.push(ach.id);
-                userGems += ach.gems;
-                newlyUnlocked = true;
-                
-                showToast(`🏆 Achievement Unlocked: ${ach.title}! (+${ach.gems} 💎)`);
-            }
-        }
-    });
-
-    if (newlyUnlocked) {
-        localStorage.setItem('unlockedAchievements', JSON.stringify(unlockedAchievements));
-        localStorage.setItem('userGems', userGems);
-        if (typeof updateStatsUI === 'function') updateStatsUI();
-    }
-}
 
 // 3. अचीवमेंट मोडल विंडो खोलना (अब यह ऑटोमैटिक HTML बनाएगा)
 function openAchievements() {
@@ -1101,27 +1075,7 @@ function loadProfileData() {
     }
 
     
-    const isStreakDone = localStorage.getItem('achv_streak') === 'true';
-    const isLessonsDone = localStorage.getItem('achv_lessons') === 'true';
-
-    let html = '';
-    if(!isStreakDone && !isLessonsDone) {
-        html = '<p style="color:#888; font-size:0.85rem; text-align:center; width:100%;">No achievements earned yet. Continue your learning journey. 📖</p>';
-    } else {
-        if(isStreakDone) {
-            html += `<div style="background: #FFE0B2; padding: 10px; border-radius: 12px; text-align: center; min-width: 80px;">
-                        <div style="font-size: 1.8rem;">🔥</div>
-                        <div style="font-size: 0.7rem; font-weight: bold; margin-top: 5px; color:#E65100;">3 Day Streak</div>
-                     </div>`;
-        }
-        if(isLessonsDone) {
-            html += `<div style="background: #C8E6C9; padding: 10px; border-radius: 12px; text-align: center; min-width: 80px;">
-                        <div style="font-size: 1.8rem;">📖</div>
-                        <div style="font-size: 0.7rem; font-weight: bold; margin-top: 5px; color:#2E7D32;">5 Lessons</div>
-                     </div>`;
-        }
-    }
-    achvContainer.innerHTML = html;
+    
 }
 
 // =========================================
@@ -1162,7 +1116,7 @@ async function loadLessonJourney() {
 
         completedChapters.forEach((chapId, index) => {
             if(data[chapId]) {
-                journeyHTML += `<div style="background: white; border-radius: 15px; padding: 20px; margin-bottom: px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid #2E5B3E;">`;
+                journeyHTML += `<div style="background: white; border-radius: 15px; padding: 20px; margin-bottom: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-top: 4px solid #2E5B3E;">`;
                 journeyHTML += `<h3 style="color: #2E5B3E; margin-top: 0; border-bottom: 1px solid #eee; padding-bottom: 10px;">سبق ${index + 1} / सबक ${index + 1}</h3>`;
                 
                 // सारे स्लाइड्स को एक के नीचे एक जोड़ दें
