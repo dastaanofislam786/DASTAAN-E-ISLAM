@@ -1,4 +1,4 @@
-const CACHE_NAME = "dastaan-cache-v1.0.4";
+const CACHE_NAME = "dastaan-cache-v1.0.7";
 
 const STATIC_FILES = [
   "./",

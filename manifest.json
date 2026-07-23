@@ -1,5 +1,5 @@
 {
-  "id": "/",
+  "id":"dastaan-e-islam",
   "name": "DASTAAN-E-ISLAM",
   "short_name": "DASTAAN",
 
@@ -19,7 +19,6 @@
 
   
   "display_override": [
-  "window-controls-overlay",
   "standalone"
 ],
 
@@ -29,6 +28,10 @@
 
   "background_color": "#F8F8F8",
 
+    "launch_handler":{
+   "client_mode":"focus-existing"
+   },
+  
   "categories": [
     "education",
     "books",

@@ -1,36 +1,129 @@
-// ===============================
+// ==========================================
 // DASTAAN-E-ISLAM
-// PWA Engine v1.0.4
-// ===============================
+// PWA Engine v2.0
+// ==========================================
 
+let deferredPrompt = null;
+
+// -----------------------------
+// Register Service Worker
+// -----------------------------
 if ("serviceWorker" in navigator) {
 
-    window.addEventListener("load", async () => {
+window.addEventListener("load", async () => {
 
-        try {
+try{
 
-            const registration = await navigator.serviceWorker.register("./service-worker.js");
+const registration =
+await navigator.serviceWorker.register("./service-worker.js");
 
-            console.log("✅ Service Worker Registered");
+console.log("✅ Service Worker Registered");
 
-            // Check for updates every time app opens
-            registration.update();
+// Update check
+registration.update();
 
-            // Reload automatically after new Service Worker activates
-            navigator.serviceWorker.addEventListener("controllerchange", () => {
+// New version installed
+registration.addEventListener("updatefound",()=>{
 
-                console.log("🔄 New version activated");
+const installing=registration.installing;
 
-                window.location.reload();
+installing.addEventListener("statechange",()=>{
 
-            });
+if(
+installing.state==="installed" &&
+navigator.serviceWorker.controller
+){
 
-        } catch (error) {
-
-            console.error("❌ Service Worker Failed", error);
-
-        }
-
-    });
+if(typeof showToast==="function"){
+showToast("🚀 New version available");
+}
 
 }
+
+});
+
+});
+
+// Auto reload
+navigator.serviceWorker.addEventListener(
+"controllerchange",
+()=>{
+
+window.location.reload();
+
+});
+
+}catch(err){
+
+console.error(err);
+
+}
+
+});
+
+}
+
+
+
+// -----------------------------
+// Online
+// -----------------------------
+window.addEventListener("online",()=>{
+
+if(typeof showToast==="function"){
+showToast("✅ Connection Restored");
+}
+
+});
+
+// -----------------------------
+// Offline
+// -----------------------------
+window.addEventListener("offline",()=>{
+
+if(typeof showToast==="function"){
+showToast("📡 You are Offline");
+}
+
+});
+
+// -----------------------------
+// Install Prompt
+// -----------------------------
+window.addEventListener(
+"beforeinstallprompt",
+(e)=>{
+
+e.preventDefault();
+
+deferredPrompt=e;
+
+console.log("Install Available");
+
+});
+
+
+// Manual Install
+async function installApp(){
+
+if(!deferredPrompt)return;
+
+deferredPrompt.prompt();
+
+await deferredPrompt.userChoice;
+
+deferredPrompt=null;
+
+}
+
+
+// Installed
+window.addEventListener("appinstalled",()=>{
+
+if(typeof showToast==="function"){
+showToast("🎉 App Installed Successfully");
+}
+
+deferredPrompt=null;
+
+});
