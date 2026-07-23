@@ -40,14 +40,18 @@ window.addEventListener('DOMContentLoaded', function() {
     let savedLang = localStorage.getItem('userLanguage'); 
 
     // भाषा के हिसाब से इमेज बदलें
+if (splashImage) {
+
     if (savedLang === 'ur') {
         splashImage.src = 'assets/images/OPEN-IMAGE-UR.webp';
     } else if (savedLang === 'hi') {
         splashImage.src = 'assets/images/OPEN-IMAGE-HI.webp';
     } else {
-        // अगर फर्स्ट टाइम ओपन है या English है
         splashImage.src = 'assets/images/OPEN-IMAGE-EN.webp';
     }
+
+}
+    
 
     // 4 सेकंड बाद स्प्लैश स्क्रीन को हटा दें
     setTimeout(() => {
@@ -73,6 +77,10 @@ let userXP = parseInt(safeGetItem('userXP', 0));
 let userGems = parseInt(safeGetItem('userGems', 0));
 let userStreak = parseInt(safeGetItem('userStreak', 0));
 let streakFreezers = parseInt(safeGetItem('streakFreezers', 0));
+
+// Download Manager
+let downloadedChapters =
+JSON.parse(localStorage.getItem("downloadedChapters")) || [];
 
 // 👇 ये तीन लाइनें पिछले कोड में गलती से डिलीट हो गई थीं, इन्हें वापस जोड़ दिया है!
 let lastActiveDate = safeGetItem('lastActiveDate', null);
@@ -570,6 +578,7 @@ let activeChapterId = '';
                 lessonScreen.classList.add('active', 'slide-up');
 
                 showSlide();
+              //updateDownloadButton();
             }, 3000); 
         }
     } catch (error) {
@@ -1287,10 +1296,14 @@ function checkPassiveFreezerRefill() {
         // कितने 3-दिन के साइकल बीत चुके हैं निकालें
         const intervals = Math.floor(timePassed / threeDaysInMs);
         
-        if (streakFreezers < 2) {
+        if (typeof streakFreezers !== 'undefined' && streakFreezers < 2) {
             streakFreezers = Math.min(2, streakFreezers + intervals);
             localStorage.setItem('streakFreezers', streakFreezers);
-            showToast("🎁 Gift: You received a free Streak Freezer!");
+            
+            // अगर आपके पास showToast नाम का फंक्शन बना हुआ है, तो यह काम करेगा
+            if (typeof showToast === "function") {
+                showToast("🎁 Gift: You received a free Streak Freezer!");
+            }
         }
         
         // टाइमर रीसेट करें और बचे हुए टाइम को आगे बढ़ाएं
@@ -1304,7 +1317,7 @@ function checkPassiveFreezerRefill() {
     
     const timerInfoEl = document.getElementById('freezer-timer-info');
     if (timerInfoEl) {
-        if (streakFreezers >= 2) {
+        if (typeof streakFreezers !== 'undefined' && streakFreezers >= 2) {
             timerInfoEl.innerText = "You can only hold a maximum of 2 Streak Freezers! ♨️(Max 2)";
         } else {
            timerInfoEl.innerText = `Your next free Streak Freeze will be available in about ${daysLeft} days.`; 
@@ -1313,6 +1326,150 @@ function checkPassiveFreezerRefill() {
 }
 
 // जब पूरा ऐप पहली बार लोड हो, तब भी बैकग्राउंड में मुफ्त फ्रीजर चेक कर लें
+checkPassiveFreezerRefill();
+
 document.addEventListener("DOMContentLoaded", () => {
     checkPassiveFreezerRefill();
 });
+
+// ================================
+// CHAPTER DOWNLOAD MANAGER
+// ================================
+
+function updateDownloadButton(){
+
+    const btn=document.getElementById("download-chapter-btn");
+
+    if(!btn)return;
+
+    if(downloadedChapters.includes(activeChapterId)){
+
+        btn.innerHTML="✅";
+        btn.classList.add("downloaded");
+
+    }else{
+
+        btn.innerHTML="⬇️";
+        btn.classList.remove("downloaded");
+
+    }
+
+}
+
+async function downloadCurrentChapter() {
+
+    if (!activeChapterId) return;
+
+    if (downloadedChapters.includes(activeChapterId)) {
+
+        showToast("Already downloaded.");
+        return;
+
+    }
+
+    showToast("Preparing chapter...");
+
+    const cache = await caches.open("dastaan-cache-v1.0.4");
+
+    try {
+
+        const response = await fetch("data/seerat_text.json");
+        const data = await response.json();
+
+        if (!data[activeChapterId]) {
+
+            showToast("Chapter not found.");
+            return;
+
+        }
+
+        const slides = data[activeChapterId].slides;
+
+        let files = [];
+
+        // Intro image
+        files.push(`assets/images/intro_${activeChapterId}.webp`);
+
+        // Lesson images
+        slides.forEach(slide => {
+
+            if (slide.image) {
+
+                files.push(slide.image);
+
+            }
+
+        });
+
+        // Audio (current project)
+        files.push("assets/audio/TAP.wav");
+        files.push("assets/audio/NEXT.mp3");
+        files.push("assets/audio/NEXT2.mp3");
+        files.push("assets/audio/START.mp3");
+        files.push("assets/audio/QUIZSTART.mp3");
+        files.push("assets/audio/COMPLETE.wav");
+        files.push("assets/audio/WRONG.mp3");
+        files.push("assets/audio/WRONG.wav");
+
+        let completed = 0;
+
+        for (const file of files) {
+
+            try {
+
+                await cache.add(file);
+
+              console.log("Cached:", file);
+
+            } catch (e) {
+
+                console.log(file);
+
+            }
+
+            completed++;
+
+            const percent =
+                Math.floor((completed / files.length) * 100);
+
+            showToast("Downloading " + percent + "%");
+
+        }
+
+        downloadedChapters.push(activeChapterId);
+
+        localStorage.setItem(
+            "downloadedChapters",
+            JSON.stringify(downloadedChapters)
+        );
+
+        //updateDownloadButton();
+
+        showToast("✅ Chapter Downloaded");
+
+    } catch (err) {
+
+        console.log(err);
+
+        showToast("Download failed");
+
+    }
+
+}
+
+
+function removeDownloadedChapter(){
+
+    downloadedChapters=
+    downloadedChapters.filter(c=>c!==activeChapterId);
+
+    localStorage.setItem(
+        "downloadedChapters",
+        JSON.stringify(downloadedChapters)
+    );
+
+    //updateDownloadButton();
+
+    showToast("Download removed");
+
+}
