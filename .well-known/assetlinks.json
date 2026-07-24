@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.netlify.dastaan_of_islam.twa",
+        "sha256_cert_fingerprints": ["39:AD:88:A3:8E:93:C5:02:CB:66:73:3B:A5:1B:1A:D2:17:51:80:CE:5B:41:AD:20:27:56:A7:9C:87:5D:8C:4C"]
+      }
+    }]
