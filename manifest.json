@@ -30,5 +30,58 @@
       "type": "image/png",
       "purpose": "any maskable"
     }
+  ],
+
+    "screenshots": [
+    {
+      "src": "assets/images/screen1.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen2.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen3.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen4.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen5.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen6.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen7.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "assets/images/screen8.png",
+      "sizes": "720x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
   ]
+
 }
+
